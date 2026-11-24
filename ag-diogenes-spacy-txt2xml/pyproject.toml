@@ -1,0 +1,30 @@
+[project]
+name = "ag-diogenes-spacy-txt2xml"
+version = "0.4.6"
+description = "Ancient Greek morphology evidence, GreBERTa joint contextual selection and a GreTa comparator"
+requires-python = ">=3.10,<3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+# spaCy 3.7.5 (thinc 8.2) is compiled against numpy 1.x: with numpy 2 it fails with
+# "numpy.dtype size changed, may indicate binary incompatibility"
+dependencies = ["beta-code>=1.1", "certifi", "ag-greek-rules>=0.8.1,<0.9"]
+
+[project.optional-dependencies]
+test = ["pytest", "lxml"]
+greta = ["onnxruntime>=1.18,<2", "tokenizers>=0.20,<0.22"]
+contextual = ["pyaegean==0.61.0", "onnxruntime>=1.23,<2", "tokenizers>=0.20,<0.22", "numpy>=1.24,<2"]
+legacy = ["spacy==3.7.5", "numpy<2", "click<8.2", "typer>=0.3,<0.10"]
+
+[project.scripts]
+ag-diogenes-spacy-txt2xml = "ag_diogenes_spacy_txt2xml.cli:main"
+ag-tei2antconc = "ag_diogenes_spacy_txt2xml.antconc:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ag_diogenes_spacy_txt2xml"]
+
+[tool.setuptools.package-data]
+ag_diogenes_spacy_txt2xml = ["crasis.tsv", "elision.tsv"]

@@ -1,0 +1,28 @@
+# Local runtime: wheels, install backups, Diogenes and inference caches, smoke outputs (about 1.4 GB)
+.runtime/
+
+# Build and test artefacts
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+
+# Not published: working notes, dated internal reports and the annotated gold sample
+tasks/
+AGENTS.md
+HEADWORD-POLICY-*.md
+IMPROVEMENTS-*.md
+PIPELINE-IMPLEMENTATION-*.md
+PIPELINE-REVIEW-*.md
+REGRESSION-ANALYSIS-*.md
+gold/
+
+# Analysis results never belong in the repository
+antconc-tagged/
+antconc-lemmata/
+analysis-review.jsonl
+analysis-session.json
+lemma-review.tsv

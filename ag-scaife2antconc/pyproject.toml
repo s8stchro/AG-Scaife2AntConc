@@ -1,0 +1,30 @@
+[project]
+name = "ag-scaife2antconc"
+version = "0.7.6"
+description = "AG-Scaife2AntConc: editable Ancient Greek texts, revision-linked annotation, XML and AntConc exports"
+requires-python = ">=3.10,<3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+# GreBERTa joint selects contextual lemmata; GreTa remains an integrated comparator/helper.
+dependencies = ["ag-diogenes-spacy-txt2xml[greta,contextual]>=0.4.6,<0.5", "ag-greek-rules>=0.8.1,<0.9", "fastapi>=0.115,<1", "uvicorn>=0.30,<1", "pydantic>=2.9,<3"]
+
+[project.optional-dependencies]
+test = ["pytest", "httpx>=0.27,<1"]
+
+[project.scripts]
+ag-scaife2antconc = "ag_scaife2antconc.cli:main"
+ag-scaife2antconc-web = "ag_scaife2antconc.web:main"
+
+[project.gui-scripts]
+ag-scaife2antconc-gui = "ag_scaife2antconc.gui:main"
+ag-scaife2antconc-desktop = "ag_scaife2antconc.gui:desktop_main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ag_scaife2antconc", "ag_scaife2antconc.web_assets"]
+
+[tool.setuptools.package-data]
+ag_scaife2antconc = ["catalog.tsv", "web_assets/*.html", "web_assets/*.css", "web_assets/*.js", "web_assets/*.svg", "web_assets/*.woff2", "web_assets/*.txt"]

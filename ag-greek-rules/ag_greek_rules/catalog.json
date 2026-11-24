@@ -1,0 +1,1275 @@
+{
+  "schema_version": "1.0.0",
+  "package_version": "0.8.1",
+  "license": "MIT",
+  "scope": "Portable linguistic assessments and the separately identified contextual provider-responsibility policy.",
+  "rules": [
+    {
+      "id": "grc.pronoun.interrogative-indefinite-accent",
+      "version": "1.1.0",
+      "title": "Interrogative versus indefinite pronoun accent",
+      "language": "grc",
+      "category": "linguistic_ranking_evidence",
+      "availability": "portable",
+      "status": "experimental",
+      "conditions": [
+        "The candidate lemma is exactly τίς or τις.",
+        "The original surface has a listed spelling.",
+        "The following token, if supplied, is the immediately following word before any punctuation boundary."
+      ],
+      "effect": "Return a score contribution for an existing candidate; never select or rewrite a lemma.",
+      "exceptions": [
+        "Acute monosyllabic τί/τίς before a possible enclitic: abstain.",
+        "Contracted τοῦ/τῷ and unlisted forms: not applicable.",
+        "Written accents may be editorial or erroneous; this is defeasible evidence.",
+        "The following-enclitic list is finite and is not a complete contextual analysis."
+      ],
+      "examples": [
+        {
+          "input": {
+            "form": "τί",
+            "candidate_lemma": "τίς",
+            "following": "δέ"
+          },
+          "score_delta": 2.0,
+          "status": "applied"
+        },
+        {
+          "input": {
+            "form": "τί",
+            "candidate_lemma": "τις",
+            "following": "δέ"
+          },
+          "score_delta": -2.0,
+          "status": "applied"
+        },
+        {
+          "input": {
+            "form": "τίς",
+            "candidate_lemma": "τίς",
+            "following": "τινα"
+          },
+          "score_delta": 0.0,
+          "status": "abstained"
+        },
+        {
+          "input": {
+            "form": "τὶς",
+            "candidate_lemma": "τις"
+          },
+          "score_delta": 2.0,
+          "status": "applied"
+        },
+        {
+          "input": {
+            "form": "τοῦ",
+            "candidate_lemma": "τίς"
+          },
+          "score_delta": 0.0,
+          "status": "not_applicable"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Smyth, Greek Grammar",
+          "sections": [
+            "154",
+            "181-183",
+            "334"
+          ],
+          "url": "https://ccel.org/s/smyth/grammar/html/smyth_1f_uni.htm",
+          "additional_url": "https://ccel.org/s/smyth/grammar/html/smyth_2l_uni.htm"
+        }
+      ],
+      "parameters": {
+        "support_delta": 2.0,
+        "conflict_delta": -2.0,
+        "weight_status": "Uncalibrated engineering choices, not values supplied by Smyth.",
+        "interrogative_forms": [
+          "τίς",
+          "τί",
+          "τίνος",
+          "τίνι",
+          "τίνα",
+          "τίνες",
+          "τίνων",
+          "τίσι",
+          "τίσιν",
+          "τίνας",
+          "τίνε",
+          "τίνοιν"
+        ],
+        "indefinite_forms": [
+          "τις",
+          "τι",
+          "τινος",
+          "τινός",
+          "τινι",
+          "τινί",
+          "τινα",
+          "τινά",
+          "τινες",
+          "τινές",
+          "τινων",
+          "τινῶν",
+          "τισι",
+          "τισί",
+          "τισιν",
+          "τισίν",
+          "τινας",
+          "τινάς",
+          "τινε",
+          "τινοιν",
+          "τινοῖν",
+          "ἄττα"
+        ],
+        "possible_following_enclitics": [
+          "μου",
+          "μοι",
+          "με",
+          "σου",
+          "σοι",
+          "σε",
+          "οι",
+          "μιν",
+          "νιν",
+          "σφισι",
+          "σφισιν",
+          "σφας",
+          "σφε",
+          "τις",
+          "τι",
+          "τινος",
+          "τινι",
+          "τινα",
+          "τινες",
+          "τινων",
+          "τισι",
+          "τισιν",
+          "τινας",
+          "που",
+          "ποθι",
+          "πη",
+          "ποι",
+          "ποθεν",
+          "ποτε",
+          "πω",
+          "πως",
+          "γε",
+          "τε",
+          "τοι",
+          "περ",
+          "νυ",
+          "νυν",
+          "κε",
+          "κεν",
+          "ρα",
+          "ειμι",
+          "εστι",
+          "εστιν",
+          "εστον",
+          "εσμεν",
+          "εστε",
+          "εισι",
+          "εισιν",
+          "φημι",
+          "φησι",
+          "φησιν",
+          "φατον",
+          "φαμεν",
+          "φατε",
+          "φασι",
+          "φασιν"
+        ],
+        "possible_following_elided_enclitics": [
+          "γ",
+          "τ",
+          "μ",
+          "σ",
+          "ποτ",
+          "εστ",
+          "φασ",
+          "εισ"
+        ]
+      },
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null
+      },
+      "backend_reference": {
+        "project_version": "0.3.1",
+        "path": "ag-diogenes-spacy-txt2xml/ag_diogenes_spacy_txt2xml/pronouns.py",
+        "entry_point": "pronoun_score",
+        "sha256": "32acba901ec58a1d40e40aa9740a38a1350f57372ee182643a4a121f3b3b061f"
+      }
+    },
+    {
+      "id": "grc.normalization.apostrophe",
+      "version": "1.0.0",
+      "title": "Apostrophe equivalence and word boundaries",
+      "language": "grc",
+      "category": "input_normalization",
+      "availability": "backend_only",
+      "status": "experimental",
+      "conditions": [
+        "A configured apostrophe-like mark appears in Greek text."
+      ],
+      "effect": "Unify supported apostrophe spellings; preserve prodelision and distinguish token boundaries.",
+      "exceptions": [
+        "Do not conflate Greek numeral marks, genuine breathings or a coronis with apostrophes."
+      ],
+      "examples": [
+        {
+          "surface": "'γώ",
+          "analysis_form_example": "ἐγώ"
+        },
+        {
+          "surface": "δ᾽αὐτόν",
+          "tokens": [
+            "δ’",
+            "αὐτόν"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Project Unicode and tokenisation policy",
+          "sections": [],
+          "url": null
+        }
+      ],
+      "parameters": {},
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null
+      },
+      "backend_reference": {
+        "project_version": "0.3.1",
+        "path": "ag-diogenes-spacy-txt2xml/ag_diogenes_spacy_txt2xml/normalize.py",
+        "entry_point": "Normalizer",
+        "sha256": "351930e179c80cba0e0578f6632b7d0998907ec1ead295c6a1ebc5017a05b6d6"
+      }
+    },
+    {
+      "id": "grc.expansion.crasis",
+      "version": "1.2.0",
+      "title": "Crasis candidate generation",
+      "language": "grc",
+      "category": "candidate_generation",
+      "availability": "backend_only",
+      "status": "experimental",
+      "conditions": [
+        "A table entry, structural prefix or internal coronis supports a candidate split.",
+        "An automatic restoration requires local morphological evidence for the inflected form or an explicit inflected restoration in the project inventory.",
+        "Generated vowel and accent variants are used for lookup. A headword hint or a model prediction alone does not establish the restored form.",
+        "ὦ fused with a vocative not listed in the crasis table (ὦναίσχυντε = ὦ ἀναίσχυντε, ὦταῖρε = ὦ ἑταῖρε): only when the written form has no analysis of its own and a restoration with a smoothly or roughly breathed α/ε/ο (or the existing contraction rules) has a Diogenes analysis in the vocative or nominative. Owner request, 24 November 2026."
+      ],
+      "effect": "Pass supported inflected readings to the models. When no split is supported, keep the written token and its whole-word analyses and flag unresolved crasis.",
+      "exceptions": [
+        "Initial diphthong breathings are not medial coronides.",
+        "Keep recognised prefixed verbs such as προὔδωκεν whole.",
+        "Lexical internal aspiration, e.g. ταὧσι, has explicit exceptions.",
+        "Initial crasis, e.g. ἅνδρες, needs separate evidence."
+      ],
+      "examples": [
+        {
+          "surface": "δήξομἄρ’",
+          "inflected_expansion": [
+            "δήξομαι",
+            "ἄρα"
+          ]
+        },
+        {
+          "surface": "κἀμοί",
+          "inflected_expansion": [
+            "καί",
+            "ἐμοί"
+          ]
+        },
+        {
+          "surface": "κἄχεζεν",
+          "unsupported_component": "ἆχεζεν",
+          "expected_reading": "unresolved crasis",
+          "retained_expansion": [
+            "κἄχεζεν"
+          ],
+          "whole_word_provider_lemma": "χέζω"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Smyth, Greek Grammar",
+          "sections": [
+            "62–69",
+            "173"
+          ],
+          "url": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.1_div2.2.html",
+          "additional_url": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.1_div2.7.html",
+          "supports": "Crasis, coronis and accent conventions. The evidence gate is an application decision."
+        },
+        {
+          "title": "Aristophanes, Acharnians 82",
+          "url": "https://adfonteslibrary.org/work-aristophanes-acharnians",
+          "supports": "The written form κἄχεζεν. The local Morpheus analysis supplies χέζω for the whole form."
+        },
+        {
+          "title": "Project crasis table and lexical exceptions; entry-level provenance incomplete",
+          "sections": [],
+          "url": null
+        }
+      ],
+      "parameters": {},
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null
+      },
+      "backend_reference": {
+        "project_version": "0.3.2",
+        "path": "ag-diogenes-spacy-txt2xml/ag_diogenes_spacy_txt2xml/expansion.py",
+        "entry_point": "Expander.readings",
+        "sha256": "271ad6752be6ceaf1f296453e6e3ec9d027c5530227d79c3bb53b62a6785691b"
+      },
+      "counterexamples": [
+        "ὦμος, ὦτα, ὦσι and ὤμοι have analyses of their own and stay single words; ὦλεκτρυόν stays unrestored because Diogenes lacks the vocative ἀλεκτρυόν."
+      ]
+    },
+    {
+      "id": "grc.expansion.elision",
+      "version": "1.0.0",
+      "title": "Elision and prodelision restoration candidates",
+      "language": "grc",
+      "category": "candidate_generation",
+      "availability": "backend_only",
+      "status": "experimental",
+      "conditions": [
+        "An initial or final elision mark is present.",
+        "Full forms have local lexical support or an explicit table hint."
+      ],
+      "effect": "Generate alternatives subject to phonological/grammatical checks and restoration penalties.",
+      "exceptions": [
+        "Final -αι requires supported verbal morphology.",
+        "Final -οι is restricted rather than an arbitrary restoration.",
+        "Rare dative -ι restoration remains penalised and visible for review.",
+        "Unresolved restorations retain a warning."
+      ],
+      "examples": [
+        {
+          "surface": "’γώ",
+          "inflected_expansion": [
+            "ἐγώ"
+          ]
+        },
+        {
+          "surface": "φέρ’",
+          "rejected_restoration": "φέροι"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Smyth, Greek Grammar",
+          "sections": [
+            "70-76"
+          ],
+          "url": "https://ccel.org/s/smyth/grammar/html/smyth_1c_uni.htm"
+        }
+      ],
+      "parameters": {},
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null
+      },
+      "backend_reference": {
+        "project_version": "0.3.1",
+        "path": "ag-diogenes-spacy-txt2xml/ag_diogenes_spacy_txt2xml/expansion.py",
+        "entry_point": "Expander.elided_atoms / prodelision",
+        "sha256": "2ad905bfc9150d75643cddb089dfe2318c63de93ffc187ec8447d95669ba4134"
+      }
+    },
+    {
+      "id": "grc.ranking.grammar",
+      "version": "1.0.0",
+      "title": "Lexical and contextual grammar agreement",
+      "language": "grc",
+      "category": "ranking_policy",
+      "availability": "backend_only",
+      "status": "experimental",
+      "conditions": [
+        "A candidate and contextual tag have explicit comparable features."
+      ],
+      "effect": "Add agreement/conflict weights; preserve original feature alternatives as evidence.",
+      "exceptions": [
+        "Missing features supply no matching evidence.",
+        "VERB/AUX and CCONJ/SCONJ have defined equivalences."
+      ],
+      "examples": [],
+      "sources": [
+        {
+          "title": "Application scoring policy; weights are not a grammatical theorem",
+          "sections": [],
+          "url": null
+        }
+      ],
+      "parameters": {
+        "pos_agreement": 0.75,
+        "pos_conflict": -1.5,
+        "feature_agreement": 0.4,
+        "feature_conflict": -1.3
+      },
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null
+      },
+      "backend_reference": {
+        "project_version": "0.3.1",
+        "path": "ag-diogenes-spacy-txt2xml/ag_diogenes_spacy_txt2xml/hybrid.py",
+        "entry_point": "grammatical_score",
+        "sha256": "0d7d88eadde2a4d25d2fa62167b74c06571b7bd9de36107c8a3baa89c262f1e2"
+      }
+    },
+    {
+      "id": "grc.ranking.source-priors",
+      "version": "1.0.0",
+      "title": "Provider priors and neural score floor",
+      "language": "grc",
+      "category": "ranking_policy",
+      "availability": "backend_only",
+      "status": "experimental",
+      "conditions": [
+        "The hybrid ranker receives a candidate and its provider score."
+      ],
+      "effect": "Combine provider priors with clipped neural scores; this entry describes only these terms, not the complete ranker.",
+      "exceptions": [
+        "Other ranker terms, including structural hints, function words and agreement, also affect selection."
+      ],
+      "examples": [],
+      "sources": [
+        {
+          "title": "Application engineering policy, not externally validated linguistic evidence",
+          "sections": [],
+          "url": null
+        }
+      ],
+      "parameters": {
+        "diogenes": 1.5,
+        "lexicon": 0.5,
+        "morpho": 0.25,
+        "neural_floor": -8.0
+      },
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null
+      },
+      "backend_reference": {
+        "project_version": "0.3.1",
+        "path": "ag-diogenes-spacy-txt2xml/ag_diogenes_spacy_txt2xml/hybrid.py",
+        "entry_point": "Hybrid.run",
+        "sha256": "0d7d88eadde2a4d25d2fa62167b74c06571b7bd9de36107c8a3baa89c262f1e2"
+      }
+    },
+    {
+      "id": "grc.review.lemma-priority",
+      "version": "1.5.0",
+      "title": "Prioritise lemma/segmentation doubts",
+      "language": "grc",
+      "category": "review_policy",
+      "availability": "backend_only",
+      "status": "experimental",
+      "conditions": [
+        "Stored readings and observations are available.",
+        "Unresolved contextual output, a shortened context, or an ambiguous-form model lookup fallback is explicitly flagged in the contextual pipeline.",
+        "Unresolved standard-headword mappings and provisional Diogenes dictionary associations are urgent review observations; selected lemmata are not changed by the review policy.",
+        "A capitalised lemma on a lower-case written form (grc.grammar.proper-noun abstention) is an urgent review observation.",
+        "Generated lemmata replaced from the same text or removed for an impossible spelling (grc.selection.generated-lemma-check) are urgent review observations."
+      ],
+      "effect": "Flag unresolved/unsupported analyses or close alternatives with different lemmas/segmentation; do not change the selected lemma.",
+      "exceptions": [
+        "Same-lemma grammatical alternatives are secondary observations.",
+        "A distant unsupported GreTa alternative alone does not make a local winner doubtful."
+      ],
+      "examples": [],
+      "sources": [
+        {
+          "title": "Application review policy; no calibrated error-rate claim",
+          "sections": [],
+          "url": null
+        }
+      ],
+      "parameters": {
+        "close_score_margin": 0.75
+      },
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null
+      },
+      "backend_reference": {
+        "project_version": "0.4.1",
+        "path": "ag-diogenes-spacy-txt2xml/ag_diogenes_spacy_txt2xml/review_priority.py",
+        "entry_point": "priority_reasons",
+        "sha256": "e5b9841ca0cb8264d6682c1a07214e33716fa930fed4e2ef71bca47ced3138a6"
+      }
+    },
+    {
+      "id": "grc.normalization.indefinite-grave",
+      "version": "1.0.0",
+      "title": "Preserve indefinite/interrogative distinction during optional normalisation",
+      "language": "grc",
+      "category": "input_normalization",
+      "availability": "backend_only",
+      "status": "experimental",
+      "conditions": [
+        "Optional accent normalisation is enabled and the form is τὶ or τὶς."
+      ],
+      "effect": "Normalise to unaccented τι/τις rather than interrogative τί/τίς, preserving letter case.",
+      "exceptions": [
+        "Do not change an original acute interrogative."
+      ],
+      "examples": [
+        {
+          "surface": "τὶς",
+          "normalized": "τις"
+        },
+        {
+          "surface": "τίς",
+          "normalized": "τίς"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Smyth, Greek Grammar",
+          "sections": [
+            "154",
+            "181-183",
+            "334"
+          ],
+          "url": "https://ccel.org/s/smyth/grammar/html/smyth_1f_uni.htm",
+          "additional_url": "https://ccel.org/s/smyth/grammar/html/smyth_2l_uni.htm"
+        }
+      ],
+      "parameters": {},
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null
+      },
+      "backend_reference": {
+        "project_version": "0.3.2",
+        "path": "ag-scaife2antconc/ag_scaife2antconc/accents.py",
+        "entry_point": "normalize",
+        "sha256": "decb7c4a85b7957c5caf696769557a9d97850180051b98944b4b861619fc807a"
+      }
+    },
+    {
+      "id": "grc.lemma.deictic-iota-headword",
+      "version": "1.1.0",
+      "title": "Separate suffixed headwords for deictic iota",
+      "language": "grc",
+      "category": "lexicographic_normalisation_policy",
+      "availability": "portable",
+      "status": "experimental",
+      "conditions": [
+        "Surface spelling belongs to the finite documented inventory, including case, NFC/NFD and grave/acute variants.",
+        "Selected provider lemma belongs to the matching base/deictic family.",
+        "Apply after provider selection, before manual corrections. Do not change ranking scores or raw proposals."
+      ],
+      "effect": "Return the suffixed family headword and a deictic suffix annotation, retaining one token. The caller applies the proposal.",
+      "exceptions": [
+        "Unknown forms and unaccented spellings: no proposal; never strip or append iota generically.",
+        "Unrelated or missing selected lemma: abstain and retain the original selection for review.",
+        "Intercalated particles such as γε/δέ/μέν/γάρ are outside this inventory.",
+        "Original spelling, POS, provider evidence and scores are not rewritten.",
+        "Existing saved analyses keep their stored decisions on replay. Explicit manual corrections take precedence."
+      ],
+      "examples": [
+        {
+          "input": {
+            "form": "νυνὶ",
+            "candidate_lemma": "νῦν"
+          },
+          "expected": {
+            "status": "applied",
+            "headword": "νυνί",
+            "token_count": 1
+          }
+        },
+        {
+          "input": {
+            "form": "οὑτοσί",
+            "candidate_lemma": "οὗτος"
+          },
+          "expected": {
+            "status": "applied",
+            "headword": "οὑτοσί",
+            "token_count": 1
+          }
+        },
+        {
+          "input": {
+            "form": "τουτονί",
+            "candidate_lemma": "οὗτος"
+          },
+          "expected": {
+            "status": "applied",
+            "headword": "οὑτοσί",
+            "token_count": 1
+          }
+        },
+        {
+          "input": {
+            "form": "αὑτηί",
+            "candidate_lemma": "ἑαυτοῦ"
+          },
+          "expected": {
+            "status": "abstained",
+            "headword": "οὑτοσί",
+            "token_count": 1
+          }
+        },
+        {
+          "input": {
+            "form": "τί",
+            "candidate_lemma": "τίς"
+          },
+          "expected": {
+            "status": "not_applicable",
+            "headword": null,
+            "token_count": 1
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "Smyth, Greek Grammar",
+          "sections": [
+            "333g"
+          ],
+          "url": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.2_div2.6.html",
+          "supports": "Deictic suffix, demonstrative inflectional families and adverb examples; not the export headword policy."
+        },
+        {
+          "title": "LSJ, οὗτος",
+          "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n76062/",
+          "supports": "Explicit strengthened forms, including τουτῳί, τουτονί, οὑτοιί and ταυτί."
+        },
+        {
+          "title": "LSJ, ί",
+          "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n49645/",
+          "supports": "Deictic form families and the distinction from forms with intercalated particles."
+        },
+        {
+          "title": "LSJ, νυνί",
+          "url": "https://cld.bbaw.de/lemma/grc/%CE%BD%CF%85%CE%BD%CE%AF",
+          "supports": "Separate νυνί entry."
+        },
+        {
+          "title": "Application owner decision, 2026-11-06",
+          "supports": "Use separate suffixed dictionary headwords, following LSJ; supersedes the unshipped base-lemma proposal. Other suffixed family headwords are the finite application inventory, not an automatic import of all LSJ entries."
+        }
+      ],
+      "parameters": {
+        "families": {
+          "οὗτος": [
+            "οὑτοσί",
+            "αὑτηί",
+            "αὑτηΐ",
+            "τουτί",
+            "τουτουί",
+            "τουτουΐ",
+            "τουτῳί",
+            "τουτονί",
+            "ταυτηνί",
+            "ταυτηί",
+            "ταυτηΐ",
+            "ταυτησί",
+            "οὑτοιί",
+            "οὑτοιΐ",
+            "αὑταιί",
+            "ταυτί",
+            "τουτωνί",
+            "τουτοισί",
+            "τουτοισίν",
+            "ταυταισί",
+            "ταυταισίν",
+            "τουτουσί",
+            "ταυτασί"
+          ],
+          "ὅδε": [
+            "ὁδί",
+            "ἡδί",
+            "τοδί",
+            "τουδί",
+            "τησδί",
+            "τῳδί",
+            "τῃδί",
+            "τονδί",
+            "τηνδί",
+            "οἱδί",
+            "αἱδί",
+            "ταδί",
+            "τωνδί",
+            "τοισδί",
+            "ταισδί",
+            "τοισιδί",
+            "τουσδί",
+            "τασδί"
+          ],
+          "ἐκεῖνος": [
+            "ἐκεινοσί",
+            "ἐκεινηί",
+            "ἐκεινί",
+            "ἐκεινουί",
+            "ἐκεινῳί",
+            "ἐκεινονί",
+            "ἐκεινηνί",
+            "ἐκεινοιί",
+            "ἐκεινουσί",
+            "ἐκεινασί"
+          ],
+          "τοσοῦτος": [
+            "τοσουτοσί",
+            "τοσαυτηί",
+            "τοσουτί",
+            "τοσαυτί",
+            "τοσουτουί",
+            "τοσουτονί"
+          ],
+          "τοιοῦτος": [
+            "τοιουτοσί",
+            "τοιαυτηί",
+            "τοιουτί",
+            "τοιαυτί",
+            "τοιουτονί"
+          ],
+          "τηλικοῦτος": [
+            "τηλικουτοσί",
+            "τηλικαυτηί",
+            "τηλικουτί",
+            "τηλικουτονί"
+          ],
+          "οὕτως": [
+            "οὑτωσί"
+          ],
+          "ὧδε": [
+            "ὡδί"
+          ],
+          "νῦν": [
+            "νυνί"
+          ],
+          "ἐνθάδε": [
+            "ἐνθαδί"
+          ],
+          "ἐνταῦθα": [
+            "ἐνταυθί"
+          ],
+          "δεῦρο": [
+            "δευρί"
+          ],
+          "ἐντεῦθεν": [
+            "ἐντευθενί"
+          ]
+        },
+        "headwords": {
+          "οὗτος": "οὑτοσί",
+          "ὅδε": "ὁδί",
+          "ἐκεῖνος": "ἐκεινοσί",
+          "τοσοῦτος": "τοσουτοσί",
+          "τοιοῦτος": "τοιουτοσί",
+          "τηλικοῦτος": "τηλικουτοσί",
+          "οὕτως": "οὑτωσί",
+          "ὧδε": "ὡδί",
+          "νῦν": "νυνί",
+          "ἐνθάδε": "ἐνθαδί",
+          "ἐνταῦθα": "ἐνταυθί",
+          "δεῦρο": "δευρί",
+          "ἐντεῦθεν": "ἐντευθενί"
+        },
+        "weights": null
+      },
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null,
+        "scope": "Finite inventory; no independent corpus accuracy claim."
+      },
+      "provenance": {
+        "mapping": "Original code and explicit mapping, MIT; no model outputs or legacy tables redistributed."
+      },
+      "implementation_reference": {
+        "project_version": "0.6.0",
+        "path": "ag-greek-rules/ag_greek_rules/deictic.py",
+        "entry_point": "assess_deictic",
+        "sha256": "e83eb14e8ae2f761930f2f270d2deb5b40c5bb1db174f3e42a4d48ce9d13cfcd"
+      }
+    },
+    {
+      "id": "grc.grammar.corroborated-pos",
+      "version": "1.0.0",
+      "title": "Corroborated form and headword part of speech",
+      "language": "grc",
+      "category": "grammatical_consistency_policy",
+      "availability": "portable",
+      "status": "experimental",
+      "conditions": [
+        "Apply after lemma and expansion ranking to a selected candidate with no explicit grammatical class.",
+        "The form and selected headword both have local Morpheus evidence.",
+        "Every class represented in each source inventory is explicit, and both inventories agree on one class.",
+        "For verbal classes every local form analysis must explicitly have VerbForm=Fin.",
+        "An incompatible or missing selected part of speech can be replaced. Existing compatible functional labels are retained."
+      ],
+      "effect": "Return a proposed POS and clear_msd=true when corroborated. The backend changes the final POS and clears inherited features. Lemma, expansion, raw provider data and ranking scores stay outside this policy.",
+      "exceptions": [
+        "Unknown classes, including X, missing evidence, multiple classes or disagreement cause abstention.",
+        "Participles, infinitives and unspecified verbal forms cause abstention because function can depend on context.",
+        "VERB/AUX and the existing indeclinable compatibility groups are accepted.",
+        "Dictionary inventories can be incomplete. Evidence from two views of Morpheus is corroboration within one source, not independent provider agreement.",
+        "Exact dictionary headword spelling is required in this backend. Unsupported spellings abstain.",
+        "OGA imports and previously saved decisions are outside automatic application."
+      ],
+      "examples": [
+        {
+          "input": {
+            "form": "προσεῖπον",
+            "candidate_lemma": "προσλέγω",
+            "original_pos": "ADJ",
+            "form_analyses": [
+              {
+                "pos": "VERB",
+                "msd": "VerbForm=Fin"
+              }
+            ],
+            "lemma_analyses": [
+              {
+                "pos": "VERB"
+              }
+            ]
+          },
+          "status": "applied",
+          "proposed_pos": "VERB",
+          "clear_msd": true
+        },
+        {
+          "input": {
+            "form": "λεγόμενος",
+            "candidate_lemma": "λέγω",
+            "original_pos": "ADJ",
+            "form_analyses": [
+              {
+                "pos": "VERB",
+                "msd": "VerbForm=Part"
+              }
+            ],
+            "lemma_analyses": [
+              {
+                "pos": "VERB"
+              }
+            ]
+          },
+          "status": "abstained",
+          "reason": "nonfinite_or_unspecified_verbal_form"
+        }
+      ],
+      "counterexamples": [
+        "A form with verbal and nominal analyses.",
+        "A headword whose inventory contains an unknown class.",
+        "A participle used adjectivally.",
+        "An infinitive used substantivally.",
+        "A particle with a compatible contextual ADV label."
+      ],
+      "sources": [
+        {
+          "title": "Owner approval, 2026-11-07",
+          "supports": "Use corroborated part of speech and document the decision after assessing removal of spaCy/OdyCy."
+        },
+        {
+          "title": "Morpheus analyses distributed with Diogenes 4.7.2",
+          "url": "https://d.iogen.es/d/",
+          "supports": "Provider-specific grammatical evidence for the form and exact selected headword. Raw analyses and identities are retained. This does not license redistribution of the tables."
+        },
+        {
+          "title": "Universal Dependencies, VERB",
+          "url": "https://universaldependencies.org/u/pos/VERB.html",
+          "supports": "Verbal classification and context-dependent categorisation of participles and infinitives. These motivate abstaining for nonfinite forms."
+        },
+        {
+          "title": "Universal Dependencies, VerbForm",
+          "url": "https://universaldependencies.org/u/feat/VerbForm.html",
+          "supports": "Explicit Fin identifies finite verb forms."
+        },
+        {
+          "title": "Existing application POS compatibility groups",
+          "supports": "Compatible indeclinable labels from ag_scaife2antconc/pos.py, supplemented by existing VERB/AUX compatibility in selected_grammar."
+        }
+      ],
+      "parameters": {
+        "weights": null
+      },
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null,
+        "scope": "Motivated by Acharnians 266; regression checks do not independently establish accuracy."
+      },
+      "provenance": {
+        "code": "Original implementation and catalogue, MIT. Model weights, source tables and user corrections retain separate provenance."
+      },
+      "implementation_reference": {
+        "project_version": "0.3.0",
+        "path": "ag-greek-rules/ag_greek_rules/grammar.py",
+        "entry_point": "assess_pos",
+        "sha256": "94f0b9391bb9185d8ffc4002829f00ad83db82f606ab943f0edbad8a434839c7"
+      }
+    },
+    {
+      "id": "grc.selection.contextual-primary",
+      "version": "1.3.0",
+      "title": "Contextual disambiguation and explicit provider responsibilities",
+      "language": "grc",
+      "category": "engineering_selection_policy",
+      "availability": "portable",
+      "status": "experimental",
+      "conditions": [
+        "Lexical input is the current atom's complete, isolated Diogenes/explicit-restoration lemma inventory.",
+        "One distinct local lemma is retained; GreBERTa joint selects among ambiguous or unseen forms.",
+        "With two or more local lemmata, a contextual proposal is accepted only if it is one of them (case and grave/acute ignored; breathings, other accents and diaeresis significant).",
+        "Otherwise, when the model-owned UPOS-conditioned canonical lookup supplies one of the local lemmata, it is accepted (`context_outside_inventory_lookup`).",
+        "Failing canonical lookup, the contextual model's ranked top-k edit-script candidates (when supplied) are checked and the highest-probability in-inventory candidate is accepted (`context_topk_inventory_disambiguation`), except when top-1 is already an attested headword of the whole local morphology (`known_lemma`) and the top-k candidate lags top-1 by more than `topk_known_headword_max_gap` (2.5) log-probability units.",
+        "Failing top-k, GreTa may supply one of the local lemmata; failing that, the proposal is kept only if it is an attested headword of the whole local morphology, else the policy abstains.",
+        "The contextual adapter records keep-aware neural-first decoding, top-k contextual candidates, and explicit model-owned lookup fallbacks.",
+        "When no contextual proposal resolves an ambiguous/unseen form (and top-k yields no local candidate), GreTa can supply a labelled helper proposal."
+      ],
+      "effect": "Return a selected lemma and provenance trace without modifying provider evidence. No provider voting or GreTa candidate rescoring. A generated string cannot replace an available local inventory.",
+      "exceptions": [
+        "Morpho is additional evidence and reviewer lookup, with no automatic selection vote.",
+        "A unique lemma with a weak dictionary link is not thereby verified or rejected; link quality remains separate.",
+        "No resolved proposal and no unique lexical/helper lemma: abstain and retain all candidates.",
+        "Original inflected-form restoration evidence requirements, priors, headword conventions and manual choices remain separate policies.",
+        "Forms with no local inventory still accept the contextual proposal (generated-lemma acceptance is a separate, undecided question).",
+        "Unresolved context keeps the 1.0.0 GreTa helper when top-k supplies no local candidate."
+      ],
+      "counterexamples": [
+        "A model-only invented lemma cannot replace the sole local σπένδω analysis of ἐσπεισάμην.",
+        "GreTa agreement does not overrule a resolved contextual disambiguation of an ambiguous form.",
+        "Morpho definition text does not establish an exact-form manually verified analysis.",
+        "Isaeus 1 Κλεωνύμου: neural-first proposals Κλείνομος, Κλεέναμος, Κλόωνυμος etc. do not replace the local Κλεώνυμος/Κλεωνύμης inventory; canonical lookup or top-k contextual decoding supplies Κλεώνυμος.",
+        "Isaeus 1.20 πλείστου: the local inventory lists πλεῖστος, not πολύς; top-k contextual decoding selects πλεῖστος (log-prob gap <= 2.5). Whether the superlative is named under πολύς is a headword-convention question for grc.lemma.diogenes-headword, not for this selection rule.",
+        "Isaeus 1.22 ἀπεχθήσεσθαι: the correct ἀπεχθάνομαι is missing from the local inventory; ἀπεχθίζομαι is an attested headword and is kept by the rescue, wrongly here. It is queued for review because it lacks a local analysis of this form.",
+        "Acharnians 263–276 Φαλῆς: the form's inventory spells Φαλής; the attested headword Φαλῆς is kept by the rescue instead of being overwritten by a deep-tail top-k script (log-prob gap > 2.5).",
+        "Acharnians 253 ἄγ' (shared-context elision): tying readings are disambiguated by contextual lemma/grammar fit so ἄγε (ἄγω) beats ἄγα (ἄγη)."
+      ],
+      "sources": [
+        {
+          "kind": "owner_decision",
+          "date": "2026-11-08",
+          "description": "Explicit component responsibilities and GreBERTa joint replacement requested by the application owner."
+        },
+        {
+          "url": "https://github.com/ryanpavlicek/pyaegean/releases/tag/grc-joint-v3",
+          "description": "Pinned joint model; neural outputs and model-owned lookups are distinct."
+        },
+        {
+          "kind": "owner_decision",
+          "date": "2026-11-19",
+          "description": "Owner chose the local-inventory constraint after the Isaeus 1 audit (29 contextual selections outside an available inventory) and the attested-headword rescue after the Acharnians replay."
+        },
+        {
+          "kind": "owner_decision",
+          "date": "2026-11-20",
+          "description": "Owner approved keep-aware script-0 decoding, cleaned resolved-only canonical_lemma, shared-context elision tie-breaking, and 1.3.0 precedence: in-inventory canonical_lemma, then top-k contextual decoding guarded by topk_known_headword_max_gap=2.5 against overriding high-confidence attested headwords, then GreTa, then attested headword rescue."
+        }
+      ],
+      "parameters": {
+        "provider_bonuses": null,
+        "greta_candidate_scoring": false,
+        "top_k_candidates": 10,
+        "topk_known_headword_max_gap": 2.5,
+        "context_composition": "pyaegean 0.61.0 neural-first with explicit [\"keep\"] script-0 handling and top-k edit-script aggregation; outside-inventory proposals check canonical lookup, then top-k contextual candidates (guarded by max gap 2.5 when top-1 is an attested headword), then GreTa, then attested local headword, then abstention"
+      },
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null,
+        "scope": "Provider-contract regressions; Isaeus 1 and frozen Acharnians samples are development evidence only."
+      },
+      "provenance": {
+        "code": "Original policy code and catalogue MIT; provider runtime, models and training data retain separate licences."
+      },
+      "implementation_reference": {
+        "project_version": "0.6.0",
+        "path": "ag-greek-rules/ag_greek_rules/selection.py",
+        "entry_point": "select_lemma",
+        "sha256": "547b8bf2250450da347f0f97dab1cd3bdefebeb806f6c4f34a002c61def9d34f"
+      }
+    },
+    {
+      "id": "grc.lemma.diogenes-headword",
+      "version": "1.1.0",
+      "title": "Diogenes/Morpheus headwords anchored to verified LSJ identities",
+      "language": "grc",
+      "category": "lexicographic_normalisation_policy",
+      "availability": "portable",
+      "status": "experimental",
+      "conditions": [
+        "Name an already selected lexical item; this policy does not choose among competing analyses.",
+        "The caller supplies verified entries from a fingerprinted local LSJ reference, separate from provider evidence.",
+        "A verified selected Morpheus association identifies its exact entry; otherwise an unambiguous exact heading or a documented correspondence is required.",
+        "Correspondences retain stable IDs, versions, source entries, conditions, counterexamples and validation status.",
+        "NFC and grave/acute presentation are supported; case variants require verified identity. Vowel-length typography is omitted in plain headword output. Other accents, breathings, diaeresis and homograph identities remain significant."
+      ],
+      "effect": "Return the standard headword and snapshot-qualified entry identity, or retain the original proposal with an explicit abstention. Preserve raw provider proposals and selected analysis evidence.",
+      "exceptions": [
+        "Manual choices and the previously agreed separate deictic -ι headwords are retained.",
+        "Guessed, missing, mismatching or unverified Morpheus associations cannot establish canonical entry identity.",
+        "A documented alternate provider heading is not a general synonym relation; scoped mappings require the current form's verified entry.",
+        "Homographs without a selected verified identity, unavailable targets and uncovered words abstain.",
+        "A dictionary heading match verifies naming only, not the contextual or morphological analysis.",
+        "Existing OGA imports and snapshots change only through an explicit headword-standardization action or new analysis."
+      ],
+      "examples": [
+        {
+          "input": {
+            "form": "τρία",
+            "candidate_lemma": "τρία",
+            "entries": [
+              {
+                "id": "lsj:fixture:1",
+                "headword": "τρεῖς",
+                "verified": true
+              }
+            ]
+          },
+          "headword": "τρεῖς",
+          "status": "applied"
+        },
+        {
+          "input": {
+            "form": "οὑτοσί",
+            "candidate_lemma": "οὑτοσί"
+          },
+          "headword": "οὑτοσί",
+          "status": "not_applicable"
+        },
+        {
+          "input": {
+            "form": "ἥσθην",
+            "candidate_lemma": "σθω"
+          },
+          "headword": "σθω",
+          "status": "abstained"
+        }
+      ],
+      "counterexamples": [
+        "A lone καίνω candidate does not establish that κανοῦν is a verb.",
+        "Do not globally replace προσλέγω with προσεῖπον; the scoped correspondence requires a verified form association.",
+        "Do not choose an entry for homographic ἄπειμι by discarding homograph numbers.",
+        "Do not repair Χαίρις or another accented name by approximate spelling.",
+        "Do not strip -ι from νυνί or οὑτοσί."
+      ],
+      "sources": [
+        {
+          "kind": "owner_decision",
+          "date": "2026-11-08",
+          "description": "Owner approved Diogenes/Morpheus as the headword reference, verified LSJ anchors, documented correspondences, provisional links, uncovered words and preserved manual/deictic choices."
+        },
+        {
+          "url": "https://github.com/pjheslin/diogenes#building-the-morphology-data--dictionaries",
+          "description": "Diogenes packages Morpheus-generated morphology and reference dictionaries. Installed assets are fingerprinted rather than assumed identical to other versions."
+        },
+        {
+          "path": "ag_greek_rules/headword-mappings.json",
+          "description": "Exact lexical sources and scope of every original correspondence. No third-party dictionary is included in the MIT package."
+        }
+      ],
+      "parameters": {
+        "weights": null,
+        "approximate_spelling": false,
+        "mapping_catalogue": "headword-mappings.json",
+        "mapping_version": "1.0.0"
+      },
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null,
+        "scope": "Portable, reference-identity, model-free workflow and frozen development-evidence checks; not independently adjudicated accuracy."
+      },
+      "provenance": {
+        "code": "Original code, documentation and correspondence catalogue MIT. Installed LSJ, Morpheus tables, external annotations and model assets retain separate provenance/licences."
+      },
+      "implementation_reference": {
+        "project_version": "0.6.0",
+        "path": "ag-greek-rules/ag_greek_rules/headwords.py",
+        "entry_point": "assess_headword",
+        "sha256": "c55bc35231c99fca1fde7be7cf554690aa279d2e3def16cac9283f992019611c"
+      }
+    },
+    {
+      "id": "grc.grammar.proper-noun",
+      "version": "1.0.0",
+      "title": "Proper noun class for capitalised headwords",
+      "language": "grc",
+      "category": "grammatical_consistency_policy",
+      "availability": "portable",
+      "status": "experimental",
+      "conditions": [
+        "Apply after lemma selection and headword standardization to a machine decision whose part of speech is NOUN.",
+        "The selected lemma begins with a capital letter (the dictionary spells it as a name).",
+        "The written form also begins with a capital letter; leading apostrophes and editorial signs are ignored."
+      ],
+      "effect": "Return proposed_pos PROPN; morphology, lemma and provider evidence are unchanged.",
+      "exceptions": [
+        "A capitalised lemma on a lower-case form abstains and is reported for review: usually a wrongly capitalised lemma (μυρρίνας -> Μυρρίνη), sometimes a personification.",
+        "Adjectives (ethnics such as Ἀθηναῖος, Λακωνικός), adverbs (Ἀθήναζε) and verbs (Μεγαρίζω) keep their class.",
+        "Manual and reviewed choices, OGA imports and previously saved decisions are outside automatic application."
+      ],
+      "examples": [
+        {
+          "input": {
+            "form": "Κλεωνύμου",
+            "candidate_lemma": "Κλεώνυμος",
+            "original_pos": "NOUN"
+          },
+          "status": "applied",
+          "proposed_pos": "PROPN"
+        },
+        {
+          "input": {
+            "form": "μυρρίνας",
+            "candidate_lemma": "Μυρρίνη",
+            "original_pos": "NOUN"
+          },
+          "status": "abstained",
+          "reason": "capitalised_lemma_lower_case_form"
+        },
+        {
+          "input": {
+            "form": "Ἀθηναῖοι",
+            "candidate_lemma": "Ἀθηναῖος",
+            "original_pos": "ADJ"
+          },
+          "status": "not_applicable",
+          "reason": "not_a_noun"
+        }
+      ],
+      "counterexamples": [
+        "A sentence-initial common noun: its lemma is lower case, so it stays NOUN.",
+        "A personified common noun printed in lower case (πειθώ) stays NOUN and is reported.",
+        "A wrongly capitalised lemma on a capitalised form is not detected by this rule."
+      ],
+      "sources": [
+        {
+          "kind": "owner_decision",
+          "date": "2026-11-24",
+          "description": "Owner chose option A after the audit of an Aristophanes project (94,761 words): 2,826 capitalised NOUN lemmata and 2 PROPN, the latter manual corrections."
+        },
+        {
+          "title": "Universal Dependencies, PROPN",
+          "url": "https://universaldependencies.org/u/pos/PROPN.html",
+          "supports": "A proper noun is a noun that is the name of a specific individual, place or object."
+        },
+        {
+          "title": "GreBERTa joint grc-joint-v3 label set",
+          "supports": "The contextual model has no PROPN label (AGDT-style training data tags names as n)."
+        }
+      ],
+      "parameters": {
+        "weights": null
+      },
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null,
+        "scope": "Isaeus 1 and an Aristophanes project; regression checks do not independently establish accuracy."
+      },
+      "provenance": {
+        "code": "Original implementation and catalogue, MIT."
+      },
+      "implementation_reference": {
+        "project_version": "0.7.0",
+        "path": "ag-greek-rules/ag_greek_rules/proper_noun.py",
+        "entry_point": "assess_proper_noun",
+        "sha256": "0fd74c9f4be91811eceedb3d82cdbe5bce0501c0d349cd5978f1bc77451695d9"
+      }
+    },
+    {
+      "id": "grc.selection.generated-lemma-check",
+      "version": "1.0.0",
+      "title": "Checks on contextual lemmata generated for forms without a local analysis",
+      "language": "grc",
+      "category": "engineering_selection_policy",
+      "availability": "portable",
+      "status": "experimental",
+      "conditions": [
+        "Apply after selection to a single-word form whose local (Diogenes) inventory is empty and whose lemma was generated by the contextual model; never to manual or reviewed choices.",
+        "Same word in the text: a proposal with log p <= -1.0 whose own stem does not begin the form is replaced by the single reliable lemma of the same text whose stem (citation ending removed, at least 5 letters) begins the form with at most 4 further letters and the same initial case.",
+        "Reliable lemmata: from a local analysis, a manual choice, or a generated lemma with log p > -0.5.",
+        "Impossible spelling: otherwise a proposal with two accents, an initial vowel without breathing, a final letter no Greek word ends in, or a non-letter is removed (no lemma)."
+      ],
+      "effect": "Return proposed_lemma (replacement) or none (removal). The caller records a review observation for both; the model proposal remains in the evidence.",
+      "exceptions": [
+        "Several matching reliable lemmata: no replacement.",
+        "Plausible low-confidence proposals without a matching reliable lemma are kept; generated lemmata are not otherwise judged.",
+        "The model's next candidates are not used: in a trial they were often unrelated real words (ὦναίσχυντε -> ἀγαθός)."
+      ],
+      "examples": [
+        {
+          "input": {
+            "form": "Ποσειδίππῳ",
+            "candidate_lemma": "Ποσειδεώπ",
+            "log_probability": -2.39,
+            "reliable_lemmata": [
+              "Ποσείδιππος",
+              "Κλεώνυμος"
+            ]
+          },
+          "status": "applied",
+          "reason": "same_word_in_text",
+          "proposed_lemma": "Ποσείδιππος"
+        },
+        {
+          "input": {
+            "form": "κἀκυκλοβόρει",
+            "candidate_lemma": "ἀκυκλοαόρέω",
+            "log_probability": -4.34,
+            "reliable_lemmata": []
+          },
+          "status": "applied",
+          "reason": "impossible_spelling",
+          "proposed_lemma": null
+        },
+        {
+          "input": {
+            "form": "ἐξάρξαν",
+            "candidate_lemma": "ἐξάρχω",
+            "log_probability": -2.97,
+            "reliable_lemmata": []
+          },
+          "status": "not_applicable",
+          "reason": "plausible_proposal"
+        }
+      ],
+      "counterexamples": [
+        "Δήμητρι keeps Δημήτηρ although Δημητρίη also occurs: the proposal already fits the form.",
+        "A wrong but real word with the same stem can still be taken over (γύναικο -> γύναιον); hence the review observation."
+      ],
+      "sources": [
+        {
+          "kind": "owner_decision",
+          "date": "2026-11-24",
+          "description": "Owner chose removal (no lemma, review) for impossible spellings after a trial on Isaeus 1 and an Aristophanes project (961 generated lemmata; 18 same-word replacements and 128 impossible spellings)."
+        }
+      ],
+      "parameters": {
+        "low_confidence_log_probability": -1.0,
+        "reliable_log_probability": -0.5,
+        "min_stem_letters": 5,
+        "max_ending_letters": 4
+      },
+      "validation": {
+        "regression_cases": true,
+        "independent_accuracy": null,
+        "scope": "Trial on Isaeus 1 and one Aristophanes project; not an accuracy measurement."
+      },
+      "provenance": {
+        "code": "Original implementation and catalogue, MIT."
+      },
+      "implementation_reference": {
+        "project_version": "0.8.0",
+        "path": "ag-greek-rules/ag_greek_rules/generated.py",
+        "entry_point": "assess_generated_lemma",
+        "sha256": "619ba8c7151b8647835b525418f41752e7b7b653f70c46db3837f5415aa60b6e"
+      }
+    }
+  ]
+}

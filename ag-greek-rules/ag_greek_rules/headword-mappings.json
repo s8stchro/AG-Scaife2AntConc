@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "version": "1.0.0",
+  "licence": "MIT applies to this original correspondence catalogue, not to referenced dictionaries or provider assets.",
+  "mappings": [
+    {
+      "id": "grc.headword.chaino-chasko",
+      "version": "1.0.0",
+      "from": "χαίνω",
+      "to": "χάσκω",
+      "requires_form_entry": false,
+      "source": "LSJ s.v. χαίνω redirects to χάσκω; χάσκω includes the Acharnians 10 form.",
+      "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n112920/",
+      "counterexample": "Does not establish that a supplied token is a form of this verb.",
+      "validation": "Regression examples; independent accuracy unmeasured."
+    },
+    {
+      "id": "grc.headword.tria-treis",
+      "version": "1.0.0",
+      "from": "τρία",
+      "to": "τρεῖς",
+      "requires_form_entry": false,
+      "source": "LSJ s.v. τρεῖς includes neuter τρία within the same numeral entry.",
+      "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n104655/",
+      "counterexample": "Does not merge τριάς or another numeral.",
+      "validation": "Regression examples; independent accuracy unmeasured."
+    },
+    {
+      "id": "grc.headword.mochtheros-accent",
+      "version": "1.0.0",
+      "from": "μόχθηρος",
+      "to": "μοχθηρός",
+      "requires_form_entry": false,
+      "source": "LSJ s.v. μοχθηρός records the accentuation dispute; this policy adopts its entry heading, without denying the variant tradition.",
+      "url": "https://cld.bbaw.de/lemma/grc/μοχθηρός",
+      "counterexample": "Does not license a general shift of adjective accents.",
+      "validation": "Regression examples; independent accuracy unmeasured."
+    },
+    {
+      "id": "grc.headword.canoun-kaneon",
+      "version": "1.0.0",
+      "from": "κανοῦν",
+      "to": "κάνεον",
+      "pos": ["NOUN"],
+      "requires_form_entry": false,
+      "source": "LSJ s.v. κάνεον lists Attic contracted κανοῦν. Apply to a selected nominal proposal, not the competing verb καίνω.",
+      "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n53074/",
+      "counterexample": "A verbal proposal or unknown POS abstains; the mapping does not select a noun over a verb.",
+      "validation": "Regression examples; independent accuracy unmeasured."
+    },
+    {
+      "id": "grc.headword.proslego-aorist-entry",
+      "version": "1.0.0",
+      "from": "προσλέγω",
+      "to": "προσεῖπον",
+      "pos": ["VERB", "AUX"],
+      "requires_form_entry": true,
+      "source": "Owner-approved example, 2026-11-08: preserve the separate Diogenes/LSJ aorist heading. The current form must have a verified Morpheus association with that entry. This is a translation of provider grouping, not a global equivalence of the two LSJ entries.",
+      "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n88973/",
+      "counterexample": "Present προσλέγω, unrelated meanings, or a form without the required Morpheus association retain their own headword.",
+      "validation": "Regression examples; independent accuracy unmeasured."
+    }
+  ]
+}

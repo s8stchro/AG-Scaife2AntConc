@@ -1,0 +1,1839 @@
+# work	author	title	Greek title. From the __cts__.xml files of PerseusDL/canonical-greekLit and OpenGreekAndLatin/First1KGreek (CC BY-SA 4.0); built by tools/build_catalog.py
+ggm0001.ggm001	Anonymous	Anametresis Pontou	
+heb0001.heb010	Hebrew Bible	Isaias	
+ogl0001.ogl001	Pinytus, Saint, Bishop of Knossos	De Epistola Pinyti ad Dionysium	
+stoa0033a.tlg028	Pseudo-Aristotle	De mundo	
+stoa0033a.tlg043	Pseudo-Aristotle	De spiritu	
+stoa0121.stoa001	Eutropius	Breviarium historiae romanae	
+stoa0146d.stoa001	Hegemonius	Acta Archelai	
+tlg0001.tlg001	Apollonius Rhodius	Argonautica	
+tlg0003.tlg001	Thucydides	History of the Peloponnesian War	Ἱστορίαι
+tlg0004.tlg001	Diogenes Laertius	Vitae philosophorum	Βίοι καὶ γνῶμαι τῶν ἐν φιλοσοφίᾳ εὐδοκιμησάντων
+tlg0005.tlg001	Theocritus	Εἰδύλλια	Εἰδύλλια
+tlg0005.tlg002	Theocritus	Ἐπιγράμματα	Ἐπιγράμματα
+tlg0005.tlg003	Theocritus	Syrinx	
+tlg0006.tlg001	Euripides	Cyclops	Κύκλωψ
+tlg0006.tlg002	Euripides	Alcestis	Ἄλκηστις
+tlg0006.tlg003	Euripides	Medea	Μήδεια
+tlg0006.tlg004	Euripides	Heracleidae	Ἡρακλεῖδαι
+tlg0006.tlg005	Euripides	Hippolytus	Ἱππόλυτος
+tlg0006.tlg006	Euripides	Andromache	Ἀνδρομάχη
+tlg0006.tlg007	Euripides	Hecuba	Ἑκάβη
+tlg0006.tlg008	Euripides	The Suppliant Maidens	Ἱκέτιδες
+tlg0006.tlg009	Euripides	Heracles	Ἡρακλῆς
+tlg0006.tlg010	Euripides	Ion	Ἴων
+tlg0006.tlg011	Euripides	The Trojan Women	Τρῳάδες
+tlg0006.tlg012	Euripides	Electra	Ἠλέκτρα
+tlg0006.tlg013	Euripides	Iphigenia in Tauris	Ἰφιγένεια ἐν Ταύροις
+tlg0006.tlg014	Euripides	Helen	Ἑλένη
+tlg0006.tlg015	Euripides	The Phoenician Women	Φοίνισσαι
+tlg0006.tlg016	Euripides	Orestes	Ὀρέστης
+tlg0006.tlg017	Euripides	Bacchae	Βάκχαι
+tlg0006.tlg018	Euripides	Iphigenia in Aulis	Ἰφιγένεια ἐν Αὐλίδι
+tlg0006.tlg019	Euripides	Rhesus	Ῥῆσος
+tlg0006.tlg020	Euripides	Fragmenta	
+tlg0007.tlg001	Plutarch	Theseus	Θησεύς
+tlg0007.tlg002	Plutarch	Romulus	Ῥωμύλος
+tlg0007.tlg003	Plutarch	Comparison of Theseus and Romulus	Θησέως καὶ Ῥωμύλου σύγκρισις
+tlg0007.tlg004	Plutarch	Lycurgus	Λυκοῦργος
+tlg0007.tlg005	Plutarch	Numa	Νομᾶς
+tlg0007.tlg006	Plutarch	Comparison of Lycurgus and Numa	Λυκούργου καὶ Νομᾶ σύγκρισις
+tlg0007.tlg007	Plutarch	Solon	Σόλων
+tlg0007.tlg008	Plutarch	Publicola	Ποπλικόλας
+tlg0007.tlg009	Plutarch	Comparison of Solon and Publicola	Σόλωνος καὶ Ποπλικόλα σύγκρισις
+tlg0007.tlg010	Plutarch	Themistocles	Θεμιστοκλῆς
+tlg0007.tlg011	Plutarch	Camillus	Κάμιλλος
+tlg0007.tlg012	Plutarch	Pericles	Περικλῆς
+tlg0007.tlg013	Plutarch	Fabius Maximus	Φάβιος Μάξιμος
+tlg0007.tlg014	Plutarch	Comparison of Pericles and Fabius Maximus	Περικλέους καὶ Φαβίου σύγκρισις
+tlg0007.tlg015	Plutarch	Alcibiades	Ἀλκιβιάδης
+tlg0007.tlg016	Plutarch	Caius Marcius Coriolanus	Γάϊος Μάρκιος
+tlg0007.tlg017	Plutarch	Comparison of Alcibiades and Coriolanus	Ἀλκιβιάδου καὶ Κοριολὰνου σύγκρισις
+tlg0007.tlg018	Plutarch	Timoleon	Τιμολέων
+tlg0007.tlg019	Plutarch	Aemilius Paulus	Αἰμίλιος Παῦλλος
+tlg0007.tlg020	Plutarch	Comparison of Timoleon and Aemilius	Σύγκρισις Τιμολέοντος καὶ Αἰμιλίου
+tlg0007.tlg021	Plutarch	Pelopidas	Πελοπίδας
+tlg0007.tlg022	Plutarch	Marcellus	Μάρκελλος
+tlg0007.tlg023	Plutarch	Comparison of Pelopidas and Marcellus	Πελοπίδου καὶ Μαρκέλλου σύγκρισις
+tlg0007.tlg024	Plutarch	Aristides	Ἀριστείδης
+tlg0007.tlg025	Plutarch	Marcus Cato	Μάρκος Κάτων
+tlg0007.tlg026	Plutarch	Comparison of Aristides and Marcus Cato	Ἀριστείδου καὶ Κάτωνος σύγκρισις
+tlg0007.tlg027	Plutarch	Philopoemen	Φιλοποίμην
+tlg0007.tlg028	Plutarch	Titus Flamininus	Τίτος Φλαμινῖνος
+tlg0007.tlg029	Plutarch	Comparison of Philopoemen and Titus	Φιλοποίμενος καὶ Τίτου σύγκρισις
+tlg0007.tlg030	Plutarch	Pyrrhus	Πύρρος
+tlg0007.tlg031	Plutarch	Caius Marius	Γάιος Μάριος
+tlg0007.tlg032	Plutarch	Lysander	Λύσανδρος
+tlg0007.tlg033	Plutarch	Sulla	Σύλλας
+tlg0007.tlg034	Plutarch	Comparison of Lysander and Sulla	Σύγκρισις Λυσάνδρου καὶ Σύλλα
+tlg0007.tlg035	Plutarch	Cimon	Κίμων
+tlg0007.tlg036	Plutarch	Lucullus	Λούκουλλος
+tlg0007.tlg037	Plutarch	Comparison of Lucullus and Cimon	Κίμωνος καὶ Λουκούλλος σύγκρισις
+tlg0007.tlg038	Plutarch	Nicias	Νικίας
+tlg0007.tlg039	Plutarch	Crassus	Κράσσος
+tlg0007.tlg040	Plutarch	Comparison of Nicias and Crassus	Νικίου καὶ Κράσσου σύγκρισις
+tlg0007.tlg041	Plutarch	Eumenes	Εὐμένης
+tlg0007.tlg042	Plutarch	Sertorius	Σερτώριος
+tlg0007.tlg043	Plutarch	Comparison of Sertorius and Eumenes	Σύγκρισις Σερτωρίου καὶ Εὐμένους
+tlg0007.tlg044	Plutarch	Agesilaus	Ἀγησίλαος
+tlg0007.tlg045	Plutarch	Pompey	Πομπήϊος
+tlg0007.tlg046	Plutarch	Comparison of Agesilaus and Pompey	Ἀγησιλάου καὶ Πομπηΐου σύγκρισις
+tlg0007.tlg047	Plutarch	Alexander	Ἀλέξανδρος
+tlg0007.tlg048	Plutarch	Caesar	Καῖσαρ
+tlg0007.tlg049	Plutarch	Phocion	Φωκίων
+tlg0007.tlg050	Plutarch	Cato the Younger	Κάτων
+tlg0007.tlg051	Plutarch	Agis and Cleomenes	Ἄγις καὶ Κλεομένης
+tlg0007.tlg052	Plutarch	Tiberius and Caius Gracchus	Tιβέριος καὶ Γάιος Γράκχοι
+tlg0007.tlg053	Plutarch	Comparison of Agis and Cleomenes and the Gracchi	Σύγκρισις Ἄγιδος καὶ Κλεομένους καὶ τῶν Γράκχων
+tlg0007.tlg054	Plutarch	Demosthenes	Δημοσθένης
+tlg0007.tlg055	Plutarch	Cicero	Κικέρων
+tlg0007.tlg056	Plutarch	Comparison of Demosthenes and Cicero	Σύγκρισις Δημοσθένους καὶ Κικέρωνος
+tlg0007.tlg057	Plutarch	Demetrius	Δημήτριος
+tlg0007.tlg058	Plutarch	Antony	Ἀντώνιος
+tlg0007.tlg059	Plutarch	Comparison of Demetrius and Antony	Σύγκρισις Δημητρίου καὶ Ἀντωνίου
+tlg0007.tlg060	Plutarch	Dion	Δίων
+tlg0007.tlg061	Plutarch	Brutus	Βροῦτος
+tlg0007.tlg062	Plutarch	Comparison of Dion and Brutus	Σύγκρισις Δίωνος καὶ Βρούτου
+tlg0007.tlg063	Plutarch	Aratus	Ἄρατος
+tlg0007.tlg064	Plutarch	Artaxerxes	Ἀρταξέρξης
+tlg0007.tlg065	Plutarch	Galba	Γάλβας
+tlg0007.tlg066	Plutarch	Otho	Ὄθων
+tlg0007.tlg067	Plutarch	De liberis educandis	Περὶ παίδων ἀγωγῆς
+tlg0007.tlg068	Plutarch	Quomodo adolescens poetas audire debeat	Πῶς δεῖ τὸν νέον ποιημάτων ἀκούειν.
+tlg0007.tlg069	Plutarch	De recta ratione audiendi	Περὶ τοῦ ἀκούειν.
+tlg0007.tlg070	Plutarch	Quomodo adulator ab amico internoscatur	Πῶς ἄν τις διακρίνειε τὸν κόλακα τοῦ φίλοῦ
+tlg0007.tlg071	Plutarch	Quomodo quis suos in virtute sentiat profectus	Πῶς ἄν τις αἴσθοιτο ἑαυτοῦ προκόπτοντος ἐπʼ ἀρετή
+tlg0007.tlg072	Plutarch	De capienda ex inimicis utilitate	Πῶς ἄν τις ἀπ’ ἐχθρῶν ὠφελοῖτο
+tlg0007.tlg073	Plutarch	De amicorum multitudine	Περὶ πολυφιλίας
+tlg0007.tlg074	Plutarch	De fortuna	Περὶ τύχης
+tlg0007.tlg075	Plutarch	De virtute et vitio	Περὶ ἀρετῆς καὶ κακιάς
+tlg0007.tlg076	Plutarch	Consolatio ad Apollonium	Πραμυθητικὸς πρὸς Ἀπολλώνιον
+tlg0007.tlg077	Plutarch	De tuenda sanitate praecepta	Ὑγιεινὰ παραγγέλματα
+tlg0007.tlg078	Plutarch	Conjugalia Praecepta	Γαμικὰ παραγγέλματα
+tlg0007.tlg079	Plutarch	Septem sapientium convivium	Πων επτά σοφών συμπόσιον
+tlg0007.tlg080	Plutarch	De Superstitione	Περὶ δεισιδαιμονίας
+tlg0007.tlg081	Plutarch	Regum et imperatorum apophthegmata	Ἀποφθέγματα βασιλέων καὶ στρατηγῶν
+tlg0007.tlg082	Plutarch	Apophthegmata Laconica	Ἀποφθέγματα Λακωνικά
+tlg0007.tlg082a	Plutarch	Instituta Laconia	Τὰ παλαιὰ τῶν Λακεδαινίων ἐπιτηδεύματα
+tlg0007.tlg082b	Plutarch	Lacaenarum Apophthegmata	Λακαινῶν ἀποφθάγματα
+tlg0007.tlg083	Plutarch	Mulierum virtutes	Γυναικῶν ἀρεταί
+tlg0007.tlg084a	Plutarch	Quaestiones Romanae	Αἴτια Ῥωμαϊκά
+tlg0007.tlg084b	Plutarch	Quaestiones Graecae	Αἴτια Ἑλληνικά
+tlg0007.tlg085	Plutarch	Parallela minora	Συναγωγὴ ἱστοριῶν παραλλήλων Ἑλληνικῶν καὶ Ῥωμαϊκῶν
+tlg0007.tlg086	Plutarch	De fortuna Romanorum	Περὶ τῆς Ῥωμαίων τύχης
+tlg0007.tlg087	Plutarch	De Alexandri magni fortuna aut virtute	Περὶ τῆς Ἀλεξάνδρου τύχης ἢ ἀρετῆς λόγος Α, λόγος Β
+tlg0007.tlg088	Plutarch	De gloria Atheniensium	Πότερον Ἀθηναῖοι κατὰ πόλεμον ἢ κατὰ σοφίαν ἐνδοξότεροι
+tlg0007.tlg089	Plutarch	De Iside et Osiride	Περὶ Ἴσιδος και Ὀσίριδος
+tlg0007.tlg090	Plutarch	De E apud Delphos	Περὶ τοῦ Ε τοῦ ἐν Δελφοῖς
+tlg0007.tlg091	Plutarch	De Pythiae oraculis	Περὶ τοῦ μὴ χρᾶν ἔμμετρα νῦν τὴν Πυθίαν
+tlg0007.tlg092	Plutarch	De Defectu Oraculorum	Περὶ τῶν ἐκλελοιπότων
+tlg0007.tlg093	Plutarch	An Virtus Doceri Possit	Εἰ διδακτὸν ἡ ἀρετή
+tlg0007.tlg094	Plutarch	De Virtute Morali	Περὶ τῆς ἠθικῆς ἀρετῆς
+tlg0007.tlg095	Plutarch	De cohibenda ira	Περὶ ἀοπγησίας
+tlg0007.tlg096	Plutarch	De Tranquillitate Animi	Περὶ εὐθυμίας
+tlg0007.tlg097	Plutarch	De fraterno amore	Περὶ φιλαδελφίας
+tlg0007.tlg098	Plutarch	De Amore Prolis	Περὶ τῆς εἰς τὰ ἔκγονα φιλοστοργίας
+tlg0007.tlg099	Plutarch	An vitiositas ad infelicitatem sufficia	Εἰ αὐτάρκης ἡ κακία πρὸς κακοδαιμονίαν
+tlg0007.tlg100	Plutarch	Animine an corporis affectiones sint peiores	Ποτερον τὰ τῆς ψυχῆς ἢ τὰ τοῦ σώματος πάθη χείρονα
+tlg0007.tlg101	Plutarch	De Garrulitate	Περὶ ἀδολεσχίας
+tlg0007.tlg102	Plutarch	De curiositate	Περὶ πολυπραγμοσύνης
+tlg0007.tlg103	Plutarch	De Cupiditate Divitiarum	Περὶ φιλοπλουτίας
+tlg0007.tlg104	Plutarch	De Vitioso Pudore	Περὶ δυσωπίας
+tlg0007.tlg105	Plutarch	De Invidia et Odio	Περὶ φθόνου καὶ μίσους
+tlg0007.tlg106	Plutarch	De Se Ipsum Citra Invidiam Laudando	Περὶ τοῦ ἑαυτὸν ἐπαινεῖν ἀνεπιφθόνως
+tlg0007.tlg107	Plutarch	De Sera Numinis Vindicta	Περὶ τῶν ὑπὸ τοῦ θείου βραδέως τιμωρουμένων
+tlg0007.tlg108	Plutarch	De Fato	Περὶ εἱμαρμένης
+tlg0007.tlg109	Plutarch	De Genio Socratis	Περὶ τοῦ Σωκράτους δαιμονίου
+tlg0007.tlg110	Plutarch	De exilio	Περὶ φυγῆς
+tlg0007.tlg111	Plutarch	Consolatio Ad Uxorem	Παραμυθητικός εἰς τὴν γυναῖκα τὴν αὑτου
+tlg0007.tlg112	Plutarch	Quaestiones Convivales	Συμποσιακῶν προβλημάτων βιβλία
+tlg0007.tlg113	Plutarch	Amatorius	Ἐρωτικός
+tlg0007.tlg114	Plutarch	Amatoriae Narrationes	Ἐρωτικαὶ διγηήσεις
+tlg0007.tlg115	Plutarch	Maxime Cum Principibus Viris Philosopho Esse Disserendum	Περὶ τοῦ ὅτι μάλιστα τοῖς ἡγεμόσι δεῖ τὸν φιλοσοφόν διαλέγεσθαι
+tlg0007.tlg116	Plutarch	Ad principem ineruditum	Πρὸς ἡγεμόνα ἀπαίδευτον
+tlg0007.tlg117	Plutarch	An seni respublica gerenda sit	Εἰ πρεσβυτέρῳ πολιτευτέον
+tlg0007.tlg118	Plutarch	Praecepta gerendae reipublicae	Πολιτικὰ παραγγέλματα
+tlg0007.tlg119	Plutarch	De unius in republica dominatione, populari statu, et paucorum imperio	Περὶ μοναρχίας καὶ δημοκρατίας καὶ ὀλιγαρχίας
+tlg0007.tlg120	Plutarch	De vitando aere alieno	Περὶ τοῦ μὴ δεῖν δανείζεσθαι
+tlg0007.tlg121	Plutarch	Vitae decem oratorum	Περὶ τῶν δέκα ἡτόρων
+tlg0007.tlg122	Plutarch	Comparationis Aristophanis et Menandri compendium	Συγκρίσεως Ἀριστοφάνους καὶ Μενάνδρου ἐπιτομή
+tlg0007.tlg123	Plutarch	De Heroditi malignate	Περὶ τῆς Ἡροδότου κακοηθείας
+tlg0007.tlg125	Plutarch	Quaestiones Naturales	Αἴτια φυσικά
+tlg0007.tlg126	Plutarch	De Facie Quae in orbe Lunae Apparet	Περὶ τοῦ ἐμφαινομένου προσώπου τῷ κύκλῳ τῆς σελήνης
+tlg0007.tlg127	Plutarch	De primo frigido	Περὶ τοῦ πρώτως ψυχροῦ
+tlg0007.tlg128	Plutarch	Aquane an ignis sit utilior	Περὶ τοῦ πότερον ὕδωρ ἢ πῦρ χρησιμώτερον
+tlg0007.tlg129	Plutarch	De sollertia animalium	Πότερα τῶν ζῴων φρονιμώτερα τὰ χερσαῖα ἢ τὰ ἔνυδρα
+tlg0007.tlg130	Plutarch	Bruta animalia ratione uti	Περὶ τοῦ τὰ ἄλογα λόγῳ χρῆσθαι
+tlg0007.tlg131	Plutarch	De esu carnium I	Περὶ σαρκοφαγίας λόγος α′
+tlg0007.tlg132	Plutarch	De esu carnium II	Περὶ σαρκοφαγίας λόγος β′
+tlg0007.tlg133	Plutarch	Platonicae quaestiones	Πλατωνικὰ ζητήματα
+tlg0007.tlg134	Plutarch	De animae procreatione in Timaeo	Περὶ τῆς ἐν Τιμαίῳ ψυχογονίας
+tlg0007.tlg135	Plutarch	Epitome libri de animae procreatione in Timaeo	Ἐπιτομὴ τοῦ περὶ τῆς ἐν τῷ Τιμαίῳ ψυχογονίας
+tlg0007.tlg136	Plutarch	De Stoicorum repugnantiis	Περὶ Στωικῶν ἐνιγμάτων.
+tlg0007.tlg137	Plutarch	Compendium argumenti Stoicos absurdiora poetis dicere	Σύνοψις τοῦ ὅτι παραδοξότερα οἱ Στωικοὶ τῶν ποιητῶν λέγουσι
+tlg0007.tlg138	Plutarch	De communibus notitiis adversus Stoicos	Περὶ τῶν κοινῶν ἐννοιῶν πρὸς τοὺς Στωικοὺς
+tlg0007.tlg139	Plutarch	Non Posse Suaviter Vivi Secundum Epicurum	Ὅτι οὐδ' ἡδέως ζῆν ἔστι κατ' Ἐπίκουρον
+tlg0007.tlg140	Plutarch	Adversus Coloten	Πρὸς Κωλώτην
+tlg0007.tlg141	Plutarch	An Recte Dictum Sit Latenter Esse Vivendum	Εἰ καλῶς εἴρηται τὸ λάθε βιώτας
+tlg0007.tlg146	Plutarch	Παροιμίαι αἷς Ἀλεξανδρεῖς ἐχρῶντο	Παροιμίαι αἷς Ἀλεξανδρεῖς ἐχρῶντο
+tlg0007.tlg147	Plutarch	Ἐκλογὴ περὶ τῶν ἀδυνάτων	Ἐκλογὴ περὶ τῶν ἀδυνάτων
+tlg0008.tlg001	Athenaeus of Naucratis	Deipnosophistae	Δειπνοσοφισταί
+tlg0010.tlg001	Isocrates	Against Euthynus	Πρὸς Εὐθύνους ἀμάρτυρος
+tlg0010.tlg002	Isocrates	Against Callimachus	Παραγραφή πρὸς Καλλίμαχον
+tlg0010.tlg003	Isocrates	Against Lochites	Κατὰ Λοχίτου
+tlg0010.tlg004	Isocrates	Concerning the Team of Horses	Περὶ τοῦ ζεύγους
+tlg0010.tlg005	Isocrates	Trapeziticus	Τραπεζιτικός
+tlg0010.tlg006	Isocrates	Aegineticus	Αἰγητικὸς
+tlg0010.tlg007	Isocrates	To Demonicus	Πρὸς Δημόνικον
+tlg0010.tlg008	Isocrates	Against the Sophists	Κατὰ τῶν σοφιστῶν
+tlg0010.tlg009	Isocrates	Helen	Ἑλένη
+tlg0010.tlg010	Isocrates	Busiris	Βούσιρις
+tlg0010.tlg011	Isocrates	Panegyricus	Πανηγυρικός
+tlg0010.tlg012	Isocrates	Plataicus	Πλαταικός
+tlg0010.tlg013	Isocrates	To Nicocles	Πρὸς Νικόκλεα
+tlg0010.tlg014	Isocrates	Nicocles or the Cyprians	Νικόκλης ἢ Κύπριοι
+tlg0010.tlg015	Isocrates	Evagoras	Εὐαγόρας
+tlg0010.tlg016	Isocrates	Archidamus	Ἀρχίδαμος
+tlg0010.tlg017	Isocrates	On the Peace	Περὶ εἰρήνης
+tlg0010.tlg018	Isocrates	Areopagiticus	Ἀρεοπαγιτικός
+tlg0010.tlg019	Isocrates	Antidosis	Περὶ ἀντιδόσεως
+tlg0010.tlg020	Isocrates	To Philip	Φίλιππος
+tlg0010.tlg021	Isocrates	Panathenaicus	Παναθηναικός
+tlg0010.tlg022	Isocrates	To Dionysius	Ἐπιστολαὶ αʹ Διονύσιῳ
+tlg0010.tlg023	Isocrates	To the Children of Jason	Ἐπιστολαὶ ςʹ Τοῖς Ἰάσονος παισίν
+tlg0010.tlg024	Isocrates	To Archidamus	Ἐπιστολαὶ θʹ Ἀρχιδάμῳ
+tlg0010.tlg025	Isocrates	To the Rulers of the Mytilenaeans	Ἐπιστολαὶ ηʹ Τοῖς Μυτιληναίων ἄρχουσιν
+tlg0010.tlg026	Isocrates	To Timotheus	Ἐπιστολαὶ ζʹ Τιμοθέῳ
+tlg0010.tlg027	Isocrates	To Philip, I	Ἐπιστολαὶ βʹ Φιλίππῳ α΄
+tlg0010.tlg028	Isocrates	To Alexander	Ἐπιστολαὶ εʹ Ἀλεξάνδρῳ
+tlg0010.tlg029	Isocrates	To Antipater	Ἐπιστολαὶ δʹ Ἀντιπάτρῳ
+tlg0010.tlg030	Isocrates	To Philip, II	Ἐπιστολαὶ γʹ Φιλίππῳ β΄
+tlg0011.tlg001	Sophocles	Trachiniae	Τραχίνιαι
+tlg0011.tlg002	Sophocles	Antigone	Ἀντιγόνη
+tlg0011.tlg003	Sophocles	Ajax	Αἴας
+tlg0011.tlg004	Sophocles	Oedipus Tyrannus	Οἰδίπους Τύραννος
+tlg0011.tlg005	Sophocles	Electra	Ἠλέκτρα
+tlg0011.tlg006	Sophocles	Philoctetes	Φιλοκτήτης
+tlg0011.tlg007	Sophocles	Oedipus at Colonus	Οἰδίπους ἐπὶ Κολωνῷ
+tlg0011.tlg008	Sophocles	Ichneutae	
+tlg0012.tlg001	Homer	Iliad	Ἰλιάς
+tlg0012.tlg002	Homer	Odyssey	Ὀδύσσεια
+tlg0012.tlg003	Homer	Homer’s Epigrams	Ὁμήρου ἐπιγράμματα
+tlg0013.tlg001	Hymni Homerici	Hymn 1 to Dionysus	
+tlg0013.tlg002	Hymni Homerici	Hymn 2 to Demeter	
+tlg0013.tlg003	Hymni Homerici	Hymn 3 to Delian and Pythian Apollo	
+tlg0013.tlg004	Hymni Homerici	Hymn 4 to Hermes	
+tlg0013.tlg005	Hymni Homerici	Hymn 5 to Aphrodite	
+tlg0013.tlg006	Hymni Homerici	Hymn 6 to Aphrodite	
+tlg0013.tlg007	Hymni Homerici	Hymn 7 to Dionysus	
+tlg0013.tlg008	Hymni Homerici	Hymn 8 to Ares	
+tlg0013.tlg009	Hymni Homerici	Hymn 9 to Artemis	
+tlg0013.tlg010	Hymni Homerici	Hymn 10 to Aphrodite	
+tlg0013.tlg011	Hymni Homerici	Hymn 11 To Athena	
+tlg0013.tlg012	Hymni Homerici	Hymn 12 to Hera	
+tlg0013.tlg013	Hymni Homerici	Hymn 13 to Demeter	
+tlg0013.tlg014	Hymni Homerici	Hymn 14 to the Mother of the Gods	
+tlg0013.tlg015	Hymni Homerici	Hymn 15 To Heracles	
+tlg0013.tlg016	Hymni Homerici	Hymn 16 To Asclepius	
+tlg0013.tlg017	Hymni Homerici	Hymn 17 To the Dioscuri	
+tlg0013.tlg018	Hymni Homerici	Hymn 18 to Hermes	
+tlg0013.tlg019	Hymni Homerici	Hymn 19 to Pan	
+tlg0013.tlg020	Hymni Homerici	Hymn 20 To Hephaestus	
+tlg0013.tlg021	Hymni Homerici	Hymn 21 To Apollo	
+tlg0013.tlg022	Hymni Homerici	Hymn 22 To Poseidon	
+tlg0013.tlg023	Hymni Homerici	Hymn 23 to Zeus	
+tlg0013.tlg024	Hymni Homerici	Hymn 24 To Hestia	
+tlg0013.tlg025	Hymni Homerici	Hymn 25 To the Muses and Apollo	
+tlg0013.tlg026	Hymni Homerici	Hymn 26 To Dionysus	
+tlg0013.tlg027	Hymni Homerici	Hymn 27 to Artemis	
+tlg0013.tlg028	Hymni Homerici	Hymn 28 to Athena	
+tlg0013.tlg029	Hymni Homerici	Hymn 29 to Hestia	
+tlg0013.tlg030	Hymni Homerici	Hymn 30 to Earth	
+tlg0013.tlg031	Hymni Homerici	Hymn 31 to Helios	
+tlg0013.tlg032	Hymni Homerici	Hymn 32 To Selene	
+tlg0013.tlg033	Hymni Homerici	Hymn 33 To the Dioscuri	
+tlg0014.tlg001	Demosthenes	Olynthiac 1	Ὀλυνθιακὸς α΄
+tlg0014.tlg002	Demosthenes	Olynthiac 2	Ὀλυνθιακὸς β΄
+tlg0014.tlg003	Demosthenes	Olynthiac 3	Ὀλυνθιακὸς γ΄
+tlg0014.tlg004	Demosthenes	Philippic 1	κατὰ Φιλίππου α΄
+tlg0014.tlg005	Demosthenes	On the Peace	περὶ τῆς εἰρήνης
+tlg0014.tlg006	Demosthenes	Philippic 2	κατὰ Φιλίππου β΄
+tlg0014.tlg007	Demosthenes	On Halonnesus	περὶ Ἀλοννήσου
+tlg0014.tlg008	Demosthenes	On the Chersonese	περὶ τῶν ἐν Χερρονήσῳ
+tlg0014.tlg009	Demosthenes	Philippic 3	κατὰ Φιλίππου γ΄
+tlg0014.tlg010	Demosthenes	Philippic 4	κατὰ Φιλίππου δ΄
+tlg0014.tlg011	Demosthenes	Answer to Philip’s Letter	πρὸς τὴν ἐπιστολήν τὴν Φιλίππου
+tlg0014.tlg012	Demosthenes	Philip’s Letter	ἐπιστολή [Φιλίππου]
+tlg0014.tlg013	Demosthenes	On Organization	περὶ συντάξεως
+tlg0014.tlg014	Demosthenes	On the Navy-Boards	περὶ τῶν συμμοριῶν
+tlg0014.tlg015	Demosthenes	For the Liberty of the Rhodians	ὑπὲρ τῆς Ῥοδίων ἐλευθερίας
+tlg0014.tlg016	Demosthenes	For the People of Megalopolis	ὑπὲρ Μεγαλοπολιτῶν
+tlg0014.tlg017	Demosthenes	On the Treaty with Alexander	περὶ τῶν πρὸς Ἀλέξανδρον συνθηκῶν
+tlg0014.tlg018	Demosthenes	On the Crown	ὑπὲρ Κτησιφῶντος περὶ τοῦ στεφάνου
+tlg0014.tlg019	Demosthenes	On the False Embassy	περὶ τῆς παραπρεσβείας
+tlg0014.tlg020	Demosthenes	Against Leptines	περὶ τῆς Ἀτελείας πρὸς Λεπτίνην
+tlg0014.tlg021	Demosthenes	Against Meidias	κατὰ Μειδίου περὶ τοῦ Κονδύλου
+tlg0014.tlg022	Demosthenes	Against Androtion	κατὰ Ἀνδροτίωνος παρανόμων
+tlg0014.tlg023	Demosthenes	Against Aristocrates	κατὰ Ἀριστοκράτους
+tlg0014.tlg024	Demosthenes	Against Timocrates	κατὰ Τιμοκράτους
+tlg0014.tlg025	Demosthenes	Against Aristogeiton I	κατὰ Ἀριστογείτονος α΄
+tlg0014.tlg026	Demosthenes	Against Aristogeiton II	κατὰ Ἀριστογείτονος β΄
+tlg0014.tlg027	Demosthenes	Against Aphobus I	κατὰ Ἀφόβου ἐπιτροπῆς α΄
+tlg0014.tlg028	Demosthenes	Against Aphobus II	κατὰ Ἀφόβου β΄
+tlg0014.tlg029	Demosthenes	Against Aphobus III	πρὸς Ἄφοβον ὑπὲρ Φάνου ψευδομαρτυριῶν γ΄
+tlg0014.tlg030	Demosthenes	Against Onetor I	πρὸς Ὀνήτορα ἐξούλης α΄
+tlg0014.tlg031	Demosthenes	Against Onetor II	πρὸς Ὀνήτορα ἐξούλης β΄
+tlg0014.tlg032	Demosthenes	Against Zenothemis	πρὸς Ζηνόθεμιν παραγραφή
+tlg0014.tlg033	Demosthenes	Against Apaturius	πρὸς Ἀπατούριον παραγραφή
+tlg0014.tlg034	Demosthenes	Against Phormio	πρὸς Φορμίωνα ὑπὲρ δανείου
+tlg0014.tlg035	Demosthenes	Against Lacritus	πρὸς τὴν Λάκριτον παραγραφὴν
+tlg0014.tlg036	Demosthenes	For Phormio	παραγραφὴ ὑπὲρ Φορμίωνος
+tlg0014.tlg037	Demosthenes	Against Pantaenetus	παραγραφὴ πρὸς Πανταίνετον
+tlg0014.tlg038	Demosthenes	Against Nausimachus and Xenopeithes	παραγραφὴ πρὸς Ναυσίμακον καὶ Ξενοπείθην
+tlg0014.tlg039	Demosthenes	Against Boeotus I	πρὸς Βοιωτὸν περὶ τοῦ Ὀνόματος
+tlg0014.tlg040	Demosthenes	Against Boeotus II	πρὸς Βοιωτὸν περὶ προικὸς μητρῴας
+tlg0014.tlg041	Demosthenes	Against Spudias	πρὸς Σπουδίαν ὑπὲρ προικός
+tlg0014.tlg042	Demosthenes	Against Phaenippus	πρὸς Φαίνιππον περὶ ἀντιδόσεως
+tlg0014.tlg043	Demosthenes	Against Macartatus	πρὸς Μακάρτατον περὶ Ἁγνίου κλήρου
+tlg0014.tlg044	Demosthenes	Against Leochares	πρὸς Λεωκάρη περὶ τοῦ Ἀρχιάδου κλήρου
+tlg0014.tlg045	Demosthenes	Against Stephanus I	κατὰ Στεφάνου ψευδομαρτυριῶν α΄
+tlg0014.tlg046	Demosthenes	Against Stephanus II	κατὰ Στεφάνου ψευδομαρτυριῶν β΄
+tlg0014.tlg047	Demosthenes	Against Evergus and Mnesibulus	κατὰ Εὐέργου καὶ Μνησιβούλου ψευδομαρτυριῶν
+tlg0014.tlg048	Demosthenes	Against Olympiodorus	κατὰ Ὀλυμπιοδώρου βλάβης
+tlg0014.tlg049	Demosthenes	Apollodorus Against Timotheus	πρὸς Τιμόθεον ὑπὲρ χρέως
+tlg0014.tlg050	Demosthenes	Apollodorus Against Polycles	πρὸς Πολυκλέα περὶ τοῦ ἐπιτριηραρχήματος
+tlg0014.tlg051	Demosthenes	On the Trierarchic Crown	περὶ τοῦ Στεφάνου τῆς τριηραρκίας
+tlg0014.tlg052	Demosthenes	Apollodorus Against Callippus	πρὸς Κάλλιππον
+tlg0014.tlg053	Demosthenes	Apollodorus Against Nicostratus	πρὸς Νικόστρατον περὶ ἀνδραπόδων ἀπογραφῆς Ἀρεθουσίου
+tlg0014.tlg054	Demosthenes	Against Conon	κατὰ Κόνωνος αἰκείας
+tlg0014.tlg055	Demosthenes	Against Callicles	πρὸς Καλλικλέα περὶ χωρίου βλάβης
+tlg0014.tlg056	Demosthenes	Against Dionysodorus	κατὰ Διονυσοδώρου βλάβης
+tlg0014.tlg057	Demosthenes	Against Eubulides	ἔφεσις πρὸς Εὐβουλίδην
+tlg0014.tlg058	Demosthenes	Against Theocrines	ἔνδειξις κατὰ Θεοκρίνου
+tlg0014.tlg059	Demosthenes	Theomnestus and Apollodorus Against Neaera	κατὰ Νεαίρας
+tlg0014.tlg060	Demosthenes	The Funeral Speech	ἐπιτάφιος
+tlg0014.tlg061	Demosthenes	The Erotic Essay	ἐρωτικὸς
+tlg0014.tlg062	Demosthenes	Exordia	προοίμια δημηγορικά
+tlg0014.tlg063	Demosthenes	Letters	Δημοσθένους ἐπιστολαὶ
+tlg0015.tlg001	Herodian	Ab excessu divi Marci	
+tlg0016.tlg001	Herodotus	Histories	Ἱστορίαι
+tlg0017.tlg001	Isaeus	On The Estate of Cleonymus	Περὶ τοῦ Κλεωνύμου κλήρου
+tlg0017.tlg002	Isaeus	On the Estate of Menecles	Περὶ τοῦ Μενεκλέους κλήρου
+tlg0017.tlg003	Isaeus	On The Estate Of Pyrrhus	Περὶ τοῦ Πύρρου κλήρου
+tlg0017.tlg004	Isaeus	On the Estate of Nicostratus	Περὶ τοῦ Νικοστράτου κλήρου (ἐπίλογος)
+tlg0017.tlg005	Isaeus	On the Estate of Dicaeogenes	Περὶ τοῦ Δικαιογένους κλήρου
+tlg0017.tlg006	Isaeus	On the Estate of Philoctemon	Περὶ τοῦ Φιλοκτήμονος κλήρου
+tlg0017.tlg007	Isaeus	On The Estate of Apollodorus	Περὶ τοῦ Απολλοδώρου κλήρου
+tlg0017.tlg008	Isaeus	On The Estate of Ciron	Περὶ τοῦ Κίρωνος κλήρου
+tlg0017.tlg009	Isaeus	On the Estate of Astyphilus	Περὶ τοῦ Ἀστυφίλου κλήρου
+tlg0017.tlg010	Isaeus	On The Estate of Aristarchus	Πρὸς Ξεναίνετον περὶ τοῦ Ἀριστάρχου κλήρου
+tlg0017.tlg011	Isaeus	On the Estate of Hagnias	Περὶ τοῦ Ἁγνίου κλήρου
+tlg0017.tlg012	Isaeus	On Behalf of Euphiletus	Υπὲρ Εὐφιλήτου
+tlg0018.tlg001	Philo Judaeus	De Opificio Mundi	
+tlg0018.tlg002	Philo Judaeus	Legum Allegoriarum Libri I-III	
+tlg0018.tlg003	Philo Judaeus	De Cherubim	
+tlg0018.tlg004	Philo Judaeus	De Sacrificiis Abelis Et Caini	
+tlg0018.tlg005	Philo Judaeus	Quod Deterius Potiori Insidiari Soleat	
+tlg0018.tlg006	Philo Judaeus	De Posteritate Caini	
+tlg0018.tlg007	Philo Judaeus	De Gigantibus	
+tlg0018.tlg008	Philo Judaeus	Quod Deus Sit Immutabilis	
+tlg0018.tlg009	Philo Judaeus	De Agricultura	
+tlg0018.tlg010	Philo Judaeus	De Plantatione	
+tlg0018.tlg011	Philo Judaeus	De Ebrietate	
+tlg0018.tlg012	Philo Judaeus	De Sobrietate	
+tlg0018.tlg013	Philo Judaeus	De Confusione Linguarum	
+tlg0018.tlg014	Philo Judaeus	De Migratione Abrahami	
+tlg0018.tlg015	Philo Judaeus	Quis Rerum Divinarum Heres Sit	
+tlg0018.tlg016	Philo Judaeus	De Congressu Eruditionis Gratia	
+tlg0018.tlg017	Philo Judaeus	De Fuga Et Inventione	
+tlg0018.tlg018	Philo Judaeus	De Mutatione Nominum	
+tlg0018.tlg019	Philo Judaeus	De Somniis (lib. i-ii)	
+tlg0018.tlg020	Philo Judaeus	De Abrahamo	
+tlg0018.tlg021	Philo Judaeus	De Josepho	
+tlg0018.tlg022	Philo Judaeus	De Vita Mosis (Lib. I-II)	
+tlg0018.tlg023	Philo Judaeus	De Decalogo	
+tlg0018.tlg024	Philo Judaeus	De Specialibus Legibus (lib. i‑iv)	
+tlg0018.tlg025	Philo Judaeus	De Virtutibus	
+tlg0018.tlg026	Philo Judaeus	De Praemiis Et Poenis Et De Exsecrationibus	
+tlg0018.tlg027	Philo Judaeus	Quod Omnis Probus Liber Sit	
+tlg0018.tlg028	Philo Judaeus	De Vita Contemplativa	
+tlg0018.tlg029	Philo Judaeus	De Aeternitate Mundi	
+tlg0018.tlg030	Philo Judaeus	In Flaccum	
+tlg0018.tlg031	Philo Judaeus	Legatio Ad Gaium	
+tlg0019.tlg001	Aristophanes	Acharnians	Ἀχαρνῆς
+tlg0019.tlg002	Aristophanes	Knights	Ἱππῆς
+tlg0019.tlg003	Aristophanes	Clouds	Νεφέλαι
+tlg0019.tlg004	Aristophanes	Wasps	Σφῆκες
+tlg0019.tlg005	Aristophanes	Peace	Εἰρήνη
+tlg0019.tlg006	Aristophanes	Birds	Ὄρνιθες
+tlg0019.tlg007	Aristophanes	Lysistrata	Λυσιστράτη
+tlg0019.tlg008	Aristophanes	Thesmophoriazusae	Θεσμοφοριάζουσαι
+tlg0019.tlg009	Aristophanes	Frogs	Βάτραχοι
+tlg0019.tlg010	Aristophanes	Ecclesiazusae	Ἐκκλησιάζουσαι
+tlg0019.tlg011	Aristophanes	Wealth	Πλοῦτος
+tlg0020.tlg001	Hesiod	Theogony	
+tlg0020.tlg002	Hesiod	Works and Days	Ἔργα καὶ Ἡμέραι
+tlg0020.tlg003	Hesiod	Shield of Heracles	Ἀσπὶς Ἡρακλέους
+tlg0022.tlg001	Nicander of Colophon	Theriaca	Θηριακά
+tlg0022.tlg002	Nicander of Colophon	Alexipharmaca	Αλεξιφάρμακα
+tlg0023.tlg001	Oppian	Halieutica	Ἁλιευτικά
+tlg0024.tlg001	Oppian of Apamea	Cynegetica	Κυνηγετικά
+tlg0026.tlg001	Aeschines	Against Timarchus	Κατὰ Τιμάρχου
+tlg0026.tlg002	Aeschines	On the Embassy	Περὶ τῆς παραπρεσβείας
+tlg0026.tlg003	Aeschines	Against Ctesiphon	Κατά Κτησιφώντος
+tlg0026.tlg004	Aeschines	Epistolae	Ἐπιστολαί
+tlg0027.tlg001	Andocides	On the Mysteries	Περὶ τῶν μυστηρίων
+tlg0027.tlg002	Andocides	On His Return	Περὶ τῆς ἑαυτοῦ καθόδου
+tlg0027.tlg003	Andocides	On the Peace with Sparta	Περὶ τῆς πρὸς Λακεδαιμονίους εἰρήνης
+tlg0027.tlg004	Andocides	Against Alcibiades	Κατὰ Ἀλκιβιάδου
+tlg0028.tlg001	Antiphon	Against the Stepmother for Poisoning	Φαρμακείας κατὰ τῆς μητρυιᾶς
+tlg0028.tlg002	Antiphon	The First Tetralogy	Τετραλογία Α΄
+tlg0028.tlg003	Antiphon	The Second Tetralogy	Τετραλογία Β΄
+tlg0028.tlg004	Antiphon	The Third Tetralogy	Τετραλογία Γ΄
+tlg0028.tlg005	Antiphon	On the murder of Herodes	Περὶ τοῦ Ἡρῷδου φόνου
+tlg0028.tlg006	Antiphon	On the Choreutes	Περὶ τοῦ χορευτοῦ
+tlg0029.tlg004	Dinarchus	Against Demosthenes	Κατὰ Δημοσθένους
+tlg0029.tlg005	Dinarchus	Against Aristogiton	Κατὰ Ἀριστογείτονος
+tlg0029.tlg006	Dinarchus	Against Philocles	Κατὰ Φιλοκλέους
+tlg0030.tlg001	Hyperides	In Defence of Lycophron	Ἀπολογία ὑπὲρ Λυκόφρονος
+tlg0030.tlg002	Hyperides	Against Philippides	Κατὰ Φιλιππίδου
+tlg0030.tlg003	Hyperides	Against Athenogenes	Κατ᾽ Ἀθηνογένους
+tlg0030.tlg004	Hyperides	In Defence of Euxenippus	Ὑπὲρ Εὐξενίππου ἐισαγγελίας ἀπολογία πρὸς Πολύευκτον
+tlg0030.tlg005	Hyperides	Against Demosthenes	Κατὰ Δημοσθένους ὑπὲρ τῶν Ἁρπαλείων
+tlg0030.tlg006	Hyperides	Funeral Oration	Ἐπιτάφιος
+tlg0031.tlg001	New Testament	Gospel according to Matthew	Ματθαίος
+tlg0031.tlg002	New Testament	Gospel according to Mark	Μάρκος
+tlg0031.tlg003	New Testament	Gospel according to Luke	Λουκᾶν
+tlg0031.tlg004	New Testament	Gospel according to John	Ἰωάννην
+tlg0031.tlg005	New Testament	Acts of the Apostles	
+tlg0031.tlg006	New Testament	Letter to the Romans	Ρωμαίους
+tlg0031.tlg007	New Testament	First Letter to the Corinthians	Κορίνθιους Α′
+tlg0031.tlg008	New Testament	Second Letter to the Corinthians	Κορίνθιους Β′
+tlg0031.tlg009	New Testament	Letter to the Galatians	Γαλάτας
+tlg0031.tlg010	New Testament	Letter to the Ephesians	Ἐφεσίους
+tlg0031.tlg011	New Testament	Letter to the Philippians	Φιλιππηνίους
+tlg0031.tlg012	New Testament	Letter to the Colossians	Κολασσαείς
+tlg0031.tlg013	New Testament	First Letter to the Thessalonians	Θεσσαλονικείς Α′
+tlg0031.tlg014	New Testament	Second Letter to the Thessalonians	Θεσσαλονικείς Β′
+tlg0031.tlg015	New Testament	First Letter to Timothy	Τιμόθεον Α′
+tlg0031.tlg016	New Testament	Second Letter to Timothy	>Τιμόθεον B′
+tlg0031.tlg017	New Testament	Letter of Paul to Titus	Τίτον
+tlg0031.tlg018	New Testament	Letter of Paul to Philemon	Φιλήμονα
+tlg0031.tlg019	New Testament	Epistle to the Hebrews	Ἑβραίους
+tlg0031.tlg020	New Testament	Book of James	Ἰακώβου
+tlg0031.tlg021	New Testament	First Letter of Peter	Πέτρου Α′
+tlg0031.tlg022	New Testament	Second Letter of Peter	Πέτρου B′
+tlg0031.tlg023	New Testament	First Letter of John	Ἰωάννου Α′
+tlg0031.tlg024	New Testament	Second Letter of John	Ἰωάννου Β′
+tlg0031.tlg025	New Testament	Third Letter of John	Ἰωάννου Γ′
+tlg0031.tlg026	New Testament	Epistle of Jude	Ἰούδου
+tlg0031.tlg027	New Testament	Book of Revelation	Ἀποκάλυψις
+tlg0032.tlg001	Xenophon	Hellenica	Ἑλληνικά
+tlg0032.tlg002	Xenophon	Memorabilia	Ἀπομνημονεύματα
+tlg0032.tlg003	Xenophon	Economics	Οἰκονομικός
+tlg0032.tlg004	Xenophon	Symposium	Συμπόσιον
+tlg0032.tlg005	Xenophon	Apology	Ἀπολογία Σωκράτους
+tlg0032.tlg006	Xenophon	Anabasis	Ἀνάβασις
+tlg0032.tlg007	Xenophon	Cyropaedia	Κύρου παιδεία
+tlg0032.tlg008	Xenophon	Hiero	Ἱέρων
+tlg0032.tlg009	Xenophon	Agesilaus	Ἀγησίλαος
+tlg0032.tlg010	Xenophon	Constitution of the Lacedaimonians	Λακεδαιμονίων Πολιτεία
+tlg0032.tlg011	Xenophon	Ways and Means	Πόροι ἢ περὶ προσόδων
+tlg0032.tlg012	Xenophon	On the Cavalry Commander	Ἱππαρχικός
+tlg0032.tlg013	Xenophon	On the Art of Horsemanship	Περὶ ἱππικῆς
+tlg0032.tlg014	Xenophon	On Hunting	Κυνηγετικός
+tlg0033.tlg001	Pindar	Olympian	Ὀλυμπιονῖκαι
+tlg0033.tlg002	Pindar	Pythian	Πυθιονῖκαι
+tlg0033.tlg003	Pindar	Nemean	Νεμεονῖκαι
+tlg0033.tlg004	Pindar	Isthmean	Ἰσθμιονῖκαι
+tlg0034.tlg001	Lycurgus	Against Leocrates	Κατὰ Λεωκράτους
+tlg0035.tlg001	Moschus	Eros Drapeta	Ἔρως δραπέτης
+tlg0035.tlg002	Moschus	Europa	Εὐρώπη
+tlg0035.tlg003	Moschus	Epitaphius Bios	Ἐπιτάφιος Βίωνος
+tlg0035.tlg004	Moschus	Megara	Μεγάρα
+tlg0035.tlg005	Moschus	Fragmenta	
+tlg0036.tlg001	Bion of Phlossa	Epitaphius Adonis	Αδώνιδος επιτάφιος
+tlg0036.tlg002	Bion of Phlossa	Epithalamium Achillis et Deidameiae	Μύρσων καὶ Λυκίδας
+tlg0036.tlg003	Bion of Phlossa	Fragmenta	
+tlg0037.tlg001	Anacharsis	Epistulae	
+tlg0039.tlg001	Mithridatis Epistula	Epistula	
+tlg0041.tlg001	Chionis Epistulae	Epistulae	
+tlg0044.tlg001	Antiochus Epistolographus	Epistulae	
+tlg0045.tlg001	Artaxerxis Epistulae	Epistulae	
+tlg0046.tlg001	Niciae Epistula	Epistula	
+tlg0048.tlg001	Philip II, King of Macedonia	Epistulae	
+tlg0053.tlg001	Phalaridis Epistulae	Epistulae	
+tlg0055.tlg001	Themistocles	Epistulae	
+tlg0057.tlg001	Galenus	Adhortatio ad artes addiscendas	
+tlg0057.tlg002	Galenus	De optima doctrina	
+tlg0057.tlg003	Galenus	Quod optimus medicus sit quoque philosophus	
+tlg0057.tlg004	Galenus	De sectis ad eos qui introducuntur	
+tlg0057.tlg006	Galenus	De constitutione artis medicae ad Patrophilum	
+tlg0057.tlg007	Galenus	Ars Medica	
+tlg0057.tlg008	Galenus	De elementis ex Hippocrate	
+tlg0057.tlg009	Galenus	De temperamentis	
+tlg0057.tlg010	Galenus	De naturalibus facultatibus	Περί φυσικῶν δυνάμεων
+tlg0057.tlg011	Galenus	De anatomicis administrationibus	
+tlg0057.tlg012	Galenus	De ossibus ad tirones	
+tlg0057.tlg013	Galenus	De venarum arteriarumque dissectione	
+tlg0057.tlg014	Galenus	De nervorum dissectione	
+tlg0057.tlg015	Galenus	De instrumento odoratus	
+tlg0057.tlg016	Galenus	De uteri dissectione	
+tlg0057.tlg017	Galenus	De usu partium corporis humani I-XI	
+tlg0057.tlg018	Galenus	De motu musculorum	
+tlg0057.tlg019	Galenus	De victu attenuante	
+tlg0057.tlg020	Galenus	De utilitate respirationis	
+tlg0057.tlg021	Galenus	De semine	
+tlg0057.tlg022	Galenus	De foetuum formatione	
+tlg0057.tlg023	Galenus	An in arteriis sanguis contineatur	
+tlg0057.tlg024	Galenus	De optima corporis nostri constitutione	
+tlg0057.tlg025	Galenus	De bono habitu	
+tlg0057.tlg027	Galenus	Quod animi mores corporis temperamenta sequantur	
+tlg0057.tlg028	Galenus	De propriorum animi cuiuslibet affectuum dignotione et curatione	
+tlg0057.tlg029	Galenus	De animi cuiuslibet peccatorum dignotione et curatione	
+tlg0057.tlg030	Galenus	De atra bile	
+tlg0057.tlg031	Galenus	De usu pulsuum	
+tlg0057.tlg032	Galenus	De placitis Hippocratis et Platonis	
+tlg0057.tlg033	Galenus	Thrasybulus sive utrum medicinae sit an gymnasticae hygieine	
+tlg0057.tlg034	Galenus	De parvae pilae exercitio	
+tlg0057.tlg035	Galenus	De venereis	
+tlg0057.tlg036	Galenus	De sanitate tuenda	
+tlg0057.tlg037	Galenus	De alimentorum facultatibus	Περὶ τῶν ἐν ταῖς τροφαῖς δυνάμεων
+tlg0057.tlg038	Galenus	De rebus boni malique suci	
+tlg0057.tlg039	Galenus	De ptisana	
+tlg0057.tlg040	Galenus	De dignotione ex insomniis	
+tlg0057.tlg041	Galenus	De morborum differentiis	
+tlg0057.tlg042	Galenus	De causis morborum	
+tlg0057.tlg043	Galenus	De symptomatum differentiis	
+tlg0057.tlg044	Galenus	De symptomatum causis	
+tlg0057.tlg045	Galenus	De differentiis febrium	
+tlg0057.tlg046	Galenus	De morborum temporibus	
+tlg0057.tlg047	Galenus	De totius morbi temporibus	
+tlg0057.tlg048	Galenus	De typis	
+tlg0057.tlg049	Galenus	Adversus eos qui de typis scripserunt vel de circuitibus	
+tlg0057.tlg050	Galenus	De plenitudine	
+tlg0057.tlg051	Galenus	De tremore, palpitatione, convulsione et rigore	
+tlg0057.tlg052	Galenus	De comate secundum Hippocratem	
+tlg0057.tlg053	Galenus	De marcore	
+tlg0057.tlg054	Galenus	De tumoribus praeter naturam	
+tlg0057.tlg055	Galenus	De inaequali intemperie	
+tlg0057.tlg056	Galenus	De difficultate respirationis	
+tlg0057.tlg057	Galenus	De locis affectis	
+tlg0057.tlg058	Galenus	De pulsibus ad tirones	
+tlg0057.tlg059	Galenus	De differentiis pulsuum	
+tlg0057.tlg060	Galenus	De dignoscendis pulsibus	
+tlg0057.tlg061	Galenus	De causis pulsuum	
+tlg0057.tlg062	Galenus	De praesagitione ex pulsibus	
+tlg0057.tlg063	Galenus	Synopsis librorum suorum de pulsibus	
+tlg0057.tlg064	Galenus	De crisibus	
+tlg0057.tlg065	Galenus	De diebus decretoriis	
+tlg0057.tlg066	Galenus	De methodo medendi	
+tlg0057.tlg067	Galenus	Ad Glauconem de methodo medendi	
+tlg0057.tlg068	Galenus	De venae sectione adversus Erasistratum	
+tlg0057.tlg069	Galenus	De venae sectione adversus Erasistrateos Romae degentes	
+tlg0057.tlg070	Galenus	De curandi ratione per venae sectionem	
+tlg0057.tlg071	Galenus	De hirudinibus, revulsione, cucurbitula, incisione et scarificatione	
+tlg0057.tlg072	Galenus	De purgantium medicamentorum facultate	
+tlg0057.tlg073	Galenus	Quos quibus catharticis medicamentis et quando purgare oporteat	
+tlg0057.tlg074	Galenus	Pro puero epileptico consilium	
+tlg0057.tlg075	Galenus	De simplicium medicamentorum temperamentis ac facultatibus I-VI	
+tlg0057.tlg076	Galenus	De compositione medicamentorum secundum locos libri X	
+tlg0057.tlg077	Galenus	De compositione medicamentorum per genera	
+tlg0057.tlg078	Galenus	De antidotis	
+tlg0057.tlg079	Galenus	De theriaca ad Pisonem	
+tlg0057.tlg081	Galenus	Institutio logica	
+tlg0057.tlg082	Galenus	De sophismatis seu captionibus penes dictionem	
+tlg0057.tlg083	Galenus	De praenotione ad Epigenem	
+tlg0057.tlg084	Galenus	De substantia facultatum naturalium fragmentum	
+tlg0057.tlg085	Galenus	In Hippocratis De natura hominis	
+tlg0057.tlg086	Galenus	In Hippocratis vel Polybi Opus de Salubri Victus Ratione Privatorum Commentarius	
+tlg0057.tlg087	Galenus	In Hippocratis De victu acutorum	
+tlg0057.tlg089	Galenus	In Hippocratis Epidemiarum I	
+tlg0057.tlg092	Galenus	In Hippocratis Aphorismos Commentarii VII	
+tlg0057.tlg093	Galenus	Adversus Lycum	
+tlg0057.tlg094	Galenus	Adversus ea quae Juliano in Hippocratis Aphorismos enuntiata sunt	
+tlg0057.tlg095	Galenus	In Hippocratis De articulis	
+tlg0057.tlg096	Galenus	De Humero iis Modis Prolapso quos Hippocrates non Vidit	
+tlg0057.tlg099	Galenus	In Hippocratis Prognosticum	
+tlg0057.tlg100	Galenus	In Hippocratis De fracturis	
+tlg0057.tlg101	Galenus	In Hippocratis De officina medici	
+tlg0057.tlg102	Galenus	De musculorum dissectione ad tirones	
+tlg0057.tlg103	Galenus	De consuetudinibus	
+tlg0057.tlg107	Galenus	De experientia medica	
+tlg0057.tlg114	Galenus	De causis respirationis	
+tlg0058.tlg001	Aeneas Tacticus	Poliorcetica	Περὶ τοῦ πῶς χρὴ πολιορκουμένους ἀντέχειν
+tlg0059.tlg001	Plato	Euthyphro	Εὐθύφρων
+tlg0059.tlg002	Plato	Apology	Ἀπολογία Σωκράτους
+tlg0059.tlg003	Plato	Crito	Κρίτων
+tlg0059.tlg004	Plato	Phaedo	Φαίδων
+tlg0059.tlg005	Plato	Cratylus	Κρατύλος
+tlg0059.tlg006	Plato	Theaetetus	Θεαίτητος
+tlg0059.tlg007	Plato	Sophist	Σοφιστής
+tlg0059.tlg008	Plato	Statesman	Πολιτικός
+tlg0059.tlg009	Plato	Parmenides	Παρμενίδης
+tlg0059.tlg010	Plato	Philebus	Φίληβος
+tlg0059.tlg011	Plato	Symposium	Συμπόσιον
+tlg0059.tlg012	Plato	Phaedrus	Φαῖδρος
+tlg0059.tlg013	Plato	Alcibiades 1	Ἀλκιβιάδης αʹ
+tlg0059.tlg014	Plato	Alcibiades 2	Ἀλκιβιάδης βʹ
+tlg0059.tlg015	Plato	Hipparchus	Ἵππαρχος
+tlg0059.tlg016	Plato	Lovers	Ἐρασταί
+tlg0059.tlg017	Plato	Theages	Θεάγης
+tlg0059.tlg018	Plato	Charmides	Χαρμίδης
+tlg0059.tlg019	Plato	Laches	Λάχης
+tlg0059.tlg020	Plato	Lysis	Λύσις
+tlg0059.tlg021	Plato	Euthydemus	Εὐθύδημος
+tlg0059.tlg022	Plato	Protagoras	Πρωταγόρας
+tlg0059.tlg023	Plato	Gorgias	Γοργίας
+tlg0059.tlg024	Plato	Meno	Μένων
+tlg0059.tlg025	Plato	Hippias Major	Ἱππίας μείζων
+tlg0059.tlg026	Plato	Hippias Minor	Ἱππίας ἐλάττων
+tlg0059.tlg027	Plato	Ion	Ἴων
+tlg0059.tlg028	Plato	Menexenus	Μενέξενος
+tlg0059.tlg029	Plato	Cleitophon	Κλειτοφῶν
+tlg0059.tlg030	Plato	Republic	Πολιτεία
+tlg0059.tlg031	Plato	Timaeus	Τίμαιος
+tlg0059.tlg032	Plato	Critias	Κριτίας
+tlg0059.tlg033	Plato	Minos	Μίνως
+tlg0059.tlg034	Plato	Laws	Νόμοι
+tlg0059.tlg035	Plato	Epinomis	Ἐπινομίς
+tlg0059.tlg036	Plato	Epistles	Ἐπιστολαί
+tlg0059.tlg037	Plato	Definitiones	Ὅροι
+tlg0060.tlg001	Diodorus Siculus	Historical Library	
+tlg0061.tlg001	Pseudo-Lucian	Asinus	
+tlg0061.tlg002	Pseudo-Lucian	Amores	Ἔρωτες
+tlg0061.tlg003	Pseudo-Lucian	Demosthenis encomium	
+tlg0061.tlg004	Pseudo-Lucian	Halcyon	
+tlg0061.tlg005	Pseudo-Lucian	Ocypus	Ὠκύπους
+tlg0061.tlg006	Pseudo-Lucian	Cynicus	
+tlg0061.tlg007	Pseudo-Lucian	Philopatris	Φιλόπατρις ἢ Διδασκόμενος
+tlg0061.tlg008	Pseudo-Lucian	Charidemus	Χαρίδημος ἢ Περὶ Κάλλους
+tlg0062.tlg001	Lucian of Samosata	Phalaris	Φάλαρις
+tlg0062.tlg002	Lucian of Samosata	Hippias	Ἱππίας ἢ Βαλανεῖον
+tlg0062.tlg003	Lucian of Samosata	Bacchus	Προλαλιά. Διόνυσος
+tlg0062.tlg004	Lucian of Samosata	Hercules	Προλαλιά. Ἡρακλῆς
+tlg0062.tlg005	Lucian of Samosata	Electrum	Περὶ τοῦ Ἡλέκτρου ἢ Κύκνων
+tlg0062.tlg006	Lucian of Samosata	Muscae Encomium	Μυίας Ἐγκώμιον
+tlg0062.tlg007	Lucian of Samosata	Nigrinus	Νιγρίνου Φιλοσοφία
+tlg0062.tlg008	Lucian of Samosata	Demonax	Δημώνακτος Βίος
+tlg0062.tlg009	Lucian of Samosata	De Domo	Περὶ τοῦ Οἴκου
+tlg0062.tlg010	Lucian of Samosata	Patriae encomium	Πατρίδος Ἐγκώμιον
+tlg0062.tlg011	Lucian of Samosata	Macrobii	Μακρόβιοι
+tlg0062.tlg012	Lucian of Samosata	Verae historiae	Ἀληθῶν Διηγημάτων
+tlg0062.tlg013	Lucian of Samosata	Calumniae non temere credundum	Περὶ τοῦ μὴ ῥᾳδίως πιστεύειν Διαβολῇ
+tlg0062.tlg014	Lucian of Samosata	Judicium vocalium	Δίκη Συμφώνων
+tlg0062.tlg015	Lucian of Samosata	Symposium	Συμπόσιον ἢ Λαπίθαι
+tlg0062.tlg016	Lucian of Samosata	Cataplus	Κατάπλους ἢ Τύραννος
+tlg0062.tlg017	Lucian of Samosata	Juppiter Confutatus	Ζεὺς ἐλεγχόμενος
+tlg0062.tlg018	Lucian of Samosata	Juppiter Tragoedus	Ζεὺς Τραγῳδός
+tlg0062.tlg019	Lucian of Samosata	Gallus	Ὄνειρος ἢ Ἀλεκτρυών
+tlg0062.tlg020	Lucian of Samosata	Prometheus	Προμηθεύς
+tlg0062.tlg021	Lucian of Samosata	Icaromenippus	Ἰκαρομένιππος ἢ Ὑπερνέφελος
+tlg0062.tlg022	Lucian of Samosata	Timon	Τίμων
+tlg0062.tlg023	Lucian of Samosata	Contemplantes	Χάρων ἢ Ἐπισκοποῦντες
+tlg0062.tlg024	Lucian of Samosata	Vitarum auctio	Βίων Πρᾶσις
+tlg0062.tlg025	Lucian of Samosata	Piscator	Ἀναβιοῦντες ἢ Ἁλιεύς
+tlg0062.tlg026	Lucian of Samosata	Bis accusatus sive tribunalia	Δὶς κατηγορούμενος
+tlg0062.tlg027	Lucian of Samosata	De Sacrificiis	Περὶ Θυσιῶν
+tlg0062.tlg028	Lucian of Samosata	Adversus indoctum et libros multos ementem	Πρὸς τὸν ἀπαίδευτον καὶ πολλὰ βιβλία ὠνούμενον
+tlg0062.tlg029	Lucian of Samosata	Somnium sive vita Luciani	Περὶ τοῦ Ἐνυπνίου ἤτοι Βίος Λουκιανοῦ
+tlg0062.tlg030	Lucian of Samosata	De parasito sive artem esse parasiticam	Περὶ τοῦ Παρασίτου ὅτι Τέχνη ἡ Παρασιτική
+tlg0062.tlg031	Lucian of Samosata	Philopseudes sive incredulus	Φιλοψευδὴς ἢ Ἀπιστῶν
+tlg0062.tlg032	Lucian of Samosata	Dearum judicium	Θεῶν Κρίσις
+tlg0062.tlg033	Lucian of Samosata	De mercede	Περὶ τῶν ἐν Μισθῷ συνόντων
+tlg0062.tlg034	Lucian of Samosata	Anacharsis	Ἀνάχαρσις ἢ Περὶ Γυμνασίων
+tlg0062.tlg035	Lucian of Samosata	Necyomantia	Μένιππος ἢ Νεκυομαντεία
+tlg0062.tlg036	Lucian of Samosata	De luctu	Περὶ Πένθους
+tlg0062.tlg037	Lucian of Samosata	Rhetorum praeceptor	Ῥητόρων Διδάσκαλος
+tlg0062.tlg038	Lucian of Samosata	Alexander	Ἀλέξανδρος ἢ Ψευδόμαντις
+tlg0062.tlg039	Lucian of Samosata	Imagines	Εἰκόνες
+tlg0062.tlg040	Lucian of Samosata	Pro imaginibus	Ὑπὲρ τῶν Εἰκόνων
+tlg0062.tlg041	Lucian of Samosata	De Syria dea	Περὶ τῆς Συρίης Θεοῦ
+tlg0062.tlg042	Lucian of Samosata	De Morte Peregrini	Περὶ τῆς Περεγρίνου Τελευτῆς
+tlg0062.tlg043	Lucian of Samosata	Fugitivi	Δραπέται
+tlg0062.tlg044	Lucian of Samosata	Toxaris vel amicitia	Τόξαρις ἢ Φιλία
+tlg0062.tlg045	Lucian of Samosata	De saltatione	Περὶ Ὀρχήσεως
+tlg0062.tlg046	Lucian of Samosata	Lexiphanes	Λεξιφάνης
+tlg0062.tlg047	Lucian of Samosata	Eunuchus	Εὐνοῦχος
+tlg0062.tlg048	Lucian of Samosata	De astrologia	Περὶ τῆς Ἀστρολογίας
+tlg0062.tlg049	Lucian of Samosata	Pseudologista	Ψευδολογιστής
+tlg0062.tlg050	Lucian of Samosata	Deorum concilium	Θεῶν Ἐκκλησία
+tlg0062.tlg051	Lucian of Samosata	Tyrannicida	Τυραννοκτόνος
+tlg0062.tlg052	Lucian of Samosata	Abdicatus	Ἀποκηρυττόμενος
+tlg0062.tlg053	Lucian of Samosata	Quomodo historia conscribenda sit	Πῶς δεῖ Ἱστορίαν συγγράφειν
+tlg0062.tlg054	Lucian of Samosata	Dipsades	Περὶ τῶν Διψάδων
+tlg0062.tlg055	Lucian of Samosata	Saturnalia	Τὰ πρὸς Κρόνον
+tlg0062.tlg056	Lucian of Samosata	Herodotus	Ἡρόδοτος ἢ Ἀετίων
+tlg0062.tlg057	Lucian of Samosata	Zeuxis	Ζεύξις ἢ Ἀντίοχος
+tlg0062.tlg058	Lucian of Samosata	Pro lapsu inter salutandum	Ὑπὲρ τοῦ ἐν τῇ Προσαγορεύσει Πταίσματος
+tlg0062.tlg059	Lucian of Samosata	Apologia	Ἀπολογία
+tlg0062.tlg060	Lucian of Samosata	Harmonides	Ἁρμονίδης
+tlg0062.tlg061	Lucian of Samosata	Hesiod	Διάλογος πρὸς Ἡσίοδον
+tlg0062.tlg062	Lucian of Samosata	Scytha	Σκύθης ἢ Πρόξενος
+tlg0062.tlg063	Lucian of Samosata	Hermotimus	Ἑρμότιμος ἢ Περὶ Αἱρέσεων
+tlg0062.tlg064	Lucian of Samosata	Prometheus es in verbis	Πρὸς τὸν εἰπόντα Προμηθεὺς εἶ ἐν λόγοις
+tlg0062.tlg065	Lucian of Samosata	Navigium	Πλοῖον ἢ Εὐχαί
+tlg0062.tlg066	Lucian of Samosata	Dialogi mortuorum	Νεκρικοὶ Διάλογοι
+tlg0062.tlg067	Lucian of Samosata	Dialogi Marini	Ἐνάλιοι Διάλογοι
+tlg0062.tlg068	Lucian of Samosata	Dialogi deorum	Θεῶν Διάλογοι
+tlg0062.tlg069	Lucian of Samosata	Dialogi meretricii	Ἑταιρικοὶ Διάλογοι
+tlg0062.tlg070	Lucian of Samosata	Soleocista	Ψευδοσοφιστής ἢ Σολοικιστής
+tlg0062.tlg071	Lucian of Samosata	Podagra	Ποδάγρα
+tlg0064.tlg001	Hanno	Periplus Hannonis	
+tlg0065.tlg001	Scylax of Caryanda	Periplus Scylacis	
+tlg0066.tlg001	Heraclides, Criticus	Descriptio Graeciae	
+tlg0067.tlg001	Agatharchides	De Rubro Mari	
+tlg0068.tlg001	Pseudo-Scymnus	Ad Nicomedem regem, vv. 1-980	
+tlg0069.tlg001	Dionysius, Calliphontis	Descriptio Graeciae	
+tlg0070.tlg001	Isidore, of Charax	Mansiones Parthicae	
+tlg0071.tlg001	Pseudo-Arrianus	Anonymi (Arriani, ut fertur) periplus maris Erythraei	
+tlg0074.tlg001	Arrian	Ἀλεξάνδρου Ἀνάβασις	
+tlg0074.tlg002	Arrian	Indica	Ἰνδική
+tlg0074.tlg003	Arrian	Cynegeticus	Κυνηγετικός
+tlg0074.tlg004	Arrian	Periplus Ponti Euxini	Περίπλους τοῦ Εὐξείνου Πόντου
+tlg0074.tlg005	Arrian	Tactica	Τέχνη τακτική
+tlg0074.tlg006	Arrian	Acies Contra Alanos	Ἔκταξις κατὰ Ἀλανῶν
+tlg0074.tlg008	Arrian	Epistula ad Lucium Gellium	
+tlg0075.tlg001	Pseudo-Arrianus	Anonymi (Arriani, ut fertur) periplus ponti Euxini	
+tlg0077.tlg001	Stadiasmus Magni Maris	Stadiasmus Magni Maris	
+tlg0081.tlg001	Dionysius of Halicarnassus	Antiquitates Romanae	Ῥωμαϊκὴ Ἀρχαιολογία
+tlg0081.tlg002	Dionysius of Halicarnassus	De antiquis oratoribus	Περὶ τῶν ἀρχαίων ῥητόρων
+tlg0081.tlg003	Dionysius of Halicarnassus	De Lysia	Λυσίας συρακούσιος πατρόθεν
+tlg0081.tlg004	Dionysius of Halicarnassus	De Isocrate	Ἰσοκρατης Ἀθηναῖος
+tlg0081.tlg005	Dionysius of Halicarnassus	De Isaeo	Ἰσαῖος Ἀθηναῖος
+tlg0081.tlg006	Dionysius of Halicarnassus	De Demosthene	Περί της Δημοσθένους λέξεως
+tlg0081.tlg007	Dionysius of Halicarnassus	Libri secundi de antiquis oratoribus reliquiae	
+tlg0081.tlg008	Dionysius of Halicarnassus	Ad Ammaeum	Ἐπιστολὴ πρὸς Ἀμμαῖον
+tlg0081.tlg009	Dionysius of Halicarnassus	De Dinarcho	Περὶ Δεινάρχου
+tlg0081.tlg010	Dionysius of Halicarnassus	De Thucydide	Περὶ Θουκιδίδου
+tlg0081.tlg011	Dionysius of Halicarnassus	De Thucydidis idiomatibus	Περὶ τῶν Θουκιδίδου ἰδιωμάτων πρὸς Ἀμμαῖον
+tlg0081.tlg012	Dionysius of Halicarnassus	De Compositione Verborum	Περὶ συνθέσεως ὀνομάτων
+tlg0081.tlg013	Dionysius of Halicarnassus	De compositione verborum (epitome)	
+tlg0081.tlg014	Dionysius of Halicarnassus	De imitatione (fragmenta)	
+tlg0081.tlg015	Dionysius of Halicarnassus	Epistula ad Pompeium Geminum	Ἐπιστολὴ πρὸς Πομπήιον
+tlg0081.tlg016	Dionysius of Halicarnassus	Ars Rhetorica	
+tlg0082.tlg001	Apollonius Dyscolus	De pronominibus	Περὶ ἀντωνυμίας
+tlg0082.tlg002	Apollonius Dyscolus	De adverbiis	Περὶ ἐπιρρημάτων
+tlg0082.tlg003	Apollonius Dyscolus	De Conjuctionibus	Περὶ συνδέσμων
+tlg0082.tlg004	Apollonius Dyscolus	De constructione	Περὶ συντάξεως
+tlg0083.tlg003	Dionysius of Byzantium	De Bospori Navigatione	
+tlg0084.tlg001	Dionysius Periegetes	Orbis Descriptio	
+tlg0085.tlg001	Aeschylus	Supplices	Ἱκέτιδες
+tlg0085.tlg002	Aeschylus	Persians	Πέρσαι
+tlg0085.tlg003	Aeschylus	Prometheus Bound	Προμηθεὺς δεσμώτης
+tlg0085.tlg004	Aeschylus	Seven Against Thebes	Ἑπτὰ ἐπὶ Θήβας
+tlg0085.tlg005	Aeschylus	Agamemnon	Ἀγαμέμνων
+tlg0085.tlg006	Aeschylus	Libation Bearers	Χοηφóρoι
+tlg0085.tlg007	Aeschylus	Eumenides	Εὐμενίδες
+tlg0086.tlg001	Aristotle	Analytica priora	
+tlg0086.tlg002	Aristotle	De anima	
+tlg0086.tlg003	Aristotle	Constitution of the Athenians	Ἀθηναίων πολιτεία
+tlg0086.tlg004	Aristotle	De audibilibus	Ἐκ τοῦ περὶ ἀκουστῶν
+tlg0086.tlg005	Aristotle	De caelo	
+tlg0086.tlg006	Aristotle	Categoriae	
+tlg0086.tlg007	Aristotle	De coloribus	Περί χρωμάτων
+tlg0086.tlg008	Aristotle	De divinatione per somnum	
+tlg0086.tlg009	Aristotle	Eudemian Ethics	Ἠθικὰ Εὐδήμεια
+tlg0086.tlg010	Aristotle	Nicomachean Ethics	Ἠθικὰ Νικομάχεια
+tlg0086.tlg011	Aristotle	Epistulae	
+tlg0086.tlg012	Aristotle	De Generatione Animalium	
+tlg0086.tlg013	Aristotle	De generatione et corruptione	
+tlg0086.tlg014	Aristotle	Historia animalium	
+tlg0086.tlg015	Aristotle	De animalium incessu	
+tlg0086.tlg016	Aristotle	De insomniis	
+tlg0086.tlg017	Aristotle	De interpretatione	
+tlg0086.tlg018	Aristotle	De iuventute et senectute, De vita et morte	
+tlg0086.tlg019	Aristotle	De lineis insecabilibus	Περὶ ἀτόμων γραμμῶν
+tlg0086.tlg020	Aristotle	De longitudine et brevitate vitae	
+tlg0086.tlg021	Aristotle	De animalium motione	
+tlg0086.tlg022	Aristotle	Magna Moralia	
+tlg0086.tlg023	Aristotle	Mechanica	Μηχανικά
+tlg0086.tlg024	Aristotle	De memoria et reminiscentia	
+tlg0086.tlg025	Aristotle	Metaphysics	τὰ Μετὰ τὰ Φυσικά
+tlg0086.tlg026	Aristotle	Meteorologica	
+tlg0086.tlg027	Aristotle	Mirabilium auscultationes	Περὶ θαυμασίων ἀκουσμάτων
+tlg0086.tlg029	Aristotle	Economics	Οἰκονομικά
+tlg0086.tlg030	Aristotle	De partibus animalium	
+tlg0086.tlg031	Aristotle	Physica	
+tlg0086.tlg032	Aristotle	Physiognomonica	Φυσιογνωμονικά
+tlg0086.tlg034	Aristotle	Poetics	Περὶ ποιητικῆς
+tlg0086.tlg035	Aristotle	Politics	Πολιτικά
+tlg0086.tlg036	Aristotle	Problemata	᾿Αριστοτέλους φυσικά προβλήματα κατ᾿ εἶδος συναγώγης
+tlg0086.tlg037	Aristotle	De respiratione	
+tlg0086.tlg038	Aristotle	Rhetoric	Ῥητορική
+tlg0086.tlg039	Aristotle	De plantis	Περὶ φυτῶν
+tlg0086.tlg040	Aristotle	De sophisticis elenchis	
+tlg0086.tlg041	Aristotle	De sensu et sensibilibus	
+tlg0086.tlg042	Aristotle	De somno et vigilia	
+tlg0086.tlg043	Aristotle	De spiritu	
+tlg0086.tlg044	Aristotle	Topica	
+tlg0086.tlg045	Aristotle	On Virtues and Vices	περὶ Ἀρετῶν καὶ Κακιῶν
+tlg0086.tlg046	Aristotle	De ventorum situ et nominibus	Ἀνέμων θέσεις καὶ προσηγορίαι
+tlg0086.tlg047	Aristotle	De Xenophane, de Zenone, de Gorgia	Περὶ Ξενοφάνους, περὶ Ζήνωνος, περὶ Γοργίου
+tlg0086.tlg048	Aristotle	Divisiones Aristoteleae	
+tlg0086.tlg052	Aristotle	De anima (codicis E fragmenta recensionis a vulgata diversae)	
+tlg0086.tlg054	Aristotle	Physica (textus alter)	
+tlg0087.tlg001	Aelius Herodianus	De prosodia catholica	Περι Καθολικης Προσῳδιας
+tlg0087.tlg002	Aelius Herodianus	On Enclitics	Περὶ ἐγκλινομένων
+tlg0087.tlg004	Aelius Herodianus	Περὶ διχρόνων	Περὶ διχρόνων
+tlg0087.tlg005	Aelius Herodianus	Περὶ πνευμάτων	Περὶ πνευμάτων
+tlg0087.tlg006	Aelius Herodianus	Περὶ Ἀττικῆς προσῳδίας	Περὶ Ἀττικῆς προσῳδίας
+tlg0087.tlg007	Aelius Herodianus	Περὶ Ἰλιακῆς προσῳδίας	Περὶ Ἰλιακῆς προσῳδίας
+tlg0087.tlg008	Aelius Herodianus	Περὶ Ὀδυσσειακῆς προσῳδίας	Περὶ Ὀδυσσειακῆς προσῳδίας
+tlg0087.tlg009	Aelius Herodianus	Περὶ παθῶν	Περὶ παθῶν
+tlg0087.tlg009a	Aelius Herodianus	Ἐκ τῶν Ἡρωδιανοῦ ὑπομνημάτων τῶν περὶ παθῶν Διδύμου	Ἐκ τῶν Ἡρωδιανοῦ ὑπομνημάτων τῶν περὶ παθῶν Διδύμου
+tlg0087.tlg010	Aelius Herodianus	Περὶ συντάξεως τῶν στοιχείων	Περὶ συντάξεως τῶν στοιχείων
+tlg0087.tlg011	Aelius Herodianus	Περὶ ὀρθογραφίας	Περὶ ὀρθογραφίας
+tlg0087.tlg012	Aelius Herodianus	Περὶ ὀνομάτων	Περὶ ὀνομάτων
+tlg0087.tlg013	Aelius Herodianus	Περὶ κλίσεως ὀνομάτων	Περὶ κλίσεως ὀνομάτων
+tlg0087.tlg014	Aelius Herodianus	Εἰς τὸ περὶ γενῶν Ἀπολλωνίου ὑπόμνημα	Εἰς τὸ περὶ γενῶν Ἀπολλωνίου ὑπόμνημα
+tlg0087.tlg015	Aelius Herodianus	Μονόβιβλον περὶ τοῦ ὕδωρ	Μονόβιβλον περὶ τοῦ ὕδωρ
+tlg0087.tlg016	Aelius Herodianus	Περὶ τοῦ ζώς	Περὶ τοῦ ζώς
+tlg0087.tlg017	Aelius Herodianus	Περὶ συζυγιῶν	Περὶ συζυγιῶν
+tlg0087.tlg018	Aelius Herodianus	Μονόβιβλον περὶ τοῦ μὴ πάντα τὰ ῥήματα κλίνεσθαι εἰς πάντας τοὺς χρόνους	Μονόβιβλον περὶ τοῦ μὴ πάντα τὰ ῥήματα κλίνεσθαι εἰς πάντας τοὺς χρόνους
+tlg0087.tlg019	Aelius Herodianus	Περὶ μετοχῶν	Περὶ μετοχῶν
+tlg0087.tlg020	Aelius Herodianus	Μονόβιβλον περὶ τοῦ ἦν	Μονόβιβλον περὶ τοῦ ἦν
+tlg0087.tlg021	Aelius Herodianus	Περὶ ῥημάτων	Περὶ ῥημάτων
+tlg0087.tlg022	Aelius Herodianus	Περὶ τῶν εἰς μι	Περὶ τῶν εἰς μι
+tlg0087.tlg023	Aelius Herodianus	Περὶ ἀντωνυμιῶν	Περὶ ἀντωνυμιῶν
+tlg0087.tlg024	Aelius Herodianus	Περὶ ἐπιρρημάτων	Περὶ ἐπιρρημάτων
+tlg0087.tlg025	Aelius Herodianus	De figuris	Περὶ σχημάτων
+tlg0087.tlg026	Aelius Herodianus	Περὶ παρωνύμων	Περὶ παρωνύμων
+tlg0087.tlg027	Aelius Herodianus	Περὶ ῥηματικῶν ὀνομάτων	Περὶ ῥηματικῶν ὀνομάτων
+tlg0087.tlg028	Aelius Herodianus	Περὶ μονοσυλλάβων	Περὶ μονοσυλλάβων
+tlg0087.tlg029	Aelius Herodianus	Περὶ γάμου καὶ συμβιώσεως	Περὶ γάμου καὶ συμβιώσεως
+tlg0087.tlg030	Aelius Herodianus	Συμπόσιον	Συμπόσιον
+tlg0087.tlg031	Aelius Herodianus	Προτάσεις	Προτάσεις
+tlg0087.tlg032	Aelius Herodianus	Εἰς τὴν Ἀπολλωνίου εἰσαγωγήν	Εἰς τὴν Ἀπολλωνίου εἰσαγωγήν
+tlg0087.tlg033	Aelius Herodianus	Περὶ μονήρους λέξεως	Περὶ μονήρους λέξεως
+tlg0087.tlg035	Aelius Herodianus	De Figuris	Περὶ σχημάτων
+tlg0088.tlg001	Aristoxenus	Ἁρμονικὰ στοιχεῖα	
+tlg0090.tlg001	Agathemerus	Geographiae informatio	
+tlg0092.tlg001	Anonymi Geographiae Expositio Compendiaria	Geographiae expositio compendiaria	
+tlg0093.ogl001	Theophrastus	De odoribus	
+tlg0093.ogl002	Theophrastus	De signis tempestatum	
+tlg0093.tlg001	Theophrastus	Enquiry into Plants	
+tlg0093.tlg002	Theophrastus	On the Causes of Plants	Περὶ φυτῶν αἰτιῶν
+tlg0093.tlg003	Theophrastus	De sensu et sensibilibus	
+tlg0093.tlg004	Theophrastus	De lapidibus	
+tlg0093.tlg005	Theophrastus	On Fire	Περὶ πυρός
+tlg0093.tlg006	Theophrastus	Metaphysics	Ἐκ τῶν μετὰ τὰ φυσικά
+tlg0093.tlg009	Theophrastus	Characters	Χαρακτῆρες
+tlg0093.tlg010x01	Theophrastus	De Odoribus	Περί Ὀσμών
+tlg0093.tlg010x02	Theophrastus	De Ventis	Περί Ανέμων
+tlg0093.tlg010x03	Theophrastus	De Signis Tempestatum	Περί Σημείων Ὑδάτων και Pνευμάτων και Xειμώνων και Εὐδιών
+tlg0093.tlg010x04	Theophrastus	De Lassitudine	Περί Κόπων
+tlg0093.tlg010x05	Theophrastus	De Vertigine	Περί Ἰλίγγων
+tlg0093.tlg010x06	Theophrastus	De Sudore	Περί Ἰδρώτων
+tlg0093.tlg010x07	Theophrastus	De Animi Defectione	Περί Λειποψυχίας
+tlg0093.tlg010x08	Theophrastus	De Nervorum Resolutione	Περὶ Παραλύσεως
+tlg0093.tlg010x09	Theophrastus	Fragmenta varia	
+tlg0094.tlg001	Pseudo-Plutarch	De Fluviis	
+tlg0094.tlg002	Pseudo-Plutarch	De musica	περὶ Μουσικῆς
+tlg0094.tlg003	Pseudo-Plutarch	Placita Philosophorum	Περὶ τῶν ἀρεσκόντων τοῖς φιλοσόφοις φυσικῶν δογμάτων
+tlg0096.tlg002	Aesop	Fabulae	Αισώπειων μύθων συναγωγή
+tlg0097.tlg001	Diogenianus of Heraclea	Paroemiae (epitome operis sub nomine Diogeniani) (e cod. Mazarinco)	
+tlg0098.tlg001	Zenobius Sophista	Epitome collectionum Lucilli Tarrhaei et Didymi	Ἐπιτομὴ ἐκ τῶν Ταρραίου καὶ Διδύμου παροιμιῶν συντεθεῖσα κατὰ στοιχεῖον
+tlg0099.tlg001	Strabo	Geography	Γεωγραφικά
+tlg0099.tlg004	Strabo	Geographiae Chrestomathia	
+tlg0199.tlg001	Bacchylides	Epinicians	Ἐπίνικοι
+tlg0199.tlg002	Bacchylides	Dithyrambs	Διθύραμβοι
+tlg0233.tlg001	Hipponax	Fragmentum (128)	
+tlg0284.tlg001	Aristides, Aelius	Orationes 1	Εἰς Δία
+tlg0284.tlg002	Aristides, Aelius	Orationes 2	Ἀθηνᾶ
+tlg0284.tlg003	Aristides, Aelius	Orationes 3	Ἰσθμικὸς εἰς Ποσειδῶνα
+tlg0284.tlg004	Aristides, Aelius	Orationes 4	Διόνυσος
+tlg0284.tlg005	Aristides, Aelius	Orationes 5	Ἰσθμικὸς εἰς Ποσειδῶνα
+tlg0284.tlg006	Aristides, Aelius	Orationes 6	Λαλιὰ εἰς Ἀσκληπιόν
+tlg0284.tlg007	Aristides, Aelius	Orationes 7	Ἀσκληπιάδαι
+tlg0284.tlg008	Aristides, Aelius	Orationes 8	Εἰς τὸν Σάραπιν
+tlg0284.tlg009	Aristides, Aelius	Orationes 9	
+tlg0284.tlg010	Aristides, Aelius	Orationes 10	Ἀπελλᾶ γενεθλιακός
+tlg0284.tlg011	Aristides, Aelius	Orationes 11	εἰς Ἐτεωνέα ἐπικήδειος
+tlg0284.tlg012	Aristides, Aelius	Orationes 12	Ἐπὶ Ἀλεξάνδρῳ ἐπιτάφιος
+tlg0284.tlg013	Aristides, Aelius	Orationes 13	Παναθηναϊκός
+tlg0284.tlg014	Aristides, Aelius	Orationes 14	Ῥώμης ἐγκώμιον
+tlg0284.tlg015	Aristides, Aelius	Orationes 15	Σμυρναϊκὸς πολιτικός
+tlg0284.tlg016	Aristides, Aelius	Orationes 16	Πανηγυρικὸς ἐν Κυζίκῳ περὶ τοῦ ναοῦ
+tlg0284.tlg017	Aristides, Aelius	Orationes 17	Εἰς τὸ Αἰγαῖον πέλαγος
+tlg0284.tlg018	Aristides, Aelius	Orationes 18	Εἰς τὸ φρέαρ τοῦ Ἀσκληπιοῦ
+tlg0284.tlg019	Aristides, Aelius	Orationes 19	Ἐλευσίνιος
+tlg0284.tlg020	Aristides, Aelius	Orationes 20	Μονῳδία ἐπὶ Σμύρνῃ
+tlg0284.tlg021	Aristides, Aelius	Orationes 21	Παλινῳδία ἐπὶ Σμύρνῃ καὶ τῷ ταύτης ἀνοικισμῷ
+tlg0284.tlg022	Aristides, Aelius	Orationes 22	Προσφωνητικός Σμυρναϊκός
+tlg0284.tlg023	Aristides, Aelius	Orationes 23	Ἱεροὶ λόγοι πρῶτος
+tlg0284.tlg024	Aristides, Aelius	Orationes 24	Ἱεροὶ λόγοι δεύτερος
+tlg0284.tlg025	Aristides, Aelius	Orationes 25	Ἱεροὶ λόγοι τρίτος
+tlg0284.tlg026	Aristides, Aelius	Orationes 26	Ἱεροὶ λόγοι τέταρτος
+tlg0284.tlg027	Aristides, Aelius	Orationes 27	Ἱεροὶ λόγοι πέμπτος
+tlg0284.tlg028	Aristides, Aelius	Orationes 28	Ἱεροὶ λόγοι ἕκτος
+tlg0284.tlg029	Aristides, Aelius	Orationes 29	Περὶ τοῦ πέμπειν βοήθειαν τοῖς ἐν Σικελίᾳ
+tlg0284.tlg030	Aristides, Aelius	Orationes 30	Εἰς τὸ ἐναντίον
+tlg0284.tlg031	Aristides, Aelius	Orationes 31	Ὑπὲρ τῆς πρὸς Λακεδαιμονίους εἰρήνης
+tlg0284.tlg032	Aristides, Aelius	Orationes 32	Ὑπὲρ τῆς πρὸς Ἀθηναίους εἰρήνης
+tlg0284.tlg033	Aristides, Aelius	Orationes 33	Λευκτρικὸς Α. (ὑπὲρ Λακεδαιμονίων πρῶτος)
+tlg0284.tlg034	Aristides, Aelius	Orationes 34	Λευκτρικὸς Β. (ὑπὲρ Θηβαίων πρῶτος)
+tlg0284.tlg035	Aristides, Aelius	Orationes 35	Λευκτρικὸς Γ. (ὑπὲρ Λακεδαιμονίων δεύτερος)
+tlg0284.tlg036	Aristides, Aelius	Orationes 36	Λευκτρικὸς Δ. (ὑπὲρ Θηβαίων δεύτερος)
+tlg0284.tlg037	Aristides, Aelius	Orationes 37	Λευκτρικὸς Ε. (ὑπὲρ μηδετέροις βοηθεῖν)
+tlg0284.tlg038	Aristides, Aelius	Orationes 38	Συμμαχικὸς Α.
+tlg0284.tlg039	Aristides, Aelius	Orationes 39	Συμμαχικὸς Β. (πρὸς Θηβαίους περὶ τῆς συμμαχίας)
+tlg0284.tlg040	Aristides, Aelius	Orationes 40	Συμβουλευτικὸς περὶ τοῦ μὴ δεῖν κωμῳδεῖν
+tlg0284.tlg041	Aristides, Aelius	Orationes 41	Ἐπιστολὴ περὶ Σμύρνης
+tlg0284.tlg042	Aristides, Aelius	Orationes 42	Περὶ ὁμονοίας ταῖς πόλεσιν
+tlg0284.tlg043	Aristides, Aelius	Orationes 43	
+tlg0284.tlg044	Aristides, Aelius	Orationes 44	Ῥοδίοις περὶ ὁμονοίας
+tlg0284.tlg045	Aristides, Aelius	Orationes 45	Πρὸς Πλάτωνα περὶ ῥητορικῆς
+tlg0284.tlg046	Aristides, Aelius	Orationes 46	Πρὸς Πλάτωνα ὑπὲρ τῶν τεττάρων
+tlg0284.tlg047	Aristides, Aelius	Orationes 47	Πρὸς Καπίτωνα
+tlg0284.tlg048	Aristides, Aelius	Orationes 48	Αἰγύπτιος
+tlg0284.tlg049	Aristides, Aelius	Orationes 49	Περὶ τοῦ παραφθέγματος
+tlg0284.tlg050	Aristides, Aelius	Orationes 50	Κατὰ τῶν ἐξορχουμένων
+tlg0284.tlg051	Aristides, Aelius	Orationes 51	Πρὸς τοὺς αἰτιωμένους ὅτι μὴ μελετῴη
+tlg0284.tlg052	Aristides, Aelius	Orationes 52	Πρεσβευτικὸς πρὸς Ἀχιλλέα
+tlg0284.tlg053	Aristides, Aelius	Orationes 53	Πρὸς Δημοσθένη περὶ ἀτελείας
+tlg0284.tlg054	Aristides, Aelius	Orationes 54	Πρὸς Λεπτίνην ὑπὲρ ἀτελείας
+tlg0284.tlg055	Aristides, Aelius	Orationes 55	Πανηγυρικὸς ἐπὶ τῷ ὕδατι ἐν Περγάμῳ
+tlg0284.tlg056	Aristides, Aelius	Ars Rhetorica	Περὶ πολιτικοῦ λόγου
+tlg0317.tlg001	Acta Joannis	Acta Joannis	
+tlg0317.tlg002	Acta Joannis	Acta Joannis (recensio)	
+tlg0319.tlg004	Critias	Fragmenta	
+tlg0341.tlg002	Lycophron	Alexandra	Ἀλεξάνδρα
+tlg0357.tlg001	Didymus Alexandrinus	Mensurae marmorum ac lignorum	
+tlg0358.tlg001	Nicomachus Gerasenus	Introductio arithmetica	Ἀριθμητικὴ εἰσαγωγή
+tlg0358.tlg002	Nicomachus Gerasenus	Harmonicum enchiridion	Ἐγχειρίδιον ἁρμονικῆς
+tlg0358.tlg004	Nicomachus Gerasenus	Excerpta	
+tlg0358.tlg005	Nicomachus Gerasenus	Problemata arithmetica	
+tlg0361.tlg001	Cleonides	Introductio Harmonica	Εἰσαγωγὴ ἁρμονική
+tlg0362.tlg001	Carmina Delphis Inventa	Carmina Delphis Inventa	
+tlg0363.tlg001	Claudius Ptolemaeus	Syntaxis mathematica	Μαθηματικὴ Σύνταξις
+tlg0363.tlg007	Claudius Ptolemaeus	Tetrabiblos	Τετράβιβλος
+tlg0363.tlg011	Claudius Ptolemaeus	Musica	
+tlg0385.tlg001	Cassius Dio Cocceianus	Historia Romana	
+tlg0509.tlg001	Myia	Epistula ad Phyllidem	
+tlg0521.tlg008	Epicharmus	Fragmenta	
+tlg0525.tlg001	Pausanias	Description of Greece	Ἑλλάδος Περιηγήσεως
+tlg0526.tlg001	Flavius Josephus	Jewish Antiquities	Ἰουδαϊκὴ ἀρχαιολογία
+tlg0526.tlg002	Flavius Josephus	Life of Josephus	Ἰωσήπου βίος
+tlg0526.tlg003	Flavius Josephus	Against Apion	περὶ ἀρχαιότητος Ἰουδαίων
+tlg0526.tlg004	Flavius Josephus	The Jewish War	Ἰουδαϊκοῦ πολέμου πρὸς Ῥωμαίους
+tlg0527.tlg001	Old Testament	Genesis	
+tlg0527.tlg002	Old Testament	Exodus	
+tlg0527.tlg003	Old Testament	Leviticus	
+tlg0527.tlg004	Old Testament	Numbers	
+tlg0527.tlg005	Old Testament	Deuteronomy	
+tlg0527.tlg006	Old Testament	Joshua	
+tlg0527.tlg008	Old Testament	Judges	
+tlg0527.tlg010	Old Testament	Ruth	
+tlg0527.tlg011	Old Testament	I Samuel	
+tlg0527.tlg012	Old Testament	II Samuel	
+tlg0527.tlg013	Old Testament	I Kings	
+tlg0527.tlg014	Old Testament	II Kings	
+tlg0527.tlg015	Old Testament	I Chronicles	
+tlg0527.tlg016	Old Testament	II Chronicles	
+tlg0527.tlg017	Old Testament	Esdras i (liber apocryphus)	Ἔσδρας Αʹ
+tlg0527.tlg018	Old Testament	2 Ezra	
+tlg0527.tlg019	Old Testament	Esther	
+tlg0527.tlg020	Old Testament	Judith	Ἰουδίθ
+tlg0527.tlg021	Old Testament	Tobias (Cod. Vaticanus + Cod. Alexandrinus)	Τωβίτ
+tlg0527.tlg023	Old Testament	Machabaeorum i	Μακκαβαίων Αʹ
+tlg0527.tlg024	Old Testament	Machabaeorum ii	Μακκαβαίων Βʹ
+tlg0527.tlg025	Old Testament	Machabaeorum iii	Μακκαβαίων Γʹ
+tlg0527.tlg026	Old Testament	Machabaeorum iv	Μακκαβαίων Δ΄
+tlg0527.tlg027	Old Testament	Psalms	
+tlg0527.tlg028	Old Testament	Odae	Ὠδαί
+tlg0527.tlg029	Old Testament	Proverbs	
+tlg0527.tlg030	Old Testament	Ecclesiastes	
+tlg0527.tlg031	Old Testament	Canticle	
+tlg0527.tlg032	Old Testament	Job	
+tlg0527.tlg033	Old Testament	Sapientia Salomonis	Σοφία Σαλομῶντος
+tlg0527.tlg034	Old Testament	Ecclesiasticus sive Siracides (Sapientia Jesu filii Sirach)	Ἐκκλησιαστικός
+tlg0527.tlg035	Old Testament	Psalmi Salomonis	Ψαλμοὶ Σαλομῶντος
+tlg0527.tlg036	Old Testament	Hosea	
+tlg0527.tlg037	Old Testament	Amos	
+tlg0527.tlg038	Old Testament	Micah	
+tlg0527.tlg039	Old Testament	Joel	
+tlg0527.tlg040	Old Testament	Obadiah	
+tlg0527.tlg041	Old Testament	Jonah	
+tlg0527.tlg042	Old Testament	Nahum	
+tlg0527.tlg043	Old Testament	Habakkuk	
+tlg0527.tlg044	Old Testament	Zephaniah	
+tlg0527.tlg045	Old Testament	Haggai	
+tlg0527.tlg046	Old Testament	Zechariah	
+tlg0527.tlg047	Old Testament	Malachi	
+tlg0527.tlg048	Old Testament	Isaiah	
+tlg0527.tlg049	Old Testament	Jeremiah	
+tlg0527.tlg050	Old Testament	Baruch	Βαρούχ
+tlg0527.tlg051	Old Testament	Lamentations	
+tlg0527.tlg052	Old Testament	Epistula Jeremiae	Ἐπιστολὴ Ἰερεμίου
+tlg0527.tlg053	Old Testament	Ezekiel	
+tlg0527.tlg054	Old Testament	Susanna (translatio Graeca)	
+tlg0527.tlg055	Old Testament	Susanna (Theodotionis versio)	
+tlg0527.tlg056	Old Testament	Daniel	
+tlg0527.tlg057	Old Testament	Daniel (Theodotionis versio)	
+tlg0527.tlg058	Old Testament	Bel et Draco (translatio Graeca)	
+tlg0527.tlg059	Old Testament	Bel et Draco (Theodotionis versio)	
+tlg0529.tlg002	Arius Didymus	Liber de philosophorum sectis (epitome ap. Stobaeum)	
+tlg0530.tlg005	Pseudo-Galen	De fasciis	
+tlg0530.tlg006	Pseudo-Galen	Ad Gaurum quomodo animetur fetus	
+tlg0530.tlg012	Pseudo-Galen	Introductio seu medicus	
+tlg0530.tlg029	Pseudo-Galen	De remediis parabilibus	
+tlg0530.tlg032	Pseudo-Galen	De theriaca ad Pamphilianum	
+tlg0530.tlg043	Pseudo-Galen	De optima secta ad Thrasybulum	
+tlg0532.tlg001	Achilles Tatius	Leucippe and Clitophon	τὰ κατὰ Λευκίππην καὶ Kλειτoφῶντα
+tlg0533.tlg003	Callimachus	Epigrams	Ἐπιγράμματα
+tlg0533.tlg004	Callimachus	Epigrams and Fragments	Ἐπιγράμματα
+tlg0533.tlg006	Callimachus	Aetia	
+tlg0533.tlg007	Callimachus	Iambi	
+tlg0533.tlg009	Callimachus	Hecala	
+tlg0533.tlg015	Callimachus	Hymn to Zeus	εἰς Δία
+tlg0533.tlg016	Callimachus	Hymn to Apollo	εἰς Απόλλωνα
+tlg0533.tlg017	Callimachus	Hymn to Artemis	εἰς Ἄρτεμιν
+tlg0533.tlg018	Callimachus	Hymn to Delos	εἰς Δῆλον
+tlg0533.tlg019	Callimachus	Hymn to Athena	εἰς Λουτρά τῆς Παλλάδος
+tlg0533.tlg020	Callimachus	Hymn to Demeter	εἰς Δήμητρα
+tlg0535.tlg001	Demades	On the Twelve Years	Ὑπὲρ τῆς δωδεκαετίας
+tlg0537.tlg010	Epicurus	Epistula ad Herodotum	
+tlg0537.tlg011	Epicurus	Epistula ad Pythoclem	
+tlg0537.tlg012	Epicurus	Epistula ad Menoeceum	
+tlg0537.tlg013	Epicurus	Ratae Sententiae	
+tlg0537.tlg014	Epicurus	Gnomologium Vaticanum Epicureum	
+tlg0540.tlg001	Lysias	On the Murder of Eratosthenes	ὑπὲρ τοῦ Ἐρατοσθένους φόνου ἀπολογία
+tlg0540.tlg002	Lysias	Funeral Oration	Ἐπιτάφιος τοῖς Κορινθίων βοηθοῖς
+tlg0540.tlg003	Lysias	Against Simon	πρὸς Σίμωνα ἀπολογία
+tlg0540.tlg004	Lysias	On A Wound By Premeditation	περὶ τραύματος ἐκ προνοίας, ὑπὲρ οὗ καὶ πρὸς ὃν ἄδηλον
+tlg0540.tlg005	Lysias	For Callias	ὑπὲρ Καλλίου ἱεροσυλίας ἀπολογία
+tlg0540.tlg006	Lysias	Against Andocides	κατ᾽ Ἀνδοκίδου ἀσεβείας
+tlg0540.tlg007	Lysias	On the Olive Stump	Ἀρεοπαγιτικὸς περὶ τοῦ σηκοῦ ἀπολογία
+tlg0540.tlg008	Lysias	Accusation of Calumny	κατηγορία πρὸς τοὺς συνουσιαστὰς κακολογιῶν
+tlg0540.tlg009	Lysias	For The Soldier	ὑπὲρ τοῦ στρατιωτοῦ
+tlg0540.tlg010	Lysias	Against Theomnestus 1	κατὰ θεομνήστου, Α
+tlg0540.tlg011	Lysias	Against Theomnestus 2	κατὰ θεομν́ηστου, Β
+tlg0540.tlg012	Lysias	Against Eratosthenes, who had been One of the Thirty: Spoken by Lysias Himself	κατὰ Ερατοσθένους τοῦ γενομένου τῶν τριάκοντα, ὃν αὐτὸς εἶπε Λυσίας
+tlg0540.tlg013	Lysias	Against Agoratus: In Pursuance of a Writ	κατὰ Ἀγοράτου ἐνδείξεως
+tlg0540.tlg014	Lysias	Against Alcibiades: For Deserting the Ranks	κατὰ Ἀλκιβιάδου λιποταξίου
+tlg0540.tlg015	Lysias	Against Alcibiades: For Refusal of Military Service	κατὰ Ἀλκιβιάδου ἀστρατείας
+tlg0540.tlg016	Lysias	Before the Council: In Defense of Mantitheus at His Scrutiny	ἐν βουλῇ Μαντιθέῳ δοκιμαζομένῳ ἀπολογία
+tlg0540.tlg017	Lysias	On The Property Of Eraton: Against the Treasury	περὶ τῶν Ἐράτωνος χρημάτων: πρὸς τὸ δημόσιον
+tlg0540.tlg018	Lysias	On the Confiscation of the Property Of The Brother Of Nicias: Peroration	περὶ τῆς δημεύσεως τῶν τοῦ Νικίου ἀδέλφου ἐπίλογος
+tlg0540.tlg019	Lysias	On the Property of Aristophanes: Against the Treasury	ὑπὲρ τῶν Ἀριστοφάνους χρημάτων, πρὸς τὸ δημόσιον
+tlg0540.tlg020	Lysias	For Polystratus	ὑπὲρ Πολυστράτου
+tlg0540.tlg021	Lysias	Defense Against A Charge Of Taking Bribes: Undesignated	ἀπολογία δωροδοκίας ἀπαράσημος
+tlg0540.tlg022	Lysias	Against The Corn-Dealers	κατὰ τῶν σιτοπωλῶν
+tlg0540.tlg023	Lysias	Against Pancleon, Showing that He was not a Plataean	κατὰ Παγκλέωνος ὅτι οὐκ ἦν Πλαταιεύς
+tlg0540.tlg024	Lysias	On The Refusal Of A Pension to the Invalid	Πρὸς τὴν εἰσαγγελίαν περὶ τοῦ μὴ δίδοσθαι τῷ ἀδυνάτῳ ἀργύριον
+tlg0540.tlg025	Lysias	Defense Against a Charge of Subverting the Democracy	δήμου καταλύσεως ἀπολογία
+tlg0540.tlg026	Lysias	On the Scrutiny of Evandros	περὶ τῆς Εὐάνδρου δοκιμασίας
+tlg0540.tlg027	Lysias	Against Epicrates and his Fellow-envoys: Supplementary	κατὰ Ἐπικράτους καὶ τῶν συμπρεσβευτῶν ἐπίλογος ὡς Θεόδωρος
+tlg0540.tlg028	Lysias	Against Ergocles: Supplementary	κατὰ Ἐργοκλέους ἐπίλογος
+tlg0540.tlg029	Lysias	Against Philocrates: Supplementary	κατὰ Φιλοκράτους ἐπίλογος
+tlg0540.tlg030	Lysias	Against Nicomachus	κατὰ Νικομάχου γραμματέως εὐθυνῶν κατηγορία
+tlg0540.tlg031	Lysias	Against Philon, On his Scrutiny	κατὰ Φίλωνος δοκιμασίας
+tlg0540.tlg032	Lysias	Against Diogeiton	κατὰ Διογείτονος
+tlg0540.tlg033	Lysias	Olympic Oration	Ολυμπιακός
+tlg0540.tlg034	Lysias	Against The Subversion of the Ancestral Constitution of Athens	περὶ τοῦ μὴ καταλῦσαι τὴν πάτριον πολιτείαν Αθήνησι
+tlg0541.tlg042	Menander	Sententiae (corresponds to version Men Ar I) (Greek)	
+tlg0542.tlg001	Julius Pollux	Onomasticon	
+tlg0543.tlg001	Polybius	Histories	Ἱστορίαι
+tlg0544.tlg001	Sextus Empiricus	Pyrrhoniae Hypotyposes	
+tlg0544.tlg002	Sextus Empiricus	Adversus Mathematicos	
+tlg0545.tlg001	Aelian	De Natura Animalium	Περὶ ζῴων ἰδιότητος
+tlg0545.tlg002	Aelian	Varia Historia	Ποικίλη ἱστορία
+tlg0545.tlg003	Aelian	Epistulae Rusticae	ἐκ τῶν Αἰλιανοῦ ἀγροικικῶν ἐπιστολῶν
+tlg0545.tlg004	Aelian	Fragmenta	Ἀποσπασμάτια
+tlg0548.tlg001	Apollodorus	Library	Βιβλιοθήκη
+tlg0548.tlg002	Apollodorus	Epitome	Ἐπιτομὴ
+tlg0550.tlg001	Apollonius of Perga	Conica	
+tlg0551.tlg001	Appianus of Alexandria	Proemium	
+tlg0551.tlg002	Appianus of Alexandria	Kings	ἐκ τῆς βασιλικῆς
+tlg0551.tlg003	Appianus of Alexandria	Italy	ἐκ τῆς Ἰταλικῆς
+tlg0551.tlg004	Appianus of Alexandria	Samnite History	ἐκ τῆς Σαυνιτικῆς
+tlg0551.tlg005	Appianus of Alexandria	Gallic History	ἐκ τῆς Κελτῖκης
+tlg0551.tlg006	Appianus of Alexandria	Sicily and the Other Islands	ἐκ τῆς Σικελῖκης καὶ νησιωτικής
+tlg0551.tlg007	Appianus of Alexandria	Wars in Spain	Ἰβηρική
+tlg0551.tlg008	Appianus of Alexandria	Hannibalic War	Ἀννιβαϊκή
+tlg0551.tlg009	Appianus of Alexandria	Punic Wars	Λιβυκή
+tlg0551.tlg010	Appianus of Alexandria	Numidian Affairs	ἐκ τῆς Νομαδικῆς
+tlg0551.tlg011	Appianus of Alexandria	Macedonian Affairs	ἐκ τῆς Μακεδονικῆς
+tlg0551.tlg012	Appianus of Alexandria	Illyrian Wars	Ἰλλυρική
+tlg0551.tlg013	Appianus of Alexandria	Syrian Wars	Συριακή
+tlg0551.tlg014	Appianus of Alexandria	Mithridatic Wars	Μιθριδάτειος
+tlg0551.tlg017	Appianus of Alexandria	Civil Wars	Ἐμφυλίων Πρώτη
+tlg0552.tlg001	Archimedes	De sphaera et cylindro	
+tlg0552.tlg002	Archimedes	Dimensio circuli	
+tlg0552.tlg003	Archimedes	De conoidibus et sphaeroidibus	
+tlg0552.tlg004	Archimedes	De lineis spiralibus	
+tlg0552.tlg005	Archimedes	De planorum aequilibriis	
+tlg0552.tlg006	Archimedes	Arenarius	
+tlg0552.tlg007	Archimedes	Quadratura parabolae	
+tlg0552.tlg008	Archimedes	De corporibus fluitantibus	
+tlg0552.tlg009	Archimedes	Stomachion	
+tlg0552.tlg010	Archimedes	Ad Eratosthenem methodus	
+tlg0552.tlg011	Archimedes	Liber assumptorum	
+tlg0552.tlg012	Archimedes	Problema bovinum	
+tlg0552.tlg013	Archimedes	Fragmenta	
+tlg0553.tlg001	Artemidorus	Ονειροκριτικά	
+tlg0554.tlg001	Chariton of Aphrodisias	De Chaerea et Callirhoe	
+tlg0555.tlg001	Clement of Alexandria	Protrepticus	Προτρεπτικὸς πρὸς Ἕλληνας
+tlg0555.tlg002	Clement of Alexandria	Paedagogus	
+tlg0555.tlg004	Clement of Alexandria	Stromata	Στρώματα
+tlg0555.tlg005	Clement of Alexandria	Eclogae propheticae	
+tlg0555.tlg006	Clement of Alexandria	Quis Dis Salvetur	τίς ὁ σωζόμενος πλούσιος
+tlg0555.tlg007	Clement of Alexandria	Excerpta ex Theodoto	
+tlg0555.tlg008	Clement of Alexandria	Exhortation to Endurance or To the Newly Baptized (Fragment 44)	
+tlg0556.tlg001	Asclepiodotus	Tactica	
+tlg0557.tlg001	Epictetus	Discourses	Ἀρριανοῦ τῶν Ἐπικτήτου Διατριβῶν
+tlg0557.tlg002	Epictetus	The Handbook	Ἐγχειρίδιον
+tlg0557.tlg003	Epictetus	Fragments	
+tlg0557.tlg003a	Epictetus	Fragments	
+tlg0557.tlg004	Epictetus	Gnomology (Books 1-2)	
+tlg0557.tlg005	Epictetus	Gnomology (Books 3-4)	
+tlg0559.tlg001	Hero of Alexandria	Pneumatica	Πνευματικά
+tlg0559.tlg002	Hero of Alexandria	De automatis	
+tlg0559.tlg004	Hero of Alexandria	Mechanicorum fragmenta	
+tlg0559.tlg005	Hero of Alexandria	Catoptrica	
+tlg0559.tlg006	Hero of Alexandria	Metrica	
+tlg0559.tlg007	Hero of Alexandria	Dioptra	
+tlg0559.tlg010	Hero of Alexandria	Stereometrica	
+tlg0559.tlg011	Hero of Alexandria	De mensuris	
+tlg0559.tlg012	Hero of Alexandria	Belopoeica	
+tlg0559.tlg014	Hero of Alexandria	Fragmenta Heroniana	
+tlg0559.tlg015	Hero of Alexandria	Geodaesia [Sp.]	
+tlg0559.tlg016	Hero of Alexandria	Liber geeponicus [Sp.]	
+tlg0560.tlg001	Longinus	On the Sublime	Περὶ ὕψους
+tlg0561.tlg001	Longus	Daphnis and Chloe	Δάφνις καὶ Χλόη
+tlg0562.tlg001	Marcus Aurelius	Ad Se Ipsum	
+tlg0563.tlg001	Maximus of Tyre	Dialexeis	
+tlg0564.tlg001	Rufus of Ephesus	De renum et vesicae affectionibus	
+tlg0565.tlg001	Soranus	Gynaeciorum Libri IV	
+tlg0565.tlg002	Soranus	De signis Fracturarum	
+tlg0565.tlg003	Soranus	De Fasciis	
+tlg0565.tlg004	Soranus	Vita Hippocratis	
+tlg0572.tlg001	Gaius Romanus	Fragmenta	
+tlg0575.tlg001	Moschion Gnomologus	Sententiae	
+tlg0575.tlg002	Moschion Gnomologus	Hypothecae	
+tlg0579.tlg010	Orphica	Fragmenta	
+tlg0580.tlg001	Paradoxographus Florentinus	Mirabilia de aquis	
+tlg0591.1st1K001	Antisthenes	Ajax	Αἴας
+tlg0591.1st1K002	Antisthenes	Odysseus	Ὀδυσσεύς
+tlg0592.tlg001	Hermogenes	Progymnasmata [Dub.]	
+tlg0592.tlg002	Hermogenes	Περὶ στάσεων	Περὶ τῶν στάσεων
+tlg0592.tlg003	Hermogenes	Περὶ εὑρέσεως [Sp.]	Περὶ εὑρέσεως
+tlg0592.tlg004	Hermogenes	Περὶ ἰδεῶν λόγου	Περὶ ἰδεῶν λόγου
+tlg0592.tlg005	Hermogenes	Περὶ μεθόδου δεινότητος [Sp.]	Περὶ μεθόδου δεινότητος
+tlg0593.1st1K001	Gorgias of Leontini	Encomium of Helen	Ἑλένης ἐγκώμιον
+tlg0593.1st1K002	Gorgias of Leontini	Defense of Palamedes	Ὑπέρ Παλαμήδους ἀπολογία
+tlg0594.tlg002	Alexander Numenius	De Figuris	Περὶ τῶν τῆς διανοίας καὶ τῆς λέξεως σχημάτων
+tlg0606.tlg001	Rufus Soph.	Ars rhetorica	
+tlg0607.tlg001	Theon Rhetor	Προγυμνάσματα	
+tlg0609.tlg001	Tryphon I Grammaticus	De tropis	Περὶ τρόπων
+tlg0610.perseus002	Alcidamas	Peri Sophiston	Περὶ Σοφιστῶν
+tlg0610.tlg001	Alcidamas	Odysseus	Ὀδυσσεύς
+tlg0612.tlg001	Dio Chrysostom	Orationes	
+tlg0613.tlg001	Demetrius of Phaleron	Libro de Elocutione	Περὶ ἑρμηνείας
+tlg0614.tlg001	Valerius Babrius	Fabulae Aesopeae	
+tlg0615.tlg001	Aspasius	In Ethica Nichomachea Commentaria	
+tlg0616.tlg001	Polyaenus Macedo	Strategemata	
+tlg0616.tlg002	Polyaenus Macedo	Excerpta Polyaeni	
+tlg0618.tlg001	Antigoni Epistula	Epistula	
+tlg0620.tlg002	Archytas of Tarentum	Fragmenta	
+tlg0623.tlg001	Cratetis Epistulae	Epistulae	
+tlg0626.tlg002	Heraclitus of Ephesus	Fragmenta	
+tlg0627.tlg001	Hippocrates	De prisca medicina	Περὶ ἀρχαίας ἰατρικῆς
+tlg0627.tlg002	Hippocrates	De aere, aquis, locis	Περὶ ἀέρων, ὑδάτων, τόπων
+tlg0627.tlg003	Hippocrates	Prognosticon	Προγνωστικόν
+tlg0627.tlg004	Hippocrates	De diaeta in morbis acutis	Περὶ διαίτης ὀξέων
+tlg0627.tlg005	Hippocrates	De diaeta acutorum	Περὶ διαίτης ὀξέων. Νόθα
+tlg0627.tlg006	Hippocrates	De morbis popularibus	Ἐπιδημίων
+tlg0627.tlg007	Hippocrates	De capitis vulneribus	Περὶ τῶν ἐν κεφαλῇ τρωμάτων
+tlg0627.tlg008	Hippocrates	De officina medici	Κατ’ ἰητρεῖον
+tlg0627.tlg009	Hippocrates	De fracturis	Περὶ ἀγμῶν
+tlg0627.tlg010	Hippocrates	De articulis	Περὶ ἄρθρων
+tlg0627.tlg011	Hippocrates	Vectiarius	Μοχλικός
+tlg0627.tlg012	Hippocrates	Aphorismi	Ἀφορισμοί
+tlg0627.tlg013	Hippocrates	Jusjurandum	Ὅρκος
+tlg0627.tlg014	Hippocrates	Lex	
+tlg0627.tlg015	Hippocrates	De humoribus	
+tlg0627.tlg016	Hippocrates	Prorrheticon I	
+tlg0627.tlg017	Hippocrates	Coa praesagia	
+tlg0627.tlg018	Hippocrates	De arte	
+tlg0627.tlg019	Hippocrates	De natura hominis	
+tlg0627.tlg020	Hippocrates	De salubri diaeta	
+tlg0627.tlg021	Hippocrates	De flatibus	
+tlg0627.tlg022	Hippocrates	De liquidorum usu	
+tlg0627.tlg023	Hippocrates	De morbis i-iii	
+tlg0627.tlg024a	Hippocrates	De genitura	
+tlg0627.tlg024b	Hippocrates	De natura pueri	
+tlg0627.tlg025	Hippocrates	De affectionibus	
+tlg0627.tlg026	Hippocrates	De locis in homine	
+tlg0627.tlg027	Hippocrates	De morbo sacro	Περὶ ἱερῆς νούσου
+tlg0627.tlg028	Hippocrates	De ulceribus	Περὶ ἑλκῶν
+tlg0627.tlg029	Hippocrates	De haemorrhoidibus	Περὶ αἱμοῤῥοίδων
+tlg0627.tlg030	Hippocrates	De fistulis	Περὶ συρίγγων
+tlg0627.tlg031	Hippocrates	De diaeta	
+tlg0627.tlg032	Hippocrates	De affectionibus interioribus	
+tlg0627.tlg033	Hippocrates	De natura muliebri	
+tlg0627.tlg035	Hippocrates	De octimestri partu	
+tlg0627.tlg036	Hippocrates	De muliebribus	
+tlg0627.tlg037	Hippocrates	De virginum morbis	
+tlg0627.tlg038	Hippocrates	De superfoetatione	
+tlg0627.tlg039	Hippocrates	De exsectione foetus	
+tlg0627.tlg040	Hippocrates	De anatomia	
+tlg0627.tlg041	Hippocrates	De dentitione	
+tlg0627.tlg042	Hippocrates	De glandulis	
+tlg0627.tlg043	Hippocrates	De carnibus	
+tlg0627.tlg045	Hippocrates	De corde	
+tlg0627.tlg046	Hippocrates	De alimento	Περὶ τροφῆς
+tlg0627.tlg047	Hippocrates	De visu	
+tlg0627.tlg048	Hippocrates	De natura ossium	
+tlg0627.tlg049	Hippocrates	De medico	
+tlg0627.tlg050	Hippocrates	De habitu decenti	
+tlg0627.tlg051	Hippocrates	Praeceptiones	Παραγγελίαι
+tlg0627.tlg052	Hippocrates	De crisibus	
+tlg0627.tlg053	Hippocrates	De diebus criticis	
+tlg0627.tlg055	Hippocrates	Epistulae, Decretum, Orationes	
+tlg0628.tlg001	Musonius Rufus	Dissertationum a Lucio digestarum reliquiae	
+tlg0628.tlg002	Musonius Rufus	Minor Fragments	
+tlg0628.tlg003	Musonius Rufus	Spurious Letters	
+tlg0629.tlg001	Periander	Epistulae	
+tlg0632.tlg002	Pythagoras	Epistulae	
+tlg0633.tlg001	Lysis	Epistula ad Hipparchum	
+tlg0634.tlg001	Xenocrates of Chalcedon	Fragmenta	
+tlg0636.tlg001	Socrates Epistulae	Epistulae	
+tlg0637.tlg001	Socraticorum Epistulae	Epistulae	
+tlg0638.tlg001	Philostratus the Athenian	Life of Apollonius of Tyana	Τὰ ἐς τὸν Τυανέα Ἀπολλώνιον
+tlg0638.tlg003	Philostratus the Athenian	Lives of the Sophists	Βίοι Σοφιστῶν
+tlg0638.tlg004	Philostratus the Athenian	Heroicus	Ἡρωικός
+tlg0638.tlg005	Philostratus the Athenian	Nero	Νέρων
+tlg0638.tlg006	Philostratus the Athenian	Epistulae et dialexeis	Ἐπιστολαί. Διαλέξεις.
+tlg0638.tlg007	Philostratus the Athenian	De Gymnastica	Γυμναστικός
+tlg0639.tlg001	Menecrates Medicus	Epistula	
+tlg0640.tlg001	Alciphron	Epistulae	
+tlg0641.tlg001	Xenophon of Ephesus	Ephesiaca	Τὰ κατὰ Ἀνθίαν καὶ Ἁβροκόμην
+tlg0643.opp001	Anonymus Londinensis	Preface to Anonymi Londinensis ex Aristotelis iatricis Menoniis et aliis medicis eclogae	
+tlg0643.opp002	Anonymus Londinensis	Epimetrum to Anonymi Londinensis ex Aristotelis iatricis Menoniis et aliis medicis eclogae	
+tlg0643.opp003	Anonymus Londinensis	Iatrica Fragmenta Reliqua	
+tlg0643.tlg001	Anonymus Londinensis	Iatrica	
+tlg0643.tlg002	Anonymus Londinensis	Anonymus Londinensis Fragmenta	
+tlg0644.tlg001	Aristophanes of Byzantium	Historiae Animalium Epitome	
+tlg0645.tlg001	Justin Martyr	Apologia I	
+tlg0645.tlg002	Justin Martyr	Apologia secunda	
+tlg0645.tlg003	Justin Martyr	Dialogue with Trypho	
+tlg0646.tlg004	Pseudo-Justinus Martyr	The Epistle to Diogentus	
+tlg0647.tlg001	Tryphiodorus	The Taking of Ilios	Ἅλωσις Ἰλίου
+tlg0648.tlg001	Onasander	Strategicus	Στρατηγικός
+tlg0649.tlg002	Lesbonax (Rhetorician)	Protrepticus A	Προτρεπτικὸς Ᾱ
+tlg0649.tlg003	Lesbonax (Rhetorician)	Protrepticus B	Προτρεπτικὸς Β̄
+tlg0652.tlg001	Philostratus Minor	Imagines	Εἰκόνες
+tlg0653.tlg001	Aratus Solensis	Phaenomena	Φαινόμενα
+tlg0655.tlg001	Parthenius of Nicaea	Narrationes Amatoriae	Ἐρωτικὰ Παθήματα
+tlg0656.tlg001	Dioscurides Pedianus	De materia medica	
+tlg0656.tlg002	Dioscurides Pedianus	Euporista vel De simplicibus medicinis	Περὶ ἀπλῶν φαρμάκων
+tlg0657.tlg001	Crateuas	Fragmenta	
+tlg0658.tlg001	Heliodorus of Emesa	Aethiopica	
+tlg0666.tlg001	Adrianus of Tyre	Declamatio	
+tlg0671.tlg001	Philumenus	De venenatis animalibus eorumque remediis	
+tlg0676.tlg001	Aglaias, Byzantius	Remedy against Incipient Cataracts	Πρὸς τὰς ἀρχομένας ὑποχύσεις
+tlg0693.tlg001	Albinus	Handbook of Platonism	Διδασκαλικὸς τῶν Πλάτωνος δογμάτων
+tlg0693.tlg002	Albinus	Introduction to Plato's Dialogues	Εἰσαγογὴ εἰς τοὺς Πλάτωνος διαλόγους
+tlg0708.tlg001	Ammonius Grammaticus	περὶ ὁμοίων καὶ διαφόρων λέξεων	
+tlg0719.tlg001	Aretaeus of Cappadocia	De causis et signis acutorum morborum libri duo	Περὶ αἰτίων καὶ σημείων ὀξέων παθών
+tlg0719.tlg002	Aretaeus of Cappadocia	De causis et signis diuturnorum morborum libri duo	Περὶ αἰτίων καὶ σημείων χρονίων παθῶν
+tlg0719.tlg003	Aretaeus of Cappadocia	De curatione acutorum morborum libri duo	Ὀξέων νούσων θεραπευτικόν
+tlg0719.tlg004	Aretaeus of Cappadocia	De curatione diuturnorum morborum libri duo	Χρονίων νούσων θεραπευτικών
+tlg0731.tlg001	Adamantius Judaeus	Physiognomonica	
+tlg0731.tlg003	Adamantius Judaeus	Physiognomonica (epitome Matritensis)	
+tlg0732.tlg001	Alexander of Aphrodisias	De mixtione	
+tlg0732.tlg003	Alexander of Aphrodisias	De febribus [Sp.]	
+tlg0732.tlg004	Alexander of Aphrodisias	In Aristotelis Metaphysica Commentaria	
+tlg0732.tlg005	Alexander of Aphrodisias	In Aristotelis Analyticorum Priorum Librum I Commentarium	
+tlg0732.tlg006	Alexander of Aphrodisias	In Aristotelis Topicorum Libros Octo Commentaria	
+tlg0732.tlg007	Alexander of Aphrodisias	In Librum De Sensu Commentarium	
+tlg0732.tlg008	Alexander of Aphrodisias	In Aristotelis Meteorologicorum Libros Commentaria	
+tlg0732.tlg010	Alexander of Aphrodisias	De anima	
+tlg0732.tlg011	Alexander of Aphrodisias	De anima libri mantissa	
+tlg0732.tlg012	Alexander of Aphrodisias	Quaestiones	Ἀπορίαι καὶ λύσεις [Sp.]
+tlg0732.tlg013	Alexander of Aphrodisias	Ἠθικὰ προβλήματα [Sp.]	
+tlg0732.tlg014	Alexander of Aphrodisias	De fato	
+tlg0732.tlgX01	Alexander of Aphrodisias	In Aristotelis Sophisticos Elenchos Commentarius [Sp.]	
+tlg0733.tlg001	Cassius Iatrosophista	Quaestiones medicae et problemata physica	Ἰατρικαὶ Ἀπορίαι καὶ Προβλήματα Φυσικά
+tlg0751.tlg005	Pseudo-Hippocrates	Ἑρμηνεία περὶ ἐνεργῶν λίθων	Ἑρμηνεία περὶ ἐνεργῶν λίθων
+tlg0751.tlg034	Pseudo-Hippocrates	De septimestri partu	
+tlg1118.tlg003	Pseudo-Dioscorides	De lapidibus	
+tlg1126.tlg003	Anubion, Poeta Astrologus	Fragmenta	
+tlg1129.tlg001	Anonymi de Barbarismo et Soloecismo	De barbarismo et soloecismo	
+tlg1131.tlg001	Anonymus Ad Avircium Marcellum contra Cataphrygas	Ad Avircium Marcellum contra Cataphrygas	
+tlg1134.tlg001	Anonymous Iamblichi	Fragmenta	
+tlg1146.tlg001	Antipater Tarsensis	Testimonia et Fragmenta	
+tlg1147.tlg003	Antiphon of Athens	Fragmenta	
+tlg1181.tlg001	Aristarchus of Samos	De magnitudinibus et distantiis solis et lunae	
+tlg1188.tlg002	Aristocles of Messene	Fragmenta	
+tlg1193.tlg001	Ariston of Chios	Testimonia et Fragmenta	
+tlg1194.tlg001	Aristonicus of Alexandria	De signis Odysseae	
+tlg1205.tlg001	Athenagoras	Legatio sive Supplicatio pro Christianis	
+tlg1205.tlg002	Athenagoras	De Resurrectione	
+tlg1210.tlg001	Autolycus	De Sphaera Quae Movetur	
+tlg1210.tlg002	Autolycus	De Ortibus et Occasibus	
+tlg1216.tlg001	Barnabae Epistula	The Epistle of Barnabas	Βαρνάβα ἐπιστολή
+tlg1220.tlg001	Batrachomyomachia	Batrachomyomachia	
+tlg1247.tlg001	Cebes	Cebetis tabula	
+tlg1252.tlg002	Certamen Homeri et Hesiodi	Certamen Homeri et Hesiodi	
+tlg1264.tlg001	Chrysippus	Fragmenta Logica et Physica	
+tlg1264.tlg002	Chrysippus	Fragmenta Moralia	
+tlg1264.tlg003	Chrysippus	Fragmenta quae ad explicationem carminum Homericorum pertinent	
+tlg1264.tlg004	Chrysippus	Fragmenta ad singulos libros relata	
+tlg1269.tlg002	Cleanthes	Testimonia et Fragmenta	
+tlg1271.tlg001	Clemens Romanus (Clement of Rome)	The First Epistle of Clement to the Corinthians	
+tlg1271.tlg002	Clemens Romanus (Clement of Rome)	The Second Epistle of Clement to the Corinthians	
+tlg1271.tlg003	Clemens Romanus (Clement of Rome)	Epistula Petri ad Jacobum [Sp.]	Ἐπιστολὴ Πέτρου πρὸς Ἰάκωβον
+tlg1271.tlg004	Clemens Romanus (Clement of Rome)	Contestatio [Sp.]	διαμαρτυρία περὶ τῶν τοῦ βιβλίου λαμβανόντων
+tlg1271.tlg005	Clemens Romanus (Clement of Rome)	Epistula Clementis ad Jacobum [Sp.]	Ἐπιστολὴ Κλήμεντος πρὸς Ἰάκωβον
+tlg1271.tlg006	Clemens Romanus (Clement of Rome)	Homiliae [Sp.]	Ὁμίλαι
+tlg1271.tlg010	Clemens Romanus (Clement of Rome)	Epistulae de virginitate [Sp.]	
+tlg1271.tlg011	Clemens Romanus (Clement of Rome)	Pseudo‑Clementina (epitome altera auctore Symeone Metaphrasta) [Sp.]	
+tlg1271.tlg012	Clemens Romanus (Clement of Rome)	Pseudo‑Clementina (epitome de gestis Petri praemetaphrastica) [Sp.]	
+tlg1272.tlg001	Cleomedes	De motu circulari corporum caelestium	Μετέωρα
+tlg1286.tlg001	Hermetica	Poimandres	[Ἑρμοῦ τρισμεγιστου] Ποιμάνδρης
+tlg1286.tlg002	Hermetica	Dialogus (sine titulo)	⟨Ἑρμοῦ τρισμεγιστου πρὸς Ἀσκληπιόν⟩
+tlg1286.tlg003	Hermetica	Hieros logos	Ἑρμοῦ τοῦ τρισμεγίστου λόγος ἱερός
+tlg1286.tlg004	Hermetica	Πρὸς Τάτ ὁ κρατήρ ἡ μονάς	Ἑρμοῦ πρὸς Τάτ. ὁ κρατήρ. [ἡ μονάς]
+tlg1286.tlg005	Hermetica	Πρὸς Τὰτ υἱόν ὅτι ἀφανὴς θεὸς φανερώτατός ἐστιν	Ἑρμοῦ πρὸς Τὰτ υἱόν. ὅτι ἀφανὴς ⟨ . . . ⟩ θεὸς φανερώτατός ἐστι.
+tlg1286.tlg006	Hermetica	Ὅτι ἐν μόνῳ τῷ θεῷ τὸ ἀγαθόν ἐστιν, ἀλλαχόθι δὲ οὐδαμοῦ	Ἑρμοῦ τοῦ τρισμεγίστου. ὅτι ἐν μόνῳ τῷ θεῷ τὸ ἀγαθόν ἐστιν, ἀλλαχόθι δὲ οὐδαμοῦ
+tlg1286.tlg007	Hermetica	Ὅτι μέγιστον κακὸν ἐν ἀνθρώποις ἡ περὶ τοῦ θεοῦ ἀγνωσία	[Ἑρμοῦ τοῦ τρισμεγίστου.] ὅτι μέγιστον κακὸν ἐν ἀνθρώποις ἡ περὶ τοῦ θεοῦ ἀγνωσία
+tlg1286.tlg008	Hermetica	Ὅτι οὐδὲν τῶν ὄντων ἀπόλλυται, ἀλλὰ τὰς μεταβολὰς ἀπωλείας καὶ θανάτους πλανώμενοι λέγουσιν	Ἑρμοῦ τοῦ τρισμεγίστου. ὅτι οὐδὲν τῶν ὄντων ἀπόλλυται, ἀλλὰ τὰς μεταβολὰς ἀπωλείας καὶ θανάτους πλανώμενοι λέγουσιν
+tlg1286.tlg009	Hermetica	Περὶ νοήσεως καὶ αἰσθήσεως. [ὅτι ἐν μόνῳ τῷ θεῷ τὸ καλὸν καὶ ἀγαθόν ἐστιν, ἀλλαχόθι δὲ οὐδαμοῦ]	Ἑρμοῦ τοῦ τρισμεγίστου. περὶ νοήσεως καὶ αἰσθήσεως. [καὶ ὅτι ἐν μόνῳ τῷ θεῷ τὸ καλὸν καὶ ἀγαθόν ἐστιν, ἀλλαχόθι δὲ οὐδαμοῦ]
+tlg1286.tlg010	Hermetica	Κλείς	Ἑρμοῦ τοῦ τρισμεγίστου. Κλείς
+tlg1286.tlg011	Hermetica	Νοῦ πρὸς Ἑρμῆν	Νοῦ πρὸς Ἑρμῆν
+tlg1286.tlg012	Hermetica	Περὶ νοῦ κοινοῦ πρὸς Τάτ	Ἑρμοῦ τοῦ τρισμεγίστου περὶ νοῦ ⎡κοινοῦ⎤ πρὸς Τάτ
+tlg1286.tlg013	Hermetica	Πρὸς τὸν υἱὸν Τὰτ ἐν ὄρει λόγος ἀπόκρυφος περὶ παλιγγενεσίας καὶ σιγῆς ἐπαγγελίας	Ἑρμοῦ τοῦ τρισμεγίστου πρὸς τὸν υἱὸν Τὰτ [ἐν ὄρει] λόγος ἀπόκρυφος περὶ παλιγγενεσίας [καὶ σιγῆς ἐπαγγελίας]
+tlg1286.tlg014	Hermetica	Ἀσκληπιῷ εὖ φρονεῖν	Ἑρμοῦ τοῦ τρισμεγίστου Ἀσκληπιῷ εὖ φρονεῖν
+tlg1286.tlg016	Hermetica	Ὅροι Ἀσκληπιοῦ πρὸς Ἄμμωνα βασιλέα	[ὅροι] Ἀσκληπιοῦ πρὸς Ἄμμωνα βασιλέα
+tlg1286.tlg017	Hermetica	Dialogus (sine titulo)	
+tlg1286.tlg018	Hermetica	Περὶ τῆς ὑπὸ τοῦ πάθους τοῦ σώματος ἐμποδιζομένης ψυχῆς	[περὶ τῆς ὑπὸ τοῦ πάθους τοῦ σώματος ἐμποδιζομένης ψυχῆς]
+tlg1286.tlg019	Hermetica	Asclepius (verba Graeca solum)	Ἑρμοῦ τρισμεγίστου βίβλος ἱερὰ πρὸς Ἀσκληπιὸν προσφωνηθεῖσα
+tlg1286.tlg020	Hermetica	Fragmenta	
+tlg1287.tlg001	Crantor	Fragmenta	
+tlg1304.tlg002	Democritus	Fragmenta	
+tlg1309.tlg001	Dialexeis	Fragmenta	
+tlg1311.tlg001	Didache	Didache	
+tlg1319.tlg002	Diogenes of Apollonia	Fragmenta	
+tlg1320.tlg001	Diogenes Babylonius	Testimonia et Fragmenta	
+tlg1325.tlg001	Diogenes Sinopensis Epistulae	Epistulae	
+tlg1329.tlg001	Dionysius Corinthius	Fragmenta	
+tlg1337.tlg003	Dorotheus of Sidon	Fragmenta alia antiqua	
+tlg1347.tlg004	Epimenides	Fragmenta	
+tlg1367.tlg001	Euripides Epistulae	Epistulae	
+tlg1383.tlg001	Geminus	Elementa astronomia	
+tlg1389.tlg001	Harpocration	Lexicon in decem oratores Atticos	
+tlg1390.tlg004	Hecataeus of Abderita	Fragmenta	
+tlg1402.tlg001	Hephaestion	Enchridion de Metris	
+tlg1402.tlg002	Hephaestion	Introduction to Meter	Μετρικὴ εἰσαγωγή
+tlg1402.tlg003	Hephaestion	On Poems	Περὶ ποιημάτων
+tlg1402.tlg004	Hephaestion	De Signis	
+tlg1402.tlg005	Hephaestion	Fragments	
+tlg1409.opp003	Heraclides Ponticus	Epitoma to Res Publica Atheniensium	
+tlg1413.tlg001	Heraclitus Paradoxographus	On Unbelievable Stories	
+tlg1414.tlg001	Heraclitus	Allegoriae (= Quaestiones Homericae)	
+tlg1416.tlg007	Philo of Byblos	De diversis verborum significationibus (= Περὶ διαφόρους σημασίας κατ’ ἀλφάβητον) (epitome operis Herennii Philonis)	
+tlg1419.tlg001	Hermas, 2nd cent.	The Shepherd of Hermas	
+tlg1431.tlg003	Hipparchus	In Arati et Eudoxi phaenomena commentariorum libri iii	
+tlg1434.tlg004	Hippias of Elis	Fragmenta	
+tlg1441.tlg001	Iamblichus (Scr. Erot.)	Babyloniaca	
+tlg1443.tlg001	Ignatius of Antioch	Epistles	
+tlg1443.tlg002	Ignatius of Antioch	Epistulae interpolatae et epistulae suppositiciae (recensio longior) [Sp.]	
+tlg1443.tlg004	Ignatius of Antioch	Ad Ephesios (epist. 1)	ΠΡΟΣ ΕΦΕΣΙΟΥΣ ΙΓΝΑΤΙΟΣ
+tlg1447.tlg001	Irenaeus, Saint, Bishop of Lyon	Libros quinque adversus haereses	
+tlg1447.tlg009	Irenaeus, Saint, Bishop of Lyon	Fragmenta Synodicae Epistulae.	
+tlg1463.tlg001	Liber Enoch	Apocalypsis Enochi	
+tlg1482.tlg001	Cyranides	Cyranides	
+tlg1484.tlg001	Martyrium Polycarpi	The Martyrdom of Polycarp	
+tlg1486.tlg001	Matron of Pitana	Convivium Atticum	Δει̑πνον Ἀττικόν
+tlg1486.tlg002	Matron of Pitana	Fragmenta	
+tlg1487.tlg001	Maximus, Astrologus	Carminum de actionum auspiciis reliquiae	
+tlg1487.tlg002	Maximus, Astrologus	Carminum de actionum auspiciis reliquiae (epitome)	
+tlg1542.tlg001	Numenius of Apamea	Fragmenta	
+tlg1548.tlg001	Oenomaus of Gadara	Fragmenta	
+tlg1551.tlg001	Oracula Sibyllina	Oracula	
+tlg1551.tlg002	Oracula Sibyllina	Fragmenta	
+tlg1553.tlg001	Palaiphatos	De Incredibilibus	
+tlg1562.tlg002	Parmenides	Fragmenta	
+tlg1595.tlg221	Philodemus	De Musica Librorum Quae Exstant	
+tlg1595.tlg370	Philodemus	Volumina Rhetorica	ΠΕΡΙ ΡΗΤΟΡΙΚΗΣ
+tlg1596.tlg002	Philolaus of Croton	Fragmenta	
+tlg1600.tlg001	Philostratus Sophista	Imagines	Εἰκόνες
+tlg1602.tlg001	Philoxenus of Alexandria	Fragmenta	
+tlg1617.tlg001	Marcus Antonius Polemon	Declamationes	
+tlg1622.tlg001	Polycarp	Epistula ad Philippenses	
+tlg1626.tlg001	Polycrates Ephesius	Fragmentum Synodicae Epistulae	
+tlg1634.tlg002	Prodicus	Fragmenta	
+tlg1664.tlg001	Seniores Alexandrini	Fragmenta	
+tlg1665.tlg001	Seniores Apud Irenaeum	Reliquiae plurium anonymorum	
+tlg1669.tlg004	Serapion Astrologus	Fragmenta	
+tlg1681.tlg001	Solonis Epistulae	Epistulae	
+tlg1692.tlg005	Speusippus	Fragmenta	
+tlg1699.tlg001	Teles Megarenesis	Περὶ τοῦ δοκεῖν καὶ τοῦ εἶναι	Περὶ τοῦ δοκεῖν καὶ τοῦ εἶναι
+tlg1699.tlg002	Teles Megarenesis	Περὶ αὐταρκείας	Περὶ αὐταρκείας
+tlg1699.tlg003	Teles Megarenesis	Περὶ φυγῆς	Περὶ φυγῆς
+tlg1699.tlg004	Teles Megarenesis	Περὶ συγκρίσεως πενίας καὶ πλούτου	Περὶ συγκρίσεως πενίας καὶ πλούτου
+tlg1699.tlg005	Teles Megarenesis	Περὶ συγκρίσεως πενίας καὶ πλούτου	Περὶ συγκρίσεως πενίας καὶ πλούτου
+tlg1699.tlg006	Teles Megarenesis	Περὶ τοῦ μὴ εἶναι τέλος ἡδονήν	Περὶ τοῦ μὴ εἶναι τέλος ἡδονήν
+tlg1699.tlg007	Teles Megarenesis	Περὶ περιστάσεων	Περὶ περιστάσεων
+tlg1699.tlg008	Teles Megarenesis	Περὶ ἀπαθείας	Περὶ ἀπαθείας
+tlg1701.tlg001	Testamentum Abrahae	Testamentum Abrahae (recensio A)	
+tlg1701.tlg002	Testamentum Abrahae	Testamentum Abrahae (recensio B)	
+tlg1705.tlg001	Thales	Epistulae	
+tlg1719.tlg001	Theodosius of Bithynia	Sphaerica	
+tlg1724.tlg001	Theon Smyrnaeus	De utilitate mathematicae	
+tlg1725.tlg001	Theophilus	Ad Autolycum	
+tlg1749.tlg001	Vitae Hesiodi Particula	Vitae Hesiodi Particula	
+tlg1750.tlg001	Vitae Prophetarum	De prophetarum vita et obitu (Dorothei recensio)	
+tlg1750.tlg002	Vitae Prophetarum	De prophetarum vita et obitu (recensio anonyma)	
+tlg1750.tlg003	Vitae Prophetarum	De prophetarum vita et obitu (recensio scholiis Hesychii aliorumque patrum in prophetas adjecta)	
+tlg1750.tlg004	Vitae Prophetarum	Index apostolorum discipulorumque Domini	
+tlg1763.tlg001	Tryphon II Grammaticus	De tropis (olim sub auctore Gregorio Corintho)	Γρηγορίου τοῦ Κορινθίου περὶ τρόπων
+tlg1764.tlg001	Vettius Valens	Anthologiarum libri	
+tlg1765.tlg003	Vitae Aesopi	Vita Aesopi Pl vel Accursiana (sub auctore Maximo Planude) (recensio 1)	
+tlg1765.tlg004	Vitae Aesopi	Vita Aesopi (fort. auctore Aphthonio)	
+tlg1765.tlg005	Vitae Aesopi	Βιβλίον μυθικὸν τοῦ Αἰσώπου	Βιβλίον μυθικὸν τοῦ Αἰσώπου
+tlg1766.tlg001	Tatianus	Oratio ad Graecos	
+tlg1799.tlg001	Euclid	Elementa	Στοιχεῖα
+tlg1799.tlg007	Euclid	Data	
+tlg1799.tlg008	Euclid	Data (demonstrationes alterae)	
+tlg1799.tlg009	Euclid	Optica	
+tlg1799.tlg010	Euclid	Opticorum recensio Theonis	
+tlg1799.tlg011	Euclid	Catoptrica (recensio Theonis?)	
+tlg1799.tlg012	Euclid	Phaenomena	
+tlg1799.tlg013	Euclid	Phaenomena (recensio b)	
+tlg1799.tlg014	Euclid	Phaenomena (demonstrationes alterae recensionis b)	
+tlg1799.tlg015	Euclid	Sectio canonis [Sp.]	
+tlg1799.tlg016	Euclid	Fragmenta	
+tlg1799.tlg017	Euclid	Epigramma	
+tlg1801.tlg001	Parodica Anonyma	Incertorum fragmenta	
+tlg1802.tlg001	Versus heroici	Versus heroici	
+tlg1803.tlg001	Bruti Epistulae	Epistulae	
+tlg1805.tlg001	Vitae Homeri	Vitae Herodotea	
+tlg1805.tlg002	Vitae Homeri	Plutarchi vita	
+tlg1805.tlg003	Vitae Homeri	Vita Proculea (e Chrestomathia)	
+tlg1805.tlg004	Vitae Homeri	Vita quarta	
+tlg1805.tlg005	Vitae Homeri	Vita quinta	
+tlg1805.tlg006	Vitae Homeri	Vita quinta	
+tlg1805.tlg007	Vitae Homeri	Vita septima	
+tlg1805.tlg008	Vitae Homeri	Tzetzae vita	
+tlg1805.tlg009	Vitae Homeri	Eustathii vita	
+tlg1805.tlg010	Vitae Homeri	Sudae vita	
+tlg2000.tlg001	Plotinus	Enneades	
+tlg2001.tlg038	Themistius	Analyticorum Posteriorum Paraphrasis	
+tlg2001.tlg039	Themistius	In Aristotelis Physica Paraphrasis	
+tlg2001.tlg040	Themistius	In Aristotelis Libros De Anima Paraphrasis	
+tlg2001.tlg041	Themistius	(Sophoniae) In Parva Naturalia Commentarium	
+tlg2001.tlg042	Themistius	Quae Fertur In Aristotelis Analyticorum Priorum Librum I	
+tlg2001.tlg043	Themistius	In Libros Aristotelis De Caelo Paraphrasis	
+tlg2001.tlg044	Themistius	In Aristotelis Metaphysicorum	
+tlg2003.tlg001	Julian, Emperor of Rome	Panegyric in Honor of the Emperor Constantinus	Ἐγκώμιον εἰς τὸν αὐτοκράτορα Κωνστάντιον
+tlg2003.tlg002	Julian, Emperor of Rome	Panegyric on the Empress Eusebia	Εὐσεβίας τῆς βασιλίδος ἐγκώμιον
+tlg2003.tlg003	Julian, Emperor of Rome	The Heroic Deeds of the Emperor Constantius, or on Kingship	Περὶ τῶν τοῦ αὐτοκράτορος πράξεων ἢ περὶ βασιλείας
+tlg2003.tlg004	Julian, Emperor of Rome	A Consolation to Himself Upon the Departure of the Excellent Sallust	Ἐπὶ τῇ ἐξόδῳ τοῦ ἀγαθωτάτου Σαλουστίου παραμυθητικὸς εἰς ἑαυτόν
+tlg2003.tlg005	Julian, Emperor of Rome	Letter to the Senate and the People of Athens	Ἀθηναίων τῇ βουλῇ καὶ τῷ δήμῳ
+tlg2003.tlg006	Julian, Emperor of Rome	Letter to Themistius the Philosopher	Θεμιστίῳ φιλοσόφῳ
+tlg2003.tlg007	Julian, Emperor of Rome	To the Cynic Heracleios	Πρὸς Ἡράκλειον κυνικὸν περὶ τοῦ πῶς κυνιστέον καὶ εἰ πρέπει τῷ κυνὶ μύθους πλάττειν
+tlg2003.tlg008	Julian, Emperor of Rome	Hymn to the Mother of the Gods	Εἰς τὴν μητέρα τῶν θεῶν
+tlg2003.tlg009	Julian, Emperor of Rome	To the Uneducated Cynics	Εἰς τοὺς ἀπαιδεύτους κύνας
+tlg2003.tlg010	Julian, Emperor of Rome	The Caesars	Συμπόσιον ἢ Κρόνια
+tlg2003.tlg011	Julian, Emperor of Rome	Hymn to King Helios Dedicated to Sallust	Εἰς τὸν βασιλέα Ἥλιον πρὸς Σαλούστιον
+tlg2003.tlg012	Julian, Emperor of Rome	Misopogon	Μισοπώγων
+tlg2003.tlg013	Julian, Emperor of Rome	Epistolae	
+tlg2003.tlg017	Julian, Emperor of Rome	Κατὰ Γαλιλαίων	
+tlg2016.tlg001	Martyrium Perpetuae et Felcitatis	The Passion of Perpetua and Felicitas	Μαρτύριον Περπετούας
+tlg2018.tlg001	Eusebius of Caesarea	Praeparatio Evangelica	
+tlg2018.tlg002	Eusebius of Caesarea	Ecclesiastical History	Ἐκκλησιαστικὴ ἱστορία
+tlg2018.tlg003	Eusebius of Caesarea	De Martyribus Palaestinae (Recensio Brevior)	
+tlg2018.tlg005	Eusebius of Caesarea	Demonstratio Evangelica	
+tlg2018.tlg007	Eusebius of Caesarea	Contra Marcellum	των κατά Μαρκέλλου
+tlg2018.tlg008	Eusebius of Caesarea	Epistula ad Flacillum	
+tlg2018.tlg009	Eusebius of Caesarea	De Ecclesiastica Theologia	περὶ τῆς ἐκκλησιαστικῆς θεολογίας
+tlg2018.tlg010	Eusebius of Caesarea	De Theophania (Fragmenta)	
+tlg2018.tlg011	Eusebius of Caesarea	Onomasticon	
+tlg2018.tlg020	Eusebius of Caesarea	Vita Constantini	
+tlg2018.tlg021	Eusebius of Caesarea	Constantini imperatoris oratio ad coetum sanctorum	
+tlg2018.tlg022	Eusebius of Caesarea	De Laudibus Constantini	
+tlg2018.tlg023	Eusebius of Caesarea	Generalis elementaria introductio (= Eclogae propheticae)	
+tlg2021.tlg001	Epiphanius	Ancoratus	
+tlg2021.tlg002	Epiphanius	Panarion (Adversus Haereses)	
+tlg2021.tlg003	Epiphanius	Anacephalaeosis [Sp.]	
+tlg2022.tlg003	Gregory of Nazianzus	Christus Patiens [Dub.] (Fort. Auctore Constantino Manasse)	
+tlg2022.tlg007	Gregory of Nazianzus	Adversus Eunomianos (Orat. 27)	
+tlg2022.tlg008	Gregory of Nazianzus	De Theologia (Orat. 28)	
+tlg2022.tlg009	Gregory of Nazianzus	De Filio (Orat. 29)	
+tlg2022.tlg010	Gregory of Nazianzus	De Filio (Orat. 30)	
+tlg2022.tlg011	Gregory of Nazianzus	De Spiritu Sancto (Orat. 31)	
+tlg2022.tlg060	Gregory of Nazianzus	Carmina moralia	
+tlg2023.tlg001	Iamblichus	De Vita Pythagorica	περὶ τοῦ Πυθαγορικοῦ βίου λόγος
+tlg2023.tlg002	Iamblichus	Protrepticus	
+tlg2023.tlg003	Iamblichus	De communi mathematica scientia	Περί της κοινής μαθηματικής επιστήμης
+tlg2023.tlg004	Iamblichus	In Nicomachi Arithmeticam Introductionem	Περὶ τῆς Νικομάχου ἀριθμητικῆς εἰσαγωγῆς
+tlg2023.tlg006	Iamblichus	De Mysteriis	
+tlg2027.tlg001	Valerius Apsines	Ars rhetorica	
+tlg2027.tlg002	Valerius Apsines	Περὶ τῶν ἐσχηματισμένων προβλημάτων	Περὶ τῶν ἐσχηματισμένων προβλημάτων
+tlg2029.tlg001	Anonymi summaria ratio geographiae in sphaera intelligendae	Anonymi summaria ratio geographiae in sphaera intelligendae	
+tlg2032.tlg001	Pappus Alexandrinus	Synagoge	
+tlg2034.tlg002	Porphyrius	Vita Pythagorae	
+tlg2034.tlg003	Porphyrius	De abstinentia	
+tlg2034.tlg005	Porphyrius	Ad Marcellam	
+tlg2034.tlg006	Porphyrius	Isagoge Sive Quinque Voces	
+tlg2034.tlg007	Porphyrius	In Aristotelis Categorias Expositio Per Interrogationem Et Responsionem	
+tlg2034.tlg014	Porphyrius	Quaestionum Homericanum ad Iliadem pertinentium reliquiae	
+tlg2034.tlg015	Porphyrius	Zetemata codicis Vaticani	
+tlg2034.tlg027	Porphyrius	Historia philosophiae (fragmenta)	
+tlg2035.tlg002	Athanasius	De Incarnatione Verbi	
+tlg2035.tlg003	Athanasius	De decretis Nicaenae synodi	
+tlg2035.tlg117	Athanasius	Oratio quarta contra Arianos [Sp.]	
+tlg2035.tlg130	Athanasius	Oratio I contra Arianos	
+tlg2035.tlg131	Athanasius	Oratio II contra Arianos	
+tlg2035.tlg132	Athanasius	Oratio III contra Arianos	
+tlg2036.tlg001	Dexippus	In Aristotelis Categorias Commentarium	
+tlg2038.tlg001	Acta Thomae	Acta Thomae	Πράξεις τοῦ ἁγίου ἀποστόλου Θωμᾶ
+tlg2039.tlg003	Diophantus Alexandrinus	Fragmentum [Sp.] (e cod. Paris. suppl. gr. 387, fol. 181r)	
+tlg2039.tlg004	Diophantus Alexandrinus	Fragmentum [Sp.] (e cod. Paris. 453)	
+tlg2039.tlg005	Diophantus Alexandrinus	Fragmentum [Sp.] (e cod. Paris. gr. 2448)	
+tlg2040.tlg002	Basil, Saint, Bishop of Caesarea	De legendis gentilium libris	Πρὸς τοὺς νέους, ὅπως ἂν ἐξ Ἑλληνικῶν ὠφελοῖντο λόγων
+tlg2040.tlg004	Basil, Saint, Bishop of Caesarea	Epistulae	
+tlg2041.tlg001	Marcellus of Ankara	Fragmenta	
+tlg2042.tlg001	Origenes	Contra Celsum	
+tlg2042.tlg005	Origenes	Commentarii In Evangelium Joannis	
+tlg2042.tlg006	Origenes	Fragmenta In Evangelium Joannis (In Catenis)	
+tlg2042.tlg007	Origenes	Exhortatio ad martyrium	
+tlg2042.tlg008	Origenes	De oratione	
+tlg2042.tlg009	Origenes	In Jeremiam (Homiliae 1-11)	
+tlg2042.tlg010	Origenes	Fragmenta In Jeremiam (In Catenis)	
+tlg2042.tlg011	Origenes	Fragmenta In Lamentationes (In Catenis de Prophetis)	
+tlg2042.tlg012	Origenes	Fragmentum In Lamentationes (In Catenis de Octateucho)	
+tlg2042.tlg013	Origenes	De Engastrimytho (Homilia In I Reg. [I Sam.] 28.3-25)	
+tlg2042.tlg014	Origenes	Fragmenta in Librum Primum Regnorum (In Catenis de Samuelis et Regnorum)	
+tlg2042.tlg015	Origenes	Fragmentum In Librum Primum Regnorum (In Catenis de Cantico Canticorum)	
+tlg2042.tlg016	Origenes	Homiliae In Lucam	
+tlg2042.tlg017	Origenes	Fragmenta In Lucam (In Catenis)	
+tlg2042.tlg019	Origenes	Philocalia	
+tlg2042.tlg021	Origenes	In Jeremiam (Homiliae 12-20)	
+tlg2042.tlg028	Origenes	Commentariorum Series In Evangelium Matthaei (Mt. 22.34-27.63)	
+tlg2042.tlg029	Origenes	Commentarium In Evangelium Matthaei (Lib. 10-11)	
+tlg2042.tlg030	Origenes	Commentarium In Evangelium Matthaei (Lib. 12-17)	
+tlg2042.tlg044	Origenes	Fragmenta in Psalmos 1-150 [Dub.]	
+tlg2042.tlg045	Origenes	Epistula ad Africanum	
+tlg2042.tlg048	Origenes	Selecta in Genesim	
+tlg2042.tlg050	Origenes	Selecta in Exodum	
+tlg2042.tlg051	Origenes	Selecta in Leviticum	
+tlg2042.tlg052	Origenes	Selecta in Numeros	
+tlg2042.tlg053	Origenes	Selecta in Deuteronomium	
+tlg2042.tlg054	Origenes	Selecta in Jesum Nave	
+tlg2042.tlg055	Origenes	Selecta in Judices	
+tlg2042.tlg057	Origenes	Selecta in Job	
+tlg2042.tlg058	Origenes	Selecta in Psalmos [Dub.]	
+tlg2042.tlg061	Origenes	Fragmenta ex commentariis in Ezechielem	
+tlg2042.tlg066	Origenes	Adnotationes in Genesim	
+tlg2042.tlg067	Origenes	Adnotationes in Exodum	
+tlg2042.tlg068	Origenes	Adnotationes in Leviticum (fragmenta e catenis)	
+tlg2042.tlg069	Origenes	Adnotationes in Numeros	
+tlg2042.tlg070	Origenes	Adnotationes in Deuteronomium (fragmenta e catenis)	
+tlg2042.tlg071	Origenes	Adnotationes in Jesu filium Nave (fragmenta e catenis)	
+tlg2042.tlg072	Origenes	Adnotationes in Judices	
+tlg2042.tlg073	Origenes	Homiliae in Job (fragmenta in catenis, typus II)	
+tlg2042.tlg074	Origenes	Excerpta in Psalmos [Dub.]	
+tlg2042.tlg075	Origenes	Expositio in Proverbia (fragmenta e catenis)	
+tlg2042.tlg076	Origenes	Scholia in Canticum canticorum	
+tlg2042.tlg077	Origenes	Scholia in Matthaeum	
+tlg2042.tlg078	Origenes	Scholia in Lucam (fragmenta e cod. Venet. 28)	
+tlg2042.tlg079	Origenes	Commentarii in evangelium Joannis (lib. 19, 20, 28, 32)	
+tlg2042.tlg084	Origenes	Fragmenta In Jeremiam (E Philocalia)	
+tlg2042.tlg086	Origenes	Homiliae in Job (fragmenta in catenis, typus I+II) (e codd. Vat.)	
+tlg2045.tlg001	Nonnus of Panopolis	Dionysiaca	Διονυσιακά
+tlg2046.tlg001	Quintus Smyrnaeus	Fall of Troy	τὰ μεθ᾿ Ὅμηρον
+tlg2048.tlg001	Sozomenus	Historia Ecclesiastica	
+tlg2049.tlg001	Sallustius	De Deis et Mundo	
+tlg2050.tlg001	Eunapius	Vitae Sophistarum	
+tlg2057.tlg002	Socrates Scholasticus	Ecclesiastical history	
+tlg2058.tlg001	Philostorgius	Historia ecclesiastica (fragmenta ap. Photium)	
+tlg2115.tlg060	Hippolytus	Refutatio Omnium Haeresium (= Philosophumena)	
+tlg2135.tlg001	Alypius	Isagoge musica	
+tlg2136.tlg001	Bacchius Geron	Isagoge artis musicae	
+tlg2137.tlg001	Gaudentius	Harmonica introductio	
+tlg2138.tlg001	Canticum Euripidis	Ex Orestis Stasimo I	
+tlg2139.tlg001	Epitaphium Sicili	Sicili Epitaphium	
+tlg2140.tlg001	Iamblichus Alchemista	Fragmentum alchemica	
+tlg2178.tlg001	Cassius Longinus	Ars rhetorica	
+tlg2178.tlg002	Cassius Longinus	Excerpta	
+tlg2178.tlg004	Cassius Longinus	Fragmenta	
+tlg2189.tlg003	Callinicus	Fragmenta	
+tlg2200.tlg001	Libanius	Epistulae	
+tlg2200.tlg00401	Libanius	Oratio 1	
+tlg2200.tlg00402	Libanius	Oratio 2	
+tlg2200.tlg00403	Libanius	Oratio 3	
+tlg2200.tlg00404	Libanius	Oratio 4	
+tlg2200.tlg00405	Libanius	Oratio 5	
+tlg2200.tlg00406	Libanius	Oratio 6	
+tlg2200.tlg00407	Libanius	Oratio 7	
+tlg2200.tlg00408	Libanius	Oratio 8	
+tlg2200.tlg00409	Libanius	Oratio 9	
+tlg2200.tlg00410	Libanius	Oratio 10	
+tlg2200.tlg00411	Libanius	Oratio 11	
+tlg2200.tlg00426	Libanius	Oratio 26	
+tlg2200.tlg00427	Libanius	Oratio 27	
+tlg2200.tlg00428	Libanius	Oratio 28	
+tlg2200.tlg00429	Libanius	Oratio 29	
+tlg2200.tlg00430	Libanius	Oratio 30	
+tlg2200.tlg00431	Libanius	Oratio 31	
+tlg2200.tlg00432	Libanius	Oratio 32	
+tlg2200.tlg00433	Libanius	Oratio 33	
+tlg2200.tlg00434	Libanius	Oratio 34	
+tlg2200.tlg00435	Libanius	Oratio 35	
+tlg2200.tlg00436	Libanius	Oratio 36	
+tlg2200.tlg00437	Libanius	Oratio 37	
+tlg2200.tlg00438	Libanius	Oratio 38	
+tlg2200.tlg00439	Libanius	Oratio 39	
+tlg2200.tlg00440	Libanius	Oratio 40	
+tlg2200.tlg00441	Libanius	Oratio 41	
+tlg2200.tlg00442	Libanius	Oratio 42	
+tlg2200.tlg00443	Libanius	Oratio 43	
+tlg2200.tlg00444	Libanius	Oratio 44	
+tlg2200.tlg00445	Libanius	Oratio 45	
+tlg2200.tlg00446	Libanius	Oratio 46	
+tlg2200.tlg00447	Libanius	Oratio 47	
+tlg2200.tlg00448	Libanius	Oratio 48	
+tlg2200.tlg00449	Libanius	Oratio 49	
+tlg2200.tlg00450	Libanius	Oratio 50	
+tlg2200.tlg00451	Libanius	Oratio 51	
+tlg2200.tlg00452	Libanius	Oratio 52	
+tlg2200.tlg00453	Libanius	Oratio 53	
+tlg2200.tlg00454	Libanius	Oratio 54	
+tlg2200.tlg00455	Libanius	Oratio 55	
+tlg2200.tlg00456	Libanius	Oratio 56	
+tlg2200.tlg00457	Libanius	Oratio 57	
+tlg2200.tlg00458	Libanius	Oratio 58	
+tlg2200.tlg00459	Libanius	Oratio 59	
+tlg2200.tlg00460	Libanius	Oratio 60	
+tlg2200.tlg00461	Libanius	Oratio 61	
+tlg2200.tlg00462	Libanius	Oratio 62	
+tlg2200.tlg00463	Libanius	Oratio 63	
+tlg2200.tlg00464	Libanius	Oratio 64	
+tlg2200.tlg00501	Libanius	Declamatio 1	
+tlg2200.tlg00502	Libanius	Declamatio 2	
+tlg2200.tlg00503	Libanius	Declamatio 3	
+tlg2200.tlg00504	Libanius	Declamatio 4	
+tlg2200.tlg00505	Libanius	Declamatio 5	
+tlg2200.tlg00506	Libanius	Declamatio 6	
+tlg2200.tlg00507	Libanius	Declamatio 7	
+tlg2200.tlg00508	Libanius	Declamatio 8	
+tlg2200.tlg00509	Libanius	Declamatio 9	
+tlg2200.tlg00510	Libanius	Declamatio 10	
+tlg2200.tlg00511	Libanius	Declamatio 11	
+tlg2200.tlg00512	Libanius	Declamatio 12	
+tlg2200.tlg00513	Libanius	Declamatio 13	
+tlg2200.tlg00514	Libanius	Declamatio 14	
+tlg2200.tlg00515	Libanius	Declamatio 15	
+tlg2200.tlg00516	Libanius	Declamatio 16	
+tlg2200.tlg00517	Libanius	Declamatio 17	
+tlg2200.tlg00518	Libanius	Declamatio 18	
+tlg2200.tlg00519	Libanius	Declamatio 19	
+tlg2200.tlg00520	Libanius	Declamatio 20	
+tlg2200.tlg00521	Libanius	Declamatio 21	
+tlg2200.tlg00522	Libanius	Declamatio 22	
+tlg2200.tlg00523	Libanius	Declamatio 23	
+tlg2200.tlg00524	Libanius	Declamatio 24	
+tlg2200.tlg00525	Libanius	Declamatio 25	
+tlg2200.tlg00526	Libanius	Declamatio 26	
+tlg2200.tlg00527	Libanius	Declamatio 27	
+tlg2200.tlg00528	Libanius	Declamatio 28	
+tlg2200.tlg00529	Libanius	Declamatio 29	
+tlg2200.tlg00530	Libanius	Declamatio 30	
+tlg2200.tlg00531	Libanius	Declamatio 31	
+tlg2200.tlg00532	Libanius	Declamatio 32	
+tlg2200.tlg00533	Libanius	Declamatio 33	
+tlg2200.tlg00534	Libanius	Declamatio 34	
+tlg2200.tlg00535	Libanius	Declamatio 35	
+tlg2200.tlg00536	Libanius	Declamatio 36	
+tlg2200.tlg00537	Libanius	Declamatio 37	
+tlg2200.tlg00538	Libanius	Declamatio 38	
+tlg2200.tlg00539	Libanius	Declamatio 39	
+tlg2200.tlg00540	Libanius	Declamatio 40	
+tlg2200.tlg00541	Libanius	Declamatio 41	
+tlg2200.tlg00542	Libanius	Declamatio 42	
+tlg2200.tlg00543	Libanius	Declamatio 43	
+tlg2200.tlg00544	Libanius	Declamatio 44	
+tlg2200.tlg00545	Libanius	Declamatio 45	
+tlg2200.tlg00546	Libanius	Declamatio 46	
+tlg2200.tlg00547	Libanius	Declamatio 47	
+tlg2200.tlg00548	Libanius	Declamatio 48	
+tlg2200.tlg00549	Libanius	Declamatio 49	
+tlg2200.tlg00550	Libanius	Declamatio 50	
+tlg2200.tlg00551	Libanius	Declamatio 51	
+tlg2200.tlg008	Libanius	Characteres Epistolici [Sp.]	
+tlg2233.tlg001	Pseudo-Polemon	Physiognomonica (Epitome Adamantiana)	
+tlg2233.tlg002	Pseudo-Polemon	Physiognomonica	
+tlg2371.tlg001	Chronicon Paschale	Chronicon Paschale	
+tlg2583.tlg001	Manetho Astrologus	Apotelesmatica	
+tlg2586.tlg001	Menander Rhetor	Διαίρεσις τῶν ἐπιδεικτικῶν	Διαίρεσις τῶν ἐπιδεικτικῶν
+tlg2586.tlg002	Menander Rhetor	Περὶ ἐπιδεικτικῶν	Περὶ ἐπιδεικτικῶν
+tlg2601.tlg001	Tiberius Rhetor	De figuris Demosthenicis	Περὶ τῶν παρὰ Δημοσθένει σχημάτων
+tlg2632.tlg001	Comarius	De lapide philosophorum	Κομαρίου φιλοσόφου ἀρχιερέως διδάσκοντος τὴν Κλεοπάτραν τὴν θείαν καὶ ἱερὰν τέχνην τοῦ λίθου τῆς φιλοσοφίας
+tlg2640.tlg001	Eusebius Myndius	Fragmenta	
+tlg2655.tlg002	Damigeron	De lapidibus	
+tlg2691.tlg002	Musaeus, Eleusinius	Fragmenta	
+tlg2703.tlg001	Anna Comnena	Alexias	Ἀλεξιάδα
+tlg2733.tlg001	Evagrius, Scholasticus	Historia Ecclesiastica	
+tlg2768.tlg001	Gelasius	Historia Ecclesiastica	
+tlg2806.tlg001	Marcus Diaconus	Vita Porphyrii episcopi Gazensis	
+tlg2934.tlg066	John of Damascus, Saint	Vita Barlaam et Joasaph	Βαρλαάμ καί Ἰωάσαφ
+tlg2948.tlg001	Acta Philippi	Acta Philippi	Πράξεις τοῦ ἁγίου καὶ πανευφήμου ἀποστόλου Φιλίππου
+tlg2949.tlg001	Acta Barnabae	Acta Barnabae	Περίοδοι καὶ μαρτύριον τοῦ ἁγίου Βαρνάβα τοῦ ἀποστόλου
+tlg2959.tlg001	Methodius	Symposium Sive Convivium Decem Virginum	
+tlg2959.tlg002	Methodius	De Libero Arbitrio	
+tlg2959.tlg003	Methodius	De Resurrectione	
+tlg2959.tlg004	Methodius	De Lepra Ad Sistelium	
+tlg2959.tlg005	Methodius	De Creatis (Fragmenta Ap. Photium, Bibl. Cod. 235)	
+tlg2959.tlg006	Methodius	Adversus Porphyrium (Fragmenta)	
+tlg2959.tlg007	Methodius	Fragmenta In Job (In Catenis)	
+tlg2959.tlg008	Methodius	De Martyribus (Fragmenta)	
+tlg2959.tlg010	Methodius	Fragmenta Incerta [Sp.]	
+tlg2959.tlg011	Methodius	In Genesim (In Catenis)	
+tlg2959.tlg012	Methodius	Sermo De Simeone Et Anna [Sp.]	
+tlg2970.tlg001	Severus Philosophus	Περὶ ψυχῆς (fragmentum)	
+tlg2972.tlg001	Anonymi de Terrae Motibus	Anonymi Dissertatio De Terrae Motibus	
+tlg3118.tlg001	Syntipas	Syntipas (translatio Michael Andreopuli)	Ιστορικον Συντιπα του Φιλοσοφου Ωραιοτατον Πανυ
+tlg3118.tlg002	Syntipas	Narrationes de Syntipa	
+tlg3129.ogl001	Theophylactus	Commentary on St. Cyril In XII Prophetas	
+tlg3135.tlg001	Zonaras	Epitome historiarum (Vol. 1)	Ἐπιτομὴ Ἱστοριῶν
+tlg3135.tlg011	Zonaras	Argumenta	
+tlg3135.tlg012	Zonaras	Chronologia	
+tlg3156.tlg001	Anonymi Exegesis in Hesiodi Theogoniam	Exegesis in Hesiodi theogoniam	
+tlg4003.tlg001	Marcianus, of Heraclea	Periplus maris exteri	
+tlg4003.tlg002	Marcianus, of Heraclea	Menippi periplus maris interni (epitome Marciani)	
+tlg4003.tlg003	Marcianus, of Heraclea	Artemidori Geographia (Epitome Marciani)	
+tlg4013.tlg001	Simplicius	In Aristotelis Quattuor Libros De Caelo Commentaria	
+tlg4013.tlg003	Simplicius	In Aristotelis Categorias Commentarium	
+tlg4013.tlg004	Simplicius	In Aristotelis Physicorum Libros Commentaria	
+tlg4013.tlg005	Simplicius	In Aristotelis Libros De Anima Commentaria [Sp.?] (fort. auctore Prisciano Lydo)	
+tlg4015.tlg001	John Philoponus	In Aristotelis Categorias Commentarium	
+tlg4015.tlg002	John Philoponus	In Aristotelis Analytica Priora Commentaria	
+tlg4015.tlg004	John Philoponus	In Aristotelis Analytica Posteriora Commentaria	
+tlg4015.tlg005	John Philoponus	In Aristotelis Meteorologicorum Librum Primum Commentarium	
+tlg4015.tlg006	John Philoponus	In Aristotelis Libros De Generatione Et Corruptione Commentaria	
+tlg4015.tlg007	John Philoponus	In Libros De Generatione Animalium Commentaria	
+tlg4015.tlg008	John Philoponus	In Aristotelis Libros De Anima Commentaria	
+tlg4015.tlg009	John Philoponus	In Aristotelis Physicorum Libros Commentaria	
+tlg4016.tlg001	Ammonius	In Porphyrii Isagogen Sive Quinque Voces	
+tlg4016.tlg002	Ammonius	In Aristotelis Categorias Commentarius	
+tlg4016.tlg003	Ammonius	In Aristotelis Librum De Interpretatione Commentarius	
+tlg4016.tlg004	Ammonius	In Aristotelis Analyticorum Priorum Librum I Commentarium	
+tlg4016.tlg005	Ammonius	In Aristotelis analytica priora [Sp.]	Εἰς τοὺς ἀναγκαίους συλλογισμούς
+tlg4017.tlg001	Syrianus	In Aristotelis Metaphysica Commentaria	
+tlg4018.tlg001	Asclepius	In Aristotelis Metaphysicorum Libros A-Z Commentaria	
+tlg4019.tlg001	Olympiodorus	Prolegomena	
+tlg4019.tlg002	Olympiodorus	In Categorias Commentarium	
+tlg4019.tlg003	Olympiodorus	In Aristotelis Meteora Commentaria	
+tlg4020.tlg001	Elias Neoplatonicus	In Porphyrii Isagogen	
+tlg4020.tlg002	Elias Neoplatonicus	Eliae (Olim Davidis) In Aristotelis Categorias Commentarium	
+tlg4021.tlg001	David the Invincible	Prolegomena philosophiae	
+tlg4021.tlg002	David the Invincible	In Porphyrii Isagogen Commentarium	
+tlg4024.tlg001	Agathias Scholasticus	Historiae	
+tlg4024.tlg002	Agathias Scholasticus	Epigrammata	
+tlg4026.tlg001	Anonymi in Aristotelis Artem Rhetoricam	In Aristotelis artem rhetoricam commentarium	
+tlg4026.tlg002	Anonymi in Aristotelis Artem Rhetoricam	Fragmentum commentarii in Aristotelis rhetorica	
+tlg4026.tlg003	Anonymi in Aristotelis Artem Rhetoricam	Fragmentum paraphrasis in Aristotelis rhetorica	
+tlg4027.tlg001	Anonymi In Aristotelis Categorias	Paraphrasis Categoriarum	
+tlg4029.tlg001	Procopius	De Bellis	Ὑπὲρ τῶν Πολέμων Λόγοι
+tlg4029.tlg002	Procopius	Historia Arcana	Ἀπόκρυφη Ἱστορία
+tlg4030.tlg001	Sophonias	In Aristotelis Libros De Anima Paraphrasis	
+tlg4031.tlg002	Eustratius	In Aristotelis Ethica Nicomachea I Commentaria	
+tlg4033.tlg003	Anonymi In Aristotelis Ethica Nicomachea	In Ethica Nicomachea Paraphrasis (Pseudepigraphum Olim A Constantino Palaeocappa confectum et olim sub auctore Heliodoro Prusensi vel Andronico Rhodio vel Olympiodoro)	
+tlg4034.tlg002	Michael of Ephesus	In Parva Naturalia Commentaria	
+tlg4034.tlg003	Michael of Ephesus	In Libros De Partibus Animalium Commentaria	
+tlg4034.tlg004	Michael of Ephesus	In libros de animalium motione commentarium	
+tlg4034.tlg005	Michael of Ephesus	In librum de animalium incessu commentarium	
+tlg4034.tlg006	Michael of Ephesus	In Librum Quintum Ethicorum Nicomacheorum Commentarium	
+tlg4036.tlg001	Proclus	In Platonis Rem Publicam Commentarii	
+tlg4036.tlg023	Proclus	Chrestomathy	
+tlg4037.tlg001	Anonymi Paradoxographi	De Incredibilibus (excerpta Vaticana)	
+tlg4072.tlg001	Eutocius	Commentarii in libros de sphaera et cylindro	
+tlg4072.tlg002	Eutocius	Commentarius in dimensionem circuli	
+tlg4072.tlg003	Eutocius	Commentarius in libros de planorum aequilibriis	
+tlg4075.tlg002	Marinus, 5th century	Commentarium in Euclidis data	
+tlg4081.tlg001	Colluthus of Lycopolis	The Rape of Helen	Ἁρπαγὴ Ἑλένης
+tlg4084.tlg001	Zosimus	Historia Nova	
+tlg4086.tlg001	Agathodaemon	Alchemical Fragment	
+tlg4086.tlg002	Agathodaemon	Explanation and Commentary on the Oracle of Orpheus	Ἀγαθοδαίμων εἰς τὸν χρησμὸν Ὀρφέως συναγωγὴ καὶ ὑπόμνημα
+tlg4089.tlg003	Theodoretus	Historia Ecclesiastica	
+tlg4089.tlg004	Theodoretus	Historia Religiosa	
+tlg4090.tlg001	Cyril of Alexandria	In XII Prophetas	
+tlg4091.tlg001	Callistratus	Descriptiones	Ἐκφράσεις
+tlg4102.tlg001	Catenae (Novum Testamentum)	Catena In Matthaeum (Catena Integra) (E Cod. Paris. Coislin. Gr. 23)	
+tlg4102.tlg002	Catenae (Novum Testamentum)	Catena In Marcum (Recensio ii) (E Codd. Oxon. Bodl. Laud. 33 + Paris. Coislin. 23 + Paris. gr. 178)	
+tlg4102.tlg003	Catenae (Novum Testamentum)	Supplementum et varietas lectionis ad commentarium Chrysostomi in evangelium sancti Matthaei (e cod. Oxon. Bodl. Auct. T.1.4)	
+tlg4102.tlg004	Catenae (Novum Testamentum)	Catena In Lucam (Typus B) (e codd. Paris. Coislin. 23 + Oxon. Bodl. Misc. 182)	
+tlg4102.tlg005	Catenae (Novum Testamentum)	Catena In Joannem (Catena Integra) (e codd. Paris. Coislin. 23 + Oxon. Bodl. Auct. T.1.4)	
+tlg4102.tlg006	Catenae (Novum Testamentum)	Supplementum et varietas lectionis ad catenam in evangelium sancti Lucae (e cod. Oxon. Bodl. Laud. 33)	
+tlg4102.tlg007	Catenae (Novum Testamentum)	Supplementum Et Varietas Lectionis Ad Catenam In Evangelium Sancti Joannis (e cod. Bodl. B.)	
+tlg4102.tlg008	Catenae (Novum Testamentum)	Catena In Acta (Catena Andreae) (e cod. Oxon. coll. nov. 58)	
+tlg4102.tlg010	Catenae (Novum Testamentum)	Catena In Epistulam Ad Romanos (Typus Vaticanus) (E Cod. Oxon. Bodl. Auct. E.2.20 [= Misc. 48])	
+tlg4102.tlg011	Catenae (Novum Testamentum)	Catena In Epistulam Ad Romanos (Typus Monacensis) (E Cod. Monac. gr. 412)	
+tlg4102.tlg012	Catenae (Novum Testamentum)	Catena In Epistulam I Ad Corinthios (Typus Vaticanus) (e Cod. Paris. gr. 227)	
+tlg4102.tlg013	Catenae (Novum Testamentum)	Catena In Epistulam II Ad Corinthios (Catena Pseudo-Oecumenii)	
+tlg4102.tlg019	Catenae (Novum Testamentum)	Catena In Epistulam Ad Galatas (Typus Parisinus) (E Cod. Coislin. 204)	
+tlg4102.tlg020	Catenae (Novum Testamentum)	Catena In Epistulam Ad Ephesios (Typus Parisinus) (E Cod. Coislin. 204)	
+tlg4102.tlg021	Catenae (Novum Testamentum)	Catena In Epistulam Ad Philippenses (Typus Parisinus) (e cod. Coislin. 204)	
+tlg4102.tlg022	Catenae (Novum Testamentum)	Catena In Epistulam Ad Colossenses (Typus Parisinus) (E Cod. Coislin. 204)	
+tlg4102.tlg023	Catenae (Novum Testamentum)	Catena In Epistulam I Ad Thessalonicenses (Typus Parisinus)	
+tlg4102.tlg024	Catenae (Novum Testamentum)	Catena In Epistulam II Ad Thessalonicenses (Typus Parisinus)	
+tlg4102.tlg034	Catenae (Novum Testamentum)	Catena In Epistulam I Ad Timotheum (E Cod. Paris. Coislin. 204)	
+tlg4102.tlg035	Catenae (Novum Testamentum)	Catena In Epistulam II Ad Timotheum (E Cod. Paris. Coislin. 204)	
+tlg4102.tlg036	Catenae (Novum Testamentum)	Catena In Epistulam Ad Titum (E Cod. Paris. Coislin. 204)	
+tlg4102.tlg037	Catenae (Novum Testamentum)	Catena In Epistulam Ad Philemonem (E Cod. Paris. Coislin. 204)	
+tlg4102.tlg038	Catenae (Novum Testamentum)	Catena In Epistulam Ad Hebraeos (E Cod. Paris. Coislin. 204)	
+tlg4102.tlg040	Catenae (Novum Testamentum)	Catena In Epistulam Jacobi (Catena Andreae)	
+tlg4102.tlg041	Catenae (Novum Testamentum)	Catena in epistulam Petri i (catena Andreae) (e cod. Oxon. coll. nov. 58)	
+tlg4102.tlg042	Catenae (Novum Testamentum)	Catena in epistulam Petri ii (catena Andreae) (e cod. Oxon. coll. nov. 58)	
+tlg4102.tlg043	Catenae (Novum Testamentum)	Catena in epistulam Joannis i (catena Andreae) (e cod. Oxon. coll. nov. 58)	
+tlg4102.tlg044	Catenae (Novum Testamentum)	Catena in epistulam Joannis ii (catena Andreae) (e cod. Oxon. coll. nov. 58).	
+tlg4102.tlg045	Catenae (Novum Testamentum)	Catena in epistulam Joannis iii (catena Andreae) (e cod. Oxon. coll. nov. 58)	
+tlg4102.tlg046	Catenae (Novum Testamentum)	Catena in epistulam Juda (catena Andreae) (e cod. Oxon. coll. nov. 58)	
+tlg4102.tlgX01	Catenae (Novum Testamentum)	Prooemium Pseudo-Oecumenii In Apocalypsin Commentarii (E Cod.)	
+tlg4102.tlgX02	Catenae (Novum Testamentum)	Commentarius In Apocalypsin	
+tlg4102.tlgX03	Catenae (Novum Testamentum)	Commentarius In Apocalypsin (Pseudo-Oecumenii) (E Cod. Coislin.)	
+tlg4170.tlg001a	Vitae Pindari et varia de Pindaro	Vita Ambrosiana	
+tlg4170.tlg001b	Vitae Pindari et varia de Pindaro	Vita Thomana et hypothesis Olympiorum	
+tlg4170.tlg001c	Vitae Pindari et varia de Pindaro	Vita metrica	
+tlg4170.tlg001d	Vitae Pindari et varia de Pindaro	Pentathlon et de novem lyricis	
+tlg4174.tlg001	Paraphrases in Dioynsium Periegetam	Paraphrases in Dioynsium Periegetam	
+tlg4193.tlg012	Anonymi In Aristotelis Sophisticos Elenchos	In Aristotelis Sophisticos Elenchos Paraphrasis	
+tlg5019.tlg001	Scholia in Dionysium Periegetam	Scholia in Dionysii Byzantii per Bosporum navigationem (scholia vetera)	
+tlg5019.tlg002	Scholia in Dionysium Periegetam	Scholia in Dionysii Periegetae orbis descriptionem (scholia vetera)	
+tlg5022.tlg002	Scholia in Euclidem	Scholia in Euclidis Data	
+tlg5022.tlg003	Scholia in Euclidem	Scholia in Euclidis optica (scholia vetera)	
+tlg5022.tlg004	Scholia in Euclidem	Scholia in opticorum recensionem Theonis (scholia vetera)	
+tlg5022.tlg005	Scholia in Euclidem	Scholia in Euclidis catoptrica (scholia vetera)	
+tlg5022.tlg006	Scholia in Euclidem	Scholia in Euclidis phaenomena	
+tlg5022.tlg007	Scholia in Euclidem	Scholia in Euclidis data et catoptrica	
+tlg5023.tlg001	Scholia in Euripidem	Scholia in Euripidem (scholia vetera)	
+tlg5023.tlg010	Scholia in Euripidem	Vitae Euripidis	
+tlg5023.tlg011	Scholia in Euripidem	Scholia in Euripidis Rhesum	
+tlg5023.tlg012	Scholia in Euripidem	Scholia in Euripidis Troiades	
+tlg5023.tlg013	Scholia in Euripidem	Scholia in Euripidis Hippolytum	
+tlg5023.tlg014	Scholia in Euripidem	Scholia in Euripidis Hecubam (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)	
+tlg5023.tlg015	Scholia in Euripidem	Scholia in Euripidis Orestem (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)	
+tlg5023.tlg016	Scholia in Euripidem	Scholia in Euripidis Phoenissas (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)	
+tlg5026.tlg001	Scholia in Homerum	Scholia in Iliadem	
+tlg5026.tlg007	Scholia in Homerum	Scholia in Odysseam	
+tlg5028.tlg001	Scholia in Isocratem	Scholia in Isocratem (scholia vetera)	
+tlg5029.tlg001	Scholia in Lucianum	Scholia in Lucianum	
+tlg5031.tlg001	Scholia in Nicandrum	Scholia et glossae in Nicandri theriaca (scholia vetera et recentiora)	
+tlg5031.tlg002	Scholia in Nicandrum	Scholia et glossae in Nicandri alexipharmaca (scholia vetera et recentiora)	
+tlg5034.tlg001a	Scholia in Pindarum	Scholia in Pindarum Olympian Odes	
+tlg5034.tlg001b	Scholia in Pindarum	Scholia in Pindarum Pythian Odes	
+tlg5034.tlg001c	Scholia in Pindarum	Scholia in Pindarum Nemean Odes	
+tlg5034.tlg001d	Scholia in Pindarum	Scholia in Pindarum Isthmian Odes	
+tlg5037.tlg004	Scholia in Sophoclem	Scholia in Sophoclem (scholia vetera)	
+tlg7000.tlg001	Greek Anthology	Greek Anthology	
+tlg9004.tlg001	Anonymi In Aristotelis Librum Alterum Analyticorum Posteriorum	Anonymi In Analyticorum Posteriorum Librum Alterum Commentarium	
+tlg9006.tlg001	Gregory II, of Cyprus, Patriarch of Constantinople	Paroemiae	Παροιμίαι
+tlg9006.tlg016	Gregory II, of Cyprus, Patriarch of Constantinople	Declamatio de Atheniensium defensio (ad Libanii declamationem antilogia)	
+tlg9007.tlg001	Appendix Proverbiorum	Appendix Proverbiorum	Appendix Proverbiorum
+tlg9010.tlg001	Suda	Suidae lexicon	
+tlg9019.tlg001	Stephanus of Alexandria	In Aristotelis Librum De Interpretatione Commentarium	

@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Scaife → AntConc · Ancient Greek Workbench</title>
+  <link rel="icon" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/app.css">
+  <script type="module" src="/assets/app.js"></script>
+</head>
+
+<body>
+  <header class="masthead" inert>
+    <a class="brand" href="#home" data-view="home">
+      <span class="monogram">α</span>
+      <span>
+        <strong>Scaife <span class="arrow">→</span> AntConc</strong>
+        <small>Ancient Greek texts · lemmatization · philological review</small>
+      </span>
+    </a>
+    <div class="header-actions">
+      <button class="quiet" id="settings-button">Model &amp; Resource Paths</button>
+      <button class="secondary" id="quit-button" disabled>Quit</button>
+    </div>
+  </header>
+
+  <div class="shell" inert>
+    <aside class="sidebar">
+      <p class="eyebrow">WORKBENCH</p>
+      <nav aria-label="Main navigation">
+        <button data-view="home" class="nav-item active"><span>⌂</span> Workspace <i id="job-dot" hidden></i></button>
+        <button data-view="review" class="nav-item"><span>α</span> Review &amp; Edit</button>
+        <button data-view="results" class="nav-item"><span>↗</span> Export</button>
+      </nav>
+      <div class="sidebar-recent">
+        <p class="eyebrow">RECENT PROJECTS</p>
+        <div id="sidebar-projects"></div>
+      </div>
+      <footer>
+        <span class="local-dot"></span><span id="local-label">Connecting…</span>
+      </footer>
+    </aside>
+
+    <main id="main">
+      <div id="connection-error" class="notice danger" hidden></div>
+
+      <!-- Inline job progress banner (replaces a separate Progress page) -->
+      <section id="job-panel" class="panel inline-job-panel" hidden>
+        <div class="inline-job-head">
+          <div>
+            <span id="job-state" class="badge">Ready</span>
+            <strong id="phase-title" class="inline-job-title">No active job</strong>
+          </div>
+          <div class="button-row">
+            <button id="cancel-job" class="secondary" disabled>Cancel</button>
+            <button id="open-job-results" class="primary" hidden>Open Results →</button>
+            <button id="dismiss-job" class="quiet" hidden aria-label="Dismiss status">✕</button>
+          </div>
+        </div>
+        <progress id="progress-meter" max="1" value="0"></progress>
+        <div class="progress-meta">
+          <span id="progress-count"></span>
+          <span id="elapsed"></span>
+        </div>
+        <ol id="stage-list" class="inline-stages">
+          <li>Setup &amp; preparation</li>
+          <li>GreBERTa: contextual lemmata &amp; grammar</li>
+          <li>GreTa: comparator proposals</li>
+          <li>Evidence &amp; selection</li>
+          <li>Publishing outputs</li>
+        </ol>
+        <div id="job-error" class="notice danger" hidden></div>
+        <details class="inline-job-log">
+          <summary>Execution log</summary>
+          <pre id="job-log"></pre>
+        </details>
+      </section>
+
+      <!-- VIEW 1: WORKSPACE (Home + New Project + Advanced Cleansing) -->
+      <section id="view-home" class="view">
+        <div class="page-heading compact">
+          <div>
+            <p class="eyebrow">LOCAL WORKSPACE</p>
+            <h1>Start or continue a text</h1>
+            <p>Drop Scaife/Perseus XML or OGA (.conllu) files, paste an OGA URL, or reopen a saved results folder.</p>
+          </div>
+          <div class="button-row">
+            <button class="secondary" id="open-project-button">Open Existing Folder…</button>
+          </div>
+        </div>
+
+        <div class="panel start-panel">
+          <div id="drop-zone" class="upload-zone">
+            <span class="upload-symbol">↑</span>
+            <h2>Add Greek texts</h2>
+            <p>Drag and drop TEI XML or OGA (.conllu) files here, or choose from your computer.</p>
+            <div class="button-row center">
+              <button id="upload-button" class="primary">Choose Files</button>
+              <button id="native-files-button" class="secondary local-only">Link Local Files (no copy)</button>
+            </div>
+            <input id="xml-files" type="file" accept=".xml,.conllu,application/xml,text/xml" multiple hidden>
+          </div>
+
+          <div class="oga-inline">
+            <label for="oga-url">Or import directly from <a href="https://github.com/mgbilby/oga_src/tree/v0.2.0/data"
+                target="_blank" rel="noopener noreferrer">OGA (oga_src 0.2.0)</a></label>
+            <div class="field-row">
+              <input id="oga-url" type="url" maxlength="1024" placeholder="https://github.com/mgbilby/oga_src/blob/…">
+              <button id="oga-import" class="secondary">Add OGA URL</button>
+            </div>
+          </div>
+
+          <div id="input-list" class="input-list"></div>
+
+          <div class="output-inline">
+            <label for="output-folder">Results folder</label>
+            <div class="field-row">
+              <input id="output-folder" placeholder="Choose an output folder for corpus files and review data">
+              <button id="output-browse" class="secondary local-only">Browse…</button>
+            </div>
+            <p class="help">Existing manual choices in the same folder are preserved. Obsolete output files are
+              confirmed before replacement.</p>
+          </div>
+
+          <div class="mode-cards compact-modes">
+            <label class="mode-card">
+              <input type="radio" name="mode" value="review" checked>
+              <span><strong>Analyze &amp; Review</strong><small>Inspect uncertain lemmata and edit text</small></span>
+            </label>
+            <label class="mode-card">
+              <input type="radio" name="mode" value="quick">
+              <span><strong>Quick Export</strong><small>Recommended defaults · open Export when done</small></span>
+            </label>
+          </div>
+
+          <details id="advanced-options" class="advanced-drawer">
+            <summary>Cleansing &amp; advanced options</summary>
+            <div class="advanced-body">
+              <div class="button-row">
+                <button id="refresh-preview" class="secondary">Preview cleansing examples from selected XML</button>
+              </div>
+              <div id="cleaning-options" class="cleaning-options"></div>
+              <div class="advanced-extra">
+                <label class="check-line">
+                  <input id="accents-option" type="checkbox">
+                  <span>Normalize accents<small>By default, original edition accents are preserved.</small></span>
+                </label>
+                <label class="check-line">
+                  <input id="xml-option" type="checkbox">
+                  <span>Also export TEI XML with morphology and provenance</span>
+                </label>
+                <label for="corrections-path">Previous review sheet (optional)</label>
+                <div class="field-row">
+                  <input id="corrections-path" placeholder="Path to an existing lemma-review.tsv or .csv">
+                  <button id="corrections-browse" class="secondary local-only">Browse…</button>
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <div class="page-actions">
+            <span id="mode-description" class="muted"></span>
+            <div class="button-row">
+              <button id="new-edit-text" class="secondary">Edit Text First</button>
+              <button id="new-run" class="primary">Analyze &amp; Review →</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="footnote">TEI XML is analyzed locally with Diogenes, GreBERTa joint, and GreTa. OGA imports keep
+          their existing token boundaries and lemmata for review.</div>
+      </section>
+
+      <!-- VIEW 2: REVIEW & EDIT -->
+      <section id="view-review" class="view review-view" hidden>
+        <div class="page-heading compact">
+          <div>
+            <p class="eyebrow">PHILOLOGICAL REVIEW</p>
+            <h1 id="review-title">Review lemmata</h1>
+            <p>Correct text or review lemmata occurrence by occurrence. Shortcuts: <code>Ctrl+Enter</code> save &amp;
+              next · <code>Alt+1–8</code> pick candidate · <code>Alt+E</code> edit text.</p>
+          </div>
+          <div class="button-row">
+            <button id="project-text" class="secondary">Passages &amp; History</button>
+            <button id="working-analyse" class="secondary" hidden>Re-analyze Text</button>
+            <button id="working-headwords" class="secondary"
+              title="Standardize automatic lemmata to Diogenes / LSJ headwords without re-running neural models">Standardize
+              Headwords</button>
+            <button id="review-export" class="primary">Update Exports</button>
+          </div>
+        </div>
+
+        <div id="review-stats" class="stat-strip"></div>
+        <div id="pending-banner" class="notice" hidden>You have saved changes not yet written to export files. Click
+          “Update Exports” when ready.</div>
+
+        <div class="review-toolbar">
+          <input id="entry-search" type="search" placeholder="Search form, lemma, or citation"
+            aria-label="Search words">
+          <select id="entry-filter" aria-label="Filter occurrences">
+            <option value="uncertain">Uncertain</option>
+            <option value="warnings">Other observations</option>
+            <option value="all">All words</option>
+            <option value="checked">Reviewed</option>
+          </select>
+          <button id="reload-entry" class="quiet">Refresh</button>
+        </div>
+
+        <div class="review-grid">
+          <div class="word-panel">
+            <div class="list-header"><span>Form / lemma</span><span>Citation</span></div>
+            <div id="word-list" class="word-list"></div>
+            <div class="pagination">
+              <button id="previous-page" class="quiet" aria-label="Previous page">←</button>
+              <span id="list-count"></span>
+              <button id="next-page" class="quiet" aria-label="Next page">→</button>
+            </div>
+          </div>
+
+          <article class="detail-panel">
+            <div class="save-bar">
+              <span id="draft-state" class="muted">Text spelling is edited separately.</span>
+              <button id="save-entry" class="primary" disabled>Confirm &amp; Next →</button>
+            </div>
+            <div id="entry-empty" class="empty-state">
+              <span class="card-symbol">α</span>
+              <h2>Select an occurrence</h2>
+              <p>Already reviewed choices remain accessible under the “Reviewed” filter.</p>
+            </div>
+            <div id="entry-detail" hidden>
+              <div class="detail-heading">
+                <span id="entry-location" class="eyebrow"></span>
+                <h2 id="entry-form" class="greek"></h2>
+                <span id="entry-checked" class="badge" hidden>Reviewed</span>
+              </div>
+              <blockquote id="entry-context" class="greek"></blockquote>
+              <div class="text-edit-actions">
+                <button id="edit-text" class="secondary">Edit Passage Text</button>
+                <span class="help">Spelling, accents, punctuation, and word boundaries (Alt+E)</span>
+              </div>
+              <div id="entry-text-status" class="notice" hidden></div>
+              <div id="entry-reasons"></div>
+              <div id="entry-parts" class="entry-parts"></div>
+              <fieldset class="scope-options">
+                <legend>Apply choice to</legend>
+                <label><input type="radio" name="scope" value="one" checked> Only this occurrence</label>
+                <label><input type="radio" name="scope" value="all"> All matching forms with the same initial
+                  lemma</label>
+                <small>Existing occurrence-specific manual choices are never overwritten.</small>
+              </fieldset>
+              <div id="old-draft" class="notice" hidden>
+                An unsaved draft from an earlier visit was found.
+                <button id="restore-old-draft" class="link-button">Load draft</button>
+              </div>
+              <details id="evidence-panel" class="evidence">
+                <summary>Provider evidence &amp; alternative analyses</summary>
+                <p class="help">Raw provider proposals are preserved. Ranking scores are heuristics, not calibrated
+                  probabilities.</p>
+                <div id="entry-evidence"></div>
+              </details>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- VIEW 3: EXPORT -->
+      <section id="view-results" class="view" hidden>
+        <div class="page-heading">
+          <p class="eyebrow">EXPORT</p>
+          <h1>Corpus &amp; edition outputs</h1>
+          <p>AntConc-tagged text, TEI XML, and review sheets generated from the same saved revision.</p>
+        </div>
+        <div id="result-summary" class="panel"></div>
+        <div class="download-grid">
+          <button class="start-card" data-download="tagged">
+            <span class="card-symbol">↓</span>
+            <h2>AntConc Tagged Texts</h2>
+            <p>Form, POS, and lemma files ready for AntConc (ZIP).</p>
+          </button>
+          <button class="start-card" data-download="lemmata">
+            <span class="card-symbol">↓</span>
+            <h2>AntConc Lemma Texts</h2>
+            <p>The same texts with each word replaced by its lemma, for lemma frequencies, n-grams and collocates (ZIP).</p>
+          </button>
+          <button class="start-card working-only" data-download="xml" hidden>
+            <span class="card-symbol">↓</span>
+            <h2>Annotated TEI XML</h2>
+            <p>Corrected text with standOff lemmata, POS, morphology, and revision history.</p>
+          </button>
+          <button class="start-card working-only" data-download="working" hidden>
+            <span class="card-symbol">↓</span>
+            <h2>Working Project Archive</h2>
+            <p>Original archived sources, working text, choices, and full revision history.</p>
+          </button>
+          <button class="start-card" data-download="all">
+            <span class="card-symbol">↓</span>
+            <h2>Complete Results Folder</h2>
+            <p>Tagged texts, evidence JSONL, saved session, and review sheet (ZIP).</p>
+          </button>
+        </div>
+        <div class="button-row result-links">
+          <button class="secondary" data-download="review">Review Sheet (TSV)</button>
+          <button class="secondary" data-download="report">Run Report (TXT)</button>
+          <button id="open-result-folder" class="secondary local-only">Open Folder</button>
+          <button data-view="review" class="primary">Continue Review →</button>
+        </div>
+        <details class="panel">
+          <summary>How to open the tagged files in AntConc</summary>
+          <ol>
+            <li>Unzip the AntConc Tagged Texts archive.</li>
+            <li>In AntConc: <strong>Corpus Manager → Raw Files</strong> and add the <code>.txt</code> files.</li>
+            <li>Set <strong>Indexer Options</strong> to <code>simple_word_pos_headword_indexer</code>.</li>
+            <li>Click <strong>Create Database</strong>. In Concordance, search by lemma in braces, e.g.
+              <code>{καί}</code>.</li>
+          </ol>
+        </details>
+      </section>
+    </main>
+  </div>
+
+  <main id="closed-view" class="panel" hidden>
+    <h1 id="closed-title" tabindex="-1">You can close this window.</h1>
+    <p id="closed-message"></p>
+  </main>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <dialog id="decision-dialog" aria-labelledby="decision-title" aria-describedby="decision-text">
+    <h2 id="decision-title"></h2>
+    <p id="decision-text"></p>
+    <div id="decision-actions" class="button-row"></div>
+  </dialog>
+
+  <dialog id="passage-dialog" aria-labelledby="passage-title">
+    <h2 id="passage-title">Passages &amp; revision history</h2>
+    <label for="passage-search">Filter by citation or Greek text</label>
+    <input id="passage-search" type="search" autocomplete="off">
+    <label for="passage-select">Line or paragraph</label>
+    <select id="passage-select" size="8"></select>
+    <p id="passage-count" class="help"></p>
+    <div class="dialog-actions">
+      <button id="passage-cancel" class="secondary">Close</button>
+      <button id="passage-open" class="primary">Open Passage</button>
+    </div>
+  </dialog>
+
+  <dialog id="text-dialog" aria-labelledby="text-title">
+    <div class="text-dialog-heading">
+      <div>
+        <p id="text-location" class="eyebrow"></p>
+        <h2 id="text-title">Edit passage text</h2>
+      </div>
+      <span id="text-saved-status" class="badge"></span>
+    </div>
+    <p class="help">Edit the line or paragraph below. Text revisions are stored separately from lemma and POS choices.
+    </p>
+    <details class="text-original">
+      <summary>Original source text</summary>
+      <div id="text-original" class="greek"></div>
+    </details>
+    <details id="text-latest-comparison" class="text-original" hidden>
+      <summary>Latest saved working text (for comparison)</summary>
+      <div id="text-latest" class="greek"></div>
+    </details>
+    <label for="text-editor">Working text</label>
+    <textarea id="text-editor" class="greek" rows="5" lang="grc" spellcheck="false" autocomplete="off" autocorrect="off"
+      autocapitalize="none"></textarea>
+    <label for="text-reason">Editorial note (optional)</label>
+    <input id="text-reason" maxlength="2000" autocomplete="off">
+    <label class="check-line text-review-choice">
+      <input id="text-review-checked" type="checkbox">
+      <span>Mark this passage’s text as reviewed<small>Does not automatically approve its lemmata or POS
+          tags.</small></span>
+    </label>
+    <div id="text-draft-status" class="help" role="status"></div>
+    <div id="text-conflict" class="notice danger" hidden>
+      <span>This project was updated in another window. Your draft is preserved.</span>
+      <button id="text-reload" class="link-button">Reload saved text for comparison</button>
+    </div>
+    <div id="text-old-draft" class="notice" hidden>
+      An earlier draft for this passage was found.
+      <button id="text-restore-draft" class="link-button">Load draft</button>
+      <button id="text-discard-draft" class="link-button">Discard draft</button>
+    </div>
+    <div class="dialog-actions text-dialog-actions">
+      <button id="text-quit" class="quiet">Quit workbench</button>
+      <button id="text-cancel" class="secondary">Close</button>
+      <button id="text-save" class="primary">Save Text</button>
+    </div>
+    <details class="text-history-panel">
+      <summary>Revision history <span id="text-history-count"></span></summary>
+      <div id="text-history"></div>
+    </details>
+  </dialog>
+
+  <dialog id="folder-dialog">
+    <form method="dialog">
+      <h2>Open existing results</h2>
+      <p>Choose a results folder containing saved analyses and a review sheet.</p>
+      <div class="field-row">
+        <input id="existing-folder" placeholder="Folder path" required>
+        <button id="existing-browse" type="button" class="secondary local-only">Browse…</button>
+      </div>
+      <div class="dialog-actions">
+        <button value="cancel" class="secondary" formnovalidate>Cancel</button>
+        <button id="existing-open" type="button" class="primary">Open</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="settings-dialog">
+    <form method="dialog">
+      <h2>Model &amp; resource paths</h2>
+      <p>GreBERTa joint selects contextual lemmata and grammar. Diogenes supplies morphological candidates and LSJ
+        headwords; GreTa serves as a comparator and helper for unseen forms.</p>
+      <label for="setting-diogenes">Diogenes folder</label>
+      <div class="field-row">
+        <input id="setting-diogenes">
+        <button type="button" data-pick-setting="setting-diogenes" class="secondary local-only">Browse…</button>
+      </div>
+      <label for="setting-context">GreBERTa joint model folder</label>
+      <div class="field-row">
+        <input id="setting-context">
+        <button type="button" data-pick-setting="setting-context" class="secondary local-only">Browse…</button>
+      </div>
+      <label for="setting-greta">GreTa model folder</label>
+      <div class="field-row">
+        <input id="setting-greta">
+        <button type="button" data-pick-setting="setting-greta" class="secondary local-only">Browse…</button>
+      </div>
+      <div class="dialog-actions">
+        <button class="secondary" value="cancel">Cancel</button>
+        <button id="settings-save" type="button" class="primary">Save</button>
+      </div>
+    </form>
+  </dialog>
+</body>
+
+</html>
