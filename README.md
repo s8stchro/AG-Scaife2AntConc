@@ -51,7 +51,7 @@ unless explicitly enabled.
 
 ## Licences
 
-- Code in all three packages: MIT (see each package's `LICENSE`).
+- Code in all three packages: MIT ([`LICENSE`](LICENSE); the same text is in each package).
 - Not redistributed here: Diogenes, Morpheus tables and LSJ are read from the user's own Diogenes
   installation; GreBERTa joint and GreTa (CC BY-SA 4.0, trained on AGDT, Gorman and Pedalion data) are
   downloaded at installation. Details: [`ag-scaife2antconc/THIRD_PARTY.md`](ag-scaife2antconc/THIRD_PARTY.md).
